@@ -1,0 +1,79 @@
+@import 'normalize.css';
+
+$primary-color: black;
+$accent: maroon;
+
+p {
+  font-size: xx-large;
+  color: $primary-color;
+}
+
+.top-nav { display: none; }
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+    height: 600px;
+    color: maroon;
+    background-color: pink;
+  }
+}
+
+.mobile-nav {
+  .navbar {
+    .mobnav > li{
+      font-size: 2.5em;
+      padding-right: .5em;
+      line-height: 1.25em;
+    }
+  }
+
+  .nav-icons {
+    height: 20px;
+  }
+}
+
+.jumbotron {
+  background-image: url('/static/billboard.jpg');
+  background-size: cover;
+  height: 667px;
+
+  h1, p { color: #eb1c21; }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+  .mobile-nav { display: none; }
+  .top-nav { display: block; }
+
+  .navbar {
+    .navbar-brand {
+      color: $accent;
+    }
+    .navbar-nav > li{
+      padding-left:20px;
+      padding-right:20px;
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}
