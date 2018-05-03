@@ -19,9 +19,29 @@ const About = () => {
 
       <MobileNav/>
       <Nav/>
-      <div>
-        <h1>About</h1>
-      </div>
+
+      <div className="jumbotron jumbotron-fluid" id="main-about">
+          <div className="container">
+            {/* <img src="/static/mlaw.svg" alt="logo" className="img-fluid marko-logo" /> */}
+            <h1 className="display-5">Headline copy can be here.</h1>
+            <p className="lead">This is a law firm. You need a lawyer. We've got 'em.</p>
+          </div>
+        </div>
+
+        <div className="row section">
+          <img src="#" alt="" className="img-fluid banner"/>
+          <h1 className="display-5">01. Choose proxy.</h1>
+          <p className="lead">This is a law firm. You need a lawyer. We've got 'em. Come and get it. They're waiting to hear from you now.</p>
+        </div>
+
+        <div className="row section">
+          <img src="#" alt="" className="img-fluid banner"/>
+          <h1 className="display-5">02. Fight the case.</h1>
+          <p className="lead">This is a law firm. You need a lawyer. We've got 'em. Come and get it. They're waiting to hear from you now.</p>
+        </div>
+
+        <div className="row section">
+        </div>
 
     </div>
   )

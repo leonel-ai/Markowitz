@@ -21,21 +21,30 @@ const Home = () => {
 
         <div className="jumbotron jumbotron-fluid" id="main">
           <div className="container">
-            <h1 className="display-4">Markowitz Law</h1>
-            <p className="lead">This is a law firm.</p>
+            <img src="/static/mlaw.svg" alt="logo" className="img-fluid marko-logo" />
+            <h1 className="display-5">Headline copy can be here.</h1>
+            <p className="lead">This is a law firm. You need a lawyer. We've got 'em.</p>
           </div>
         </div>
 
         <div className="row section">
-          <h1>video 1</h1>
+          <iframe width="420" height="440" src="https://www.youtube.com/embed/uve-ePdcoYs?rel=0&amp;controls=0&amp;showinfo=0"
+          frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+          <h1 className="display-5">01. Choose proxy.</h1>
+          <p className="lead">This is a law firm. You need a lawyer. We've got 'em. Come and get it. They're waiting to hear from you now.</p>
         </div>
 
         <div className="row section">
-          <h1>video 2</h1>
+          <iframe width="420" height="440" src="https://www.youtube.com/embed/lOwQN3QcRzE?rel=0&amp;controls=0&amp;showinfo=0"
+          frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+          <h1 className="display-5">02. Fight the case.</h1>
+          <p className="lead">This is a law firm. You need a lawyer. We've got 'em. Come and get it. They're waiting to hear from you now.</p>
         </div>
 
         <div className="row section">
-          <h1>section 3</h1>
+          <p className="col lead">testimonial</p>
+          <p className="col lead">testimonial</p>
+          <p className="col lead">testimonial</p>
         </div>
 
     </div>

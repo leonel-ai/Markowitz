@@ -1,14 +1,18 @@
 @import 'normalize.css';
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
 
 $primary-color: black;
 $accent: maroon;
 
+body { font-family: 'Playfair Display'; }
+
 p {
-  font-size: xx-large;
+  font-size: large;
   color: $primary-color;
 }
 
 .top-nav { display: none; }
+.bg-dark { background-color: #eb1c21 !important; }
 
 .container-fluid {
   padding-left: 0;
@@ -18,8 +22,25 @@ p {
     margin-right: 0;
     margin-left: 0;
     height: 600px;
-    color: maroon;
-    background-color: pink;
+    color: rgb(53, 53, 53);
+  }
+
+  .marko-logo {
+    width: 200px;
+  }
+
+  .section {
+    min-height: 700px;
+    border-top: 20px solid #eb1c21;
+
+    h1, p {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+
+  .img-fluid.banner {
+    height: 412px;
   }
 }
 
@@ -32,17 +53,37 @@ p {
     }
   }
 
-  .nav-icons {
-    height: 20px;
+  .navbar-dark .navbar-nav .nav-link {
+    color: white;
+  }
+
+  .nav-icons { height: 20px; }
+
+  .navbar-brand {
+    margin: 0;
+    padding-left: 15px;
   }
 }
 
-.jumbotron {
-  background-image: url('/static/billboard.jpg');
+#main {
+  background-image: url('/static/bill.jpg');
   background-size: cover;
-  height: 667px;
+  min-height: 686px;
+  margin-bottom: 0;
 
-  h1, p { color: #eb1c21; }
+  h1, p {
+    color: rgb(53, 53, 53);
+    width: 212px;
+  }
+
+  .container {
+    position: absolute;
+  }
+}
+
+#main-about {
+  background-color: #ffd100;
+  min-height: 342px;
 }
 
 // Small devices (landscape phones, 576px and up)
