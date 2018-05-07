@@ -1,14 +1,18 @@
 @import 'normalize.css';
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1:400,700');
 
 $primary-color: black;
 $accent: maroon;
 
-body { font-family: 'Playfair Display'; }
+body {
+  font-family: 'Playfair Display';
+ }
 
 p {
-  font-size: large;
+  font-size: medium;
   color: $primary-color;
+  font-family: 'Gothic A1', sans-serif;
 }
 
 .top-nav { display: none; }
@@ -21,7 +25,6 @@ p {
   .row {
     margin-right: 0;
     margin-left: 0;
-    height: 600px;
     color: rgb(53, 53, 53);
   }
 
@@ -30,17 +33,63 @@ p {
   }
 
   .section {
-    min-height: 700px;
-    border-top: 20px solid #eb1c21;
+    // min-height: 700px;
+    // border-top: .5px solid #cecece;
 
-    h1, p {
+    h1, h2, h3, h4, h5, p {
       padding-left: 15px;
       padding-right: 15px;
     }
   }
 
+  .options {
+    padding-top: 1.5em;
+    padding-bottom: 2em;
+    background-color: #141440;
+    color: white;
+
+    p {
+      color: white;
+    }
+  }
+
+  .legacy {
+    padding-bottom: 5em;
+    padding-top: 2em;
+    width: 100%;
+  }
+
+  .cta {
+    text-align: left;
+    background:  linear-gradient(to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.45)
+    ), url('/static/cta.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    height: 500px;
+    padding-top: 22em;
+    padding-left: 15px;
+  }
+
+  .btn .btn-primary:focus {
+    outline: 0;
+  }
+
   .img-fluid.banner {
     height: 412px;
+  }
+}
+
+#accordion {
+  .btn, .btn-link, .btn-link:focus, .btn-link:hover, .btn-link:active {
+    text-decoration: none !important;
+    color: rgb(53, 53, 53) !important;
+  }
+
+  .card-header {
+    background-color: white;
+    border-bottom: none;
   }
 }
 
@@ -66,24 +115,15 @@ p {
 }
 
 #main {
-  background-image: url('/static/bill.jpg');
+  background-image: url('/static/half-bill.jpg');
   background-size: cover;
   min-height: 686px;
   margin-bottom: 0;
 
   h1, p {
     color: rgb(53, 53, 53);
-    width: 212px;
+    width: 184px;
   }
-
-  .container {
-    position: absolute;
-  }
-}
-
-#main-about {
-  background-color: #ffd100;
-  min-height: 342px;
 }
 
 // Small devices (landscape phones, 576px and up)

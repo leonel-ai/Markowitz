@@ -20,7 +20,7 @@ const Services = () => {
       <MobileNav/>
       <Nav/>
       <div>
-        <h1>services</h1>
+        <h1>Services</h1>
       </div>
 
     </div>
