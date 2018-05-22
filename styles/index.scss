@@ -81,7 +81,9 @@ hr {
   }
 
   .marko-logo {
-    width: 120px;
+    width: 100px;
+    display: block;
+    margin: auto;
   }
 
   .section {
@@ -108,8 +110,13 @@ hr {
   }
 
   .options {
-    margin-top: 4em;
-    margin-bottom: 4em;
+    // margin-top: 4em;
+    // margin-bottom: 4em;
+    background-image: url('/static/elements/r-blob.gif');
+    background-size: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 400px;
   }
 
   .home3, .home4 {
@@ -209,10 +216,20 @@ hr {
     background-size: cover;
     background-attachment: fixed;
     color: white;
-    height: 500px;
-    padding-top: 16em;
+    height: 608px;
+    padding-top: 22em;
     padding-left: 15px;
     text-shadow: 0px 1px 1px #111517;
+
+    .yellow {
+      color: #ffd100;
+    }
+    .orange {
+      color: #de561c;
+    }
+    .red {
+      color: #ff1400;
+    }
   }
 
   .btn .btn-primary:focus {
@@ -230,7 +247,7 @@ hr {
 
   .case-action {
     color: white;
-    letter-spacing: .05em;
+    letter-spacing: .07em;
     line-height: 3;
     padding-left: 1.85em;
     font-size: 13px !important;
@@ -240,7 +257,7 @@ hr {
     color: white;
     font-family: 'Bebas Neue';
     font-size: 1.75em;
-    letter-spacing: .065em;
+    letter-spacing: .07em;
     line-height: 1;
     text-align: left;
     padding: 0;
@@ -255,11 +272,15 @@ hr {
     margin-bottom: 1em;
   }
   .yellow {
-    background-color: #ffd100;
+    background-color: #ffc300;
     margin-bottom: 1em;
   }
   .blue {
     background-color: #1b126c;
+    margin-bottom: 1em;
+  }
+  .orange {
+    background-color: #de561c;
   }
 
   .btn, .btn-link, .btn-link:focus, .btn-link:hover, .btn-link:active {
@@ -338,7 +359,7 @@ hr {
     padding-right: 20px;
     padding-bottom: 1em;
     justify-content: space-around;
-    letter-spacing: .05em;
+    letter-spacing: .07em;
 
     h5, ul {
       font-size: 13px;

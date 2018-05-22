@@ -74,7 +74,7 @@ const Home = () => {
         </div>
 
         <div className="cta">
-          <h3 className="display-4">Save time.<br/>Save energy.<br/>Get started on your case today.</h3>
+          <h3 className="display-4">Save <span className="orange">time</span>.<br/>Save <span className="yellow">energy</span>.<br/>Get started on your case <span className="red">today</span>.</h3>
         </div>
 
         <div className="section legacy home5">
