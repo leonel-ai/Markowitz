@@ -1,26 +1,78 @@
 @import 'normalize.css';
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
-@import url('https://fonts.googleapis.com/css?family=Gothic+A1:400,700');
+// @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+// @import url('https://fonts.googleapis.com/css?family=Gothic+A1:400,700');
 
-$primary-color: black;
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url(/static/fonts/BebasNeue-Regular.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Inter UI';
+  src: url(/static/fonts/Inter-UI-Regular.ttf) format('truetype');
+}
+
+$primary-color: #111517;
 $accent: maroon;
 
 body {
-  font-family: 'Playfair Display';
+  font-family: 'Bebas Neue' !important;
  }
+
+h1 {
+  letter-spacing: 2.5px !important;
+  margin-bottom: 0;
+  padding-bottom: 12px;
+}
 
 p {
   font-size: medium;
   color: $primary-color;
-  font-family: 'Gothic A1', sans-serif;
+  font-family: 'Inter UI', Arial, sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+}
+
+.display-4 {
+  line-height: 56px;
+ }
+
+.head1 {
+  padding-top: .5em;
+}
+
+.head2 {
+  line-height: 46px;
+  font-size: 46px;
+}
+
+.action {
+  padding-top: 53%;
+  font-size: 13px !important;
+  margin-bottom: 6px;
+}
+
+hr {
+  background-color: red;
+  height: 2px;
+  width: 13%;
+  float: left;
+  padding: 0;
+  margin: 0;
 }
 
 .top-nav { display: none; }
 .bg-dark { background-color: #eb1c21 !important; }
 
+.jumbotron {
+  padding-top: 12px;
+  border: none;
+}
+
 .container-fluid {
   padding-left: 0;
   padding-right: 0;
+  border: none;
 
   .row {
     margin-right: 0;
@@ -29,7 +81,7 @@ p {
   }
 
   .marko-logo {
-    width: 200px;
+    width: 120px;
   }
 
   .section {
@@ -40,6 +92,19 @@ p {
       padding-left: 15px;
       padding-right: 15px;
     }
+  }
+
+  .home1 {
+    padding-left: 20px;
+
+    img {
+      left: 25%;
+    }
+  }
+
+  .home2, .home3, .home4, .home5 {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .options {
@@ -53,10 +118,43 @@ p {
     }
   }
 
+  .home3 {
+
+    .num-line {
+      margin-bottom: 1em;
+      margin-top: 1em;
+      height: 2px;
+      max-width: 2em;
+      background-color: #111;
+    }
+
+    .num-label {
+      line-height: 1;
+      letter-spacing: .1em;
+      color: $primary-color;
+      font-size: 13px;
+    }
+
+    .num-value {
+      font-size: 1.2em;
+      line-height: 1.5;
+      font-weight: 400px;
+      letter-spacing: .03em;
+      color: $primary-color;
+    }
+
+  }
+
   .legacy {
     padding-bottom: 5em;
     padding-top: 2em;
     width: 100%;
+
+    .text-muted {
+      &::before {
+        content: "———— "
+      }
+    }
   }
 
   .cta {
@@ -66,10 +164,12 @@ p {
       rgba(0, 0, 0, 0.45)
     ), url('/static/cta.jpg') no-repeat center center fixed;
     background-size: cover;
+    background-attachment: fixed;
     color: white;
     height: 500px;
-    padding-top: 22em;
+    padding-top: 16em;
     padding-left: 15px;
+    text-shadow: 0px 1px 1px #111517;
   }
 
   .btn .btn-primary:focus {
@@ -117,6 +217,7 @@ p {
 #main {
   background-image: url('/static/half-bill.jpg');
   background-size: cover;
+  background-attachment: fixed;
   min-height: 686px;
   margin-bottom: 0;
 
@@ -124,6 +225,21 @@ p {
     color: rgb(53, 53, 53);
     width: 184px;
   }
+}
+
+.num-container {
+  position: relative;
+
+  img {
+    width: 85%;
+    padding-left: 1.75em;
+  }
+}
+
+.num-overlay {
+  position: absolute;
+  bottom: 14px;
+  color: darkgoldenrod;
 }
 
 // Small devices (landscape phones, 576px and up)
