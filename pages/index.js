@@ -5,6 +5,7 @@ import stylesheet from 'styles/index.scss'
 import MobileNav from '../components/mobileNav'
 import Nav from '../components/navigation'
 import Accordion from '../components/accordion'
+import Footer from '../components/footer'
 
 const Home = () => {
   return (
@@ -37,25 +38,38 @@ const Home = () => {
         </div>
 
         <div className="row section">
-          <iframe width="420" height="400" src="https://www.youtube.com/embed/H8NExnW8fNM?rel=0&amp;controls=0&amp;showinfo=0"
+          <iframe width="420" height="300" src="https://www.youtube.com/embed/H8NExnW8fNM?rel=0&amp;controls=0&amp;showinfo=0"
           frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
           <div className="home3">
             <div className="num-line"></div>
             <div className="num-label">NO.</div>
             <div className="num-value">01</div>
-            <h1 className="display-5 pt-3"><b>Court Valet</b></h1>
-            <p className="lead">If you have a busy schedule and prefer to have our team fight for you in court on your behalf, Court Valet (proxy) is the best option for you.</p>
-            <p className="text-muted pb-4">* court attendance not required</p>
+            <h1 className="display-5"><b>Court Valet</b></h1>
+            <p className="lead">If you have a busy schedule and prefer to have our team fight for you in court on your behalf, Court Valet (proxy, no court attendance) is the best option for you.</p>
+
+            <a className="home-link" href="/services">
+              <h5 className="text-muted home-explore">EXPLORE YOUR OPTIONS </h5>
+              <img className="arrow" src="/static/arrow-right.svg" alt=""/>
+            </a>
+
           </div>
         </div>
 
         <div className="row section">
-          <iframe width="420" height="400" src="https://www.youtube.com/embed/jZ5zgDhmjYg?rel=0&amp;controls=0&amp;showinfo=0"
+          <iframe width="420" height="300" src="https://www.youtube.com/embed/jZ5zgDhmjYg?rel=0&amp;controls=0&amp;showinfo=0"
           frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
           <div className="home4">
-            <h1 className="display-5 pt-3"><b>02. — Ticket Defense</b></h1>
+            <div className="num-line"></div>
+            <div className="num-label">NO.</div>
+            <div className="num-value">02</div>
+            <h1 className="display-5"><b>Ticket Defense</b></h1>
             <p className="lead">If your schedule is flexible and you prefer to attend court with one of our lawyers, Ticket Defense is the best option for you.</p>
-            <p className="text-muted pb-4">* court attendance required</p>
+
+            <a className="home-link" href="/services">
+              <h5 className="text-muted home-explore">EXPLORE YOUR OPTIONS </h5>
+              <img className="arrow" src="/static/arrow-right.svg" alt=""/>
+            </a>
+
           </div>
         </div>
 
@@ -67,15 +81,22 @@ const Home = () => {
           <div className="num-container">
             <img className="img-responsive" src="/static/temp20.svg" alt="" />
             <div className="num-overlay">
-              <h3 className="display-4"><b>Our Legacy</b></h3>
+              <h3 className="display-4 head3"><b>Our Legacy</b></h3>
             </div>
           </div>
 
             <h5 className="text-muted"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Est. 1993</h5>
-            <p className="pt-2 pb-2">For more than 20 years, Markowitz Law has consistently delivered legal solutions, convenient alternatives, and unparalleled value to Houstonians. We’ve earned our reputation as one of the city’s top firms through our highly-experienced attorneys and our 96.6% traffic ticket dismissal rate.</p>
+            <p className="legacy-text">For more than 20 years, Markowitz Law has consistently delivered legal solutions,
+            convenient alternatives, and unparalleled value to Houstonians. We’ve earned our reputation as one of the
+            city’s top firms through our highly-experienced attorneys and our 96.6% traffic ticket dismissal rate.</p>
+
+            <h4 className="case-title">How We Can Help You</h4>
             <Accordion/>
         </div>
 
+      <div className="footer-info">
+        <Footer/>
+      </div>
     </div>
   )
 };
