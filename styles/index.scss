@@ -1,6 +1,4 @@
 @import 'normalize.css';
-// @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
-// @import url('https://fonts.googleapis.com/css?family=Gothic+A1:400,700');
 
 @font-face {
   font-family: 'Bebas Neue';
@@ -77,7 +75,7 @@ hr {
   .row {
     margin-right: 0;
     margin-left: 0;
-    color: rgb(53, 53, 53);
+    color: $primary-color;
   }
 
   .marko-logo {
@@ -87,9 +85,6 @@ hr {
   }
 
   .section {
-    // min-height: 700px;
-    // border-top: .5px solid #cecece;
-
     h1, h2, h3, h4, h5, p {
       padding-left: 15px;
       padding-right: 15px;
@@ -98,10 +93,7 @@ hr {
 
   .home1 {
     padding-left: 20px;
-
-    img {
-      left: 25%;
-    }
+    img {left: 25%;}
   }
 
   .home2, .home3, .home4, .home5 {
@@ -110,8 +102,6 @@ hr {
   }
 
   .options {
-    // margin-top: 4em;
-    // margin-bottom: 4em;
     background-image: url('/static/elements/r-blob.gif');
     background-size: center;
     background-repeat: no-repeat;
@@ -120,8 +110,9 @@ hr {
   }
 
   .home3, .home4 {
-
     margin-bottom: 5em;
+
+    .deco { display: none;}
 
     h1 {
       margin-top: 1.5em;
@@ -216,8 +207,8 @@ hr {
     background-size: cover;
     background-attachment: fixed;
     color: white;
-    height: 608px;
-    padding-top: 22em;
+    height: 622px;
+    padding-top: 23em;
     padding-left: 15px;
     text-shadow: 0px 1px 1px #111517;
 
@@ -330,7 +321,6 @@ hr {
   margin-bottom: 0;
 
   h1, p {
-    color: rgb(53, 53, 53);
     width: 184px;
   }
 }
@@ -339,15 +329,15 @@ hr {
   position: relative;
 
   img {
-    width: 85%;
-    padding-left: 1.75em;
+    width: 80%;
+    display: block;
+    margin: auto;
   }
 }
 
 .num-overlay {
   position: absolute;
-  bottom: 14px;
-  color: darkgoldenrod;
+  bottom: 38px;
 }
 
 .footer-info {
@@ -393,7 +383,7 @@ hr {
     .footer-line {
       background-color: red;
       height: 2px;
-      width: 60%;
+      width: 75%;
       float: left;
       padding: 0;
       margin: 0;
@@ -403,6 +393,120 @@ hr {
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
+
+  p { line-height: 34px; }
+
+  .head1 {
+    font-size: 76px;
+    line-height: 76px;
+  }
+
+  .head2, .head3 {
+    font-size: 76px;
+    line-height: 76px;
+  }
+
+  .action {
+    padding-top: 20%;
+  }
+
+  .options {
+    background-size: cover;
+    height: 500px !important; /*to change*/
+  }
+
+  .row.section iframe {
+    width: 100%;
+    height: 400px;
+  }
+
+  .container-fluid {
+    .home1 {
+      padding: 0;
+      max-width: 600px;
+    }
+
+    .cta {
+    height: 700px;
+    padding-top: 30em;
+    padding-left: 40px;
+    }
+
+    .marko-logo {width: 132px;}
+
+    .home2, .home3, .home4, .home5 {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+
+    .home3, .home4 {
+      .deco1, .deco2 {
+        display: block;
+        font-size: 25vw;
+        color: #f6f6f6;
+        position: absolute;
+        left: 60px;
+        z-index: -1;
+        line-height: .8;
+      }
+      .deco1 { top: 9.95em; }
+      .deco2 { top: 15.35em; }
+      h1 {
+        font-size: 52px;
+        line-height: 52px;
+      }
+      .home-link {
+        padding-left: 18em;
+      }
+      .home-explore {
+        font-size: 22px;
+      }
+    }
+
+    .legacy {
+      .text-muted {
+        margin-left: 14em;
+        font-size: 22px;
+      }
+      .case-title {
+        font-size: 34px;
+        line-height: 34px;
+      }
+      .num-container img {
+        width: 75%;
+      }
+      .num-overlay {
+        bottom: 74px;
+      }
+    }
+
+    #accordion {
+      .case-action {
+        font-size: 16px !important;
+        line-height: 28px;
+      }
+    }
+  }
+
+  .footer-info {
+    padding-bottom: 6em;
+
+    #footer {
+      padding-left: 40px;
+      padding-right: 40px;
+
+      h5, ul {
+        font-size: 16px;
+        letter-spacing: .09em;
+      }
+
+      .footer-line {
+        width: 50%;
+      }
+    }
+
+  }
+
 }
 
 // Medium devices (tablets, 768px and up)
@@ -418,8 +522,16 @@ hr {
     .navbar-nav > li{
       padding-left:20px;
       padding-right:20px;
+      font-size: 14px;
+      letter-spacing: .09em;
     }
   }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: $primary-color;
+  }
+
+  .home1 .marko-logo { display: none; }
 }
 
 // Large devices (desktops, 992px and up)

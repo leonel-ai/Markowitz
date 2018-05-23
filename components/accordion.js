@@ -16,7 +16,11 @@ const Accordion = () => {
 
         <div id="collapseOne" className="collapse" aria-labelledby="headingOne" data-parent="#accordion">
           <div className="card-body">
-            <p>Anim pariatur cliche reprehenderit, enim upidatat skateboard dolor. Brunch 3 wolf moon tempor, sunt aliquarigin coffee nuiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher em accusamus labore sustainable VHS.</p>
+            <p>"Thanks for making this process as painless as possible. I am not American, so
+              I really didn't know what to expect. I was in and out of the courtroom with the
+              ticket dismissed within one hour. I really liked the fact that we could submit everything
+              electronically, and it was really uncomplicated.”</p>
+            <p>— Ana</p>
           </div>
         </div>
       </div>
@@ -30,7 +34,12 @@ const Accordion = () => {
         </div>
         <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
           <div className="card-body">
-            <p>Anim pariatur cliche reprehenderit, enim upidatat skateboard dolor. Brunch 3 wolf moon tempor, sunt aliquarigin coffee nuiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher em accusamus labore sustainable VHS.</p>          </div>
+            <p>"I have a CDL, so I couldn't afford this ticket on my driving record. I researched and called many lawyers,
+              and Mr. Markowitz was by far the most professional lawyer I spoke to. He knew exactly what he was going to do
+              and told me his exact plan for me if I hired him. When we got to court, Mr. Markowitz and his team had a plan,
+              and that plan worked. Ticket dismissed!”</p>
+            <p>— Jeremy</p>
+          </div>
         </div>
       </div>
       <div className="card blue">
@@ -43,20 +52,30 @@ const Accordion = () => {
         </div>
         <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordion">
           <div className="card-body">
-            <p>Anim pariatur cliche reprehenderit, enim upidatat skateboard dolor. Brunch 3 wolf moon tempor, sunt aliquarigin coffee nuiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher em accusamus labore sustainable VHS.</p>          </div>
+            <p>"Thank you so much Markowitz and associates! I had three traffic citations which were all thrown out.
+              I could have been in serious trouble with my drivers license... I didn't have the money to pay my fines.
+              The help I received was most appreciated.”</p>
+            <p>— Kent</p>
+          </div>
         </div>
       </div>
       <div className="card orange">
-        <div className="card-header" id="headingThree">
+        <div className="card-header" id="headingFour">
           <p className="mb-0 case-action">Recover
-            <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
               <h4 className="case-client">Commercial Trucker</h4>
             </button>
           </p>
         </div>
-        <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+        <div id="collapseFour" className="collapse" aria-labelledby="headingFour" data-parent="#accordion">
           <div className="card-body">
-            <p>Anim pariatur cliche reprehenderit, enim upidatat skateboard dolor. Brunch 3 wolf moon tempor, sunt aliquarigin coffee nuiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher em accusamus labore sustainable VHS.</p>          </div>
+            <p>"I have a CDL, so I couldn't afford this ticket on my driving record.
+              Mr. Markowitz was by far the most professional lawyer I spoke to.
+              He knew exactly what he was going to do. 
+              When we got to court, Mr. Markowitz and his team had a plan,
+              and that plan worked. Ticket dismissed!”</p>
+            <p>— Jeremy</p>
+          </div>
         </div>
       </div>
 
