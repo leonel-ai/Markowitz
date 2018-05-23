@@ -11,7 +11,7 @@
 }
 
 $primary-color: #111517;
-$accent: maroon;
+$accent: #eb1c21;
 
 body {
   font-family: 'Bebas Neue' !important;
@@ -51,7 +51,7 @@ p {
 }
 
 hr {
-  background-color: red;
+  background-color: $accent;
   height: 2px;
   width: 13%;
   float: left;
@@ -60,7 +60,7 @@ hr {
 }
 
 .top-nav { display: none; }
-.bg-dark { background-color: #eb1c21 !important; }
+.bg-dark { background-color: $accent !important; }
 
 .jumbotron {
   padding-top: 12px;
@@ -102,17 +102,39 @@ hr {
   }
 
   .options {
-    background-image: url('/static/elements/r-blob.gif');
-    background-size: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 400px;
+    padding-bottom: 4em;
+    padding-top: 2em;
+
+    .r-blob {
+      display: block;
+      position: absolute;
+      z-index: -2;
+      left: 160px;
+      margin-top: 10em;
+
+      img {
+        width: 200px;
+        opacity: .8;
+      }
+    }
+    .y-blob {
+      display: block;
+      position: absolute;
+      z-index: -2;
+      left: -50px;
+      margin-top: 18em;
+
+      img {
+        width: 162px;
+        opacity: .8;
+      }
+    }
   }
 
   .home3, .home4 {
     margin-bottom: 5em;
 
-    .deco { display: none;}
+    .deco1, .deco2 { display: none;}
 
     h1 {
       margin-top: 1.5em;
@@ -210,16 +232,13 @@ hr {
     height: 622px;
     padding-top: 23em;
     padding-left: 15px;
-    text-shadow: 0px 1px 1px #111517;
+    text-shadow: 0px .25px .25px #111517;
 
     .yellow {
       color: #ffd100;
     }
     .orange {
       color: #de561c;
-    }
-    .red {
-      color: #ff1400;
     }
   }
 
@@ -396,23 +415,13 @@ hr {
 
   p { line-height: 34px; }
 
-  .head1 {
-    font-size: 76px;
-    line-height: 76px;
-  }
-
-  .head2, .head3 {
+  .head1, .head2, .head3 {
     font-size: 76px;
     line-height: 76px;
   }
 
   .action {
     padding-top: 20%;
-  }
-
-  .options {
-    background-size: cover;
-    height: 500px !important; /*to change*/
   }
 
   .row.section iframe {
@@ -437,6 +446,16 @@ hr {
     .home2, .home3, .home4, .home5 {
       padding-left: 40px;
       padding-right: 40px;
+    }
+
+    .options {
+      padding-bottom: 4em;
+      padding-top: 4em;
+
+      .r-blob {
+        left: 358px;
+        margin-top: 15.5em;
+      }
     }
 
     .home3, .home4 {
@@ -531,7 +550,67 @@ hr {
     color: $primary-color;
   }
 
+  .jumbotron {
+    padding-top: 94px;
+  }
+
   .home1 .marko-logo { display: none; }
+
+  #main {
+    background-image: url('/static/billboard.jpg');
+
+    .head1, .head2, .head3 {
+      font-size: 85px;
+      line-height: 85px;
+    }
+  }
+
+  .container-fluid {
+    .home1 {
+      max-width: 700px;
+    }
+
+    .options {
+      padding-top: 6em;
+      padding-bottom: 8em;
+
+      .r-blob{
+      display: block;
+      position: absolute;
+      z-index: -2;
+      left: 518px;
+      margin-top: 9em;
+
+        img {
+          width: 286px;
+        }
+      }
+
+      .y-blob {
+        display: block;
+        position: absolute;
+        z-index: -2;
+        left: -20px;
+        margin-top: 18em;
+
+        img {
+          width: 286px;
+        }
+      }
+    }
+
+    .home3, .home4 {
+      margin-bottom: 10em;
+
+      .deco1 { top: 10em; }
+      .deco2 { top: 15.2em; }
+
+      .home-link {
+        padding-left: 24em;
+      }
+    }
+  }
+
 }
 
 // Large devices (desktops, 992px and up)

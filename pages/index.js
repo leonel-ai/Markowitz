@@ -33,8 +33,15 @@ const Home = () => {
 
         <div className="row section options home2">
           <h1 className="display-5 head2">You have options.<br/>Choose wisely.</h1>
-          <p>Gone are the days where you have to spend hours sitting in court just to pay hefty fees and be assigned defensive driving.</p>
-          <p>At Markowitz Law, you have the option to let our attorneys fight <b>for</b> you or <b>with</b> you in court to get the results you want. See which route is best for you, below.</p>
+          <div className="r-blob">
+            <img src="/static/elements/r-blob.gif" alt=""/>
+          </div>
+          <div className="y-blob">
+            <img src="/static/elements/y-blob.gif" alt=""/>
+          </div>
+          <p>Gone are the days where you have to spend hours sitting in court just to pay hefty fees and be assigned defensive driving.
+            At Markowitz Law, you have the option to let our attorneys fight <b>for</b> you or <b>with</b> you in court to get the results you want.</p>
+          <p>See which route is best for you, below.</p>
         </div>
 
         <div className="row section">
@@ -80,7 +87,7 @@ const Home = () => {
         </div>
 
         <div className="cta">
-          <h3 className="display-4">Save <span className="orange">time</span>.<br/>Save <span className="yellow">energy</span>.<br/>Submit your case <span className="red">today</span>.</h3>
+          <h3 className="display-4">Save <span className="orange">time</span>.<br/>Save <span className="yellow">energy</span>.<br/>Submit your case today.</h3>
         </div>
 
         <div className="section legacy home5">
