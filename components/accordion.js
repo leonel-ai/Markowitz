@@ -4,8 +4,9 @@ import stylesheet from 'styles/index.scss'
 
 const Accordion = () => {
   return (
-    <div id="accordion">
-      <div className="card yellow">
+    <div id="accordion" className="row">
+    <div className="col col-lg-6">
+      <div className="card yellow col-lg-12">
         <div className="card-header" id="headingOne">
           <p className="mb-0 case-action">Resolve
             <button className="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -13,7 +14,6 @@ const Accordion = () => {
             </button>
           </p>
         </div>
-
         <div id="collapseOne" className="collapse" aria-labelledby="headingOne" data-parent="#accordion">
           <div className="card-body">
             <p>What do you do when you get a traffic ticket in a city hundreds of miles away from home?
@@ -22,7 +22,9 @@ const Accordion = () => {
           </div>
         </div>
       </div>
-      <div className="card red">
+    </div>
+    <div className="col col-lg-6">
+      <div className="card red col-lg-12">
         <div className="card-header" id="headingTwo">
           <p className="mb-0 case-action">Dismiss
             <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -38,7 +40,10 @@ const Accordion = () => {
           </div>
         </div>
       </div>
-      <div className="card blue">
+      </div>
+
+      <div className="col col-lg-6">
+      <div className="card blue col-lg-12">
         <div className="card-header" id="headingThree">
           <p className="mb-0 case-action">Reduce
             <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -54,7 +59,10 @@ const Accordion = () => {
           </div>
         </div>
       </div>
-      <div className="card orange">
+    </div>
+
+    <div className="col col-lg-6">
+      <div className="card orange col-lg-12">
         <div className="card-header" id="headingFour">
           <p className="mb-0 case-action">Recover
             <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
@@ -68,6 +76,7 @@ const Accordion = () => {
               We specialize in case dismissal for commercial drivers, so you can get back on the road again, worry-free.</p>
           </div>
         </div>
+      </div>
       </div>
 
     </div>

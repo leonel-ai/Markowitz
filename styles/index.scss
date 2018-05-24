@@ -253,8 +253,7 @@ hr {
 }
 
 #accordion {
-  padding-left: 1em;
-  padding-right: 1em;
+  margin: auto;
 
   .case-action {
     color: white;
@@ -276,6 +275,7 @@ hr {
 
   .card {
     width: 100%;
+    padding: 0;
   }
 
   .red {
@@ -401,7 +401,7 @@ hr {
     }
 
     .footer-line {
-      background-color: red;
+      background-color: $accent;
       height: 2px;
       width: 75%;
       float: left;
@@ -627,6 +627,10 @@ hr {
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
+  p {
+    line-height: 32px;
+  }
+
   .navbar {
     padding-left: 3rem;
   }
@@ -674,7 +678,7 @@ hr {
       padding-top: 8em;
 
       .r-blob {
-        left: 610px;
+        left: 600px;
         margin-top: 2em;
         img {
           width: 376px;
@@ -691,8 +695,8 @@ hr {
         display: block;
         position: absolute;
         z-index: -3;
-        left: 786px;
-        margin-top: 14em;
+        left: 760px;
+        margin-top: 18em;
         img {
           width: 200px;
         }
@@ -700,7 +704,7 @@ hr {
     }
 
     .home3, .home4 {
-      padding-left: 200px;
+      padding-left: 268px;
       h1, p {
         width: 600px;
       }
@@ -712,7 +716,94 @@ hr {
       .deco2 {
         padding-left: 20px;
         font-size: 21vw;
-        top: 15.2em;
+        top: 15.1em;
+      }
+    }
+
+    .legacy {
+      .text-muted {
+        margin-left: 24em;
+      }
+      .num-container img {
+        width: 55%;
+      }
+      .num-overlay {
+        bottom: 64px;
+        left: 100px;
+      }
+      p {
+        width: 600px;
+        display: block;
+        margin: auto;
+      }
+    }
+
+    #accordion {
+      padding-left: 0em;
+
+      .yellow {
+        margin-right: 1em;
+        &:hover {
+          opacity: .9;
+        }
+      }
+      .blue {
+        margin-right: 1em;
+        &:hover {
+          opacity: .9;
+        }
+      }
+      .red {
+        &:hover {
+          opacity: .9;
+        }
+      }
+      .orange {
+        &:hover {
+          opacity: .9;
+        }
+      }
+
+      .card {
+        padding: 0;
+      }
+
+      .card-body {
+        p {
+          width: auto;
+        }
+      }
+      .case-action {
+        width: auto;
+      }
+    }
+  }
+
+  .footer-info {
+    padding-bottom: 0;
+
+    #footer {
+      padding-left: 30px;
+      padding-right: 30px;
+      .info {
+        line-height: 1;
+        margin-top: .5em;
+        font-size: 14px;
+      }
+
+      .footer-socials {
+        display: flex;
+        align-items: stretch;
+        justify-content: flex-end;
+        flex: 50%;
+        text-align: right;
+        line-height: 1;
+        margin: 0;
+        font-size: 14px;
+      }
+
+      .footer-line {
+        display: none;
       }
     }
   }
