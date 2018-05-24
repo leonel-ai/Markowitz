@@ -633,6 +633,10 @@ hr {
 
   .navbar {
     padding-left: 3rem;
+      .navbar-nav > li{
+        font-size: 15px;
+        line-height: 15px;
+      }
   }
 
   .navbar-nav > li{
@@ -711,12 +715,12 @@ hr {
       .deco1 {
         padding-left: 20px;
         font-size: 21vw;
-        top: 9.5em;
+        top: 9.35em;
        }
       .deco2 {
         padding-left: 20px;
         font-size: 21vw;
-        top: 15.1em;
+        top: 15em;
       }
     }
 
@@ -812,4 +816,128 @@ hr {
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
+
+  .action {
+    padding-top: 25%;
+  }
+
+  .row.section iframe {
+    height: 768px;
+  }
+
+  .container-fluid {
+    .cta {
+      padding-left: 80px;
+    }
+
+    .marko-logo {
+      width: 150px;
+    }
+
+    .home2 {
+      h1, p {
+        padding-left: 220px;
+        width: 790px;
+      }
+    }
+
+    .options {
+      padding-bottom: 10em;
+      padding-top: 8em;
+
+      .r-blob {
+        left: 780px;
+        img { width: 420px; }
+      }
+      .y-blob {
+        left: 40px;
+        img { width: 320px;}
+      }
+      .g-blob {
+        left: 960px;
+        img { width: 220px;}
+      }
+    }
+
+    .home3, .home4 {
+      padding-left: 480px;
+      padding-bottom: 6em;
+      padding-top: 5em;
+      .deco1 {
+        top: 10.5em;
+        font-size: 18vw;
+      }
+      .deco2 {
+        font-size: 18vw;
+        top: 17.6em;
+      }
+    }
+
+    .legacy {
+      padding-top: 4em;
+
+      .num-container img {
+        width: 50%;
+      }
+      .text-muted {
+        margin-left: 28em;
+      }
+      p {
+        padding-bottom: 6em;
+      }
+    }
+
+    #accordion {
+      .btn, .btn-link, .btn-link:focus, .btn-link:hover, .btn-link:active {
+        margin-bottom: 0;
+        overflow: hidden;
+      }
+      .case-action {
+        padding-bottom: 0;
+      }
+      .card-body p {
+        padding-bottom: 0em;
+      }
+    }
+  }
+}
+
+@media (min-width: 1300px) {
+  .action {
+    padding-top: 15% !important;
+  }
+
+  .container-fluid {
+    .options {
+      .r-blob {
+        left: 840px;
+      }
+      .g-blob {
+        left: 1000px;
+      }
+    }
+    .home3, .home4 {
+      .deco1 {
+        top: 9.5em;
+      }
+      .deco2 {
+        top: 16.2em;
+      }
+    }
+
+    .cta {
+      padding-top: 28em;
+      h3 {
+        font-size: 72px;
+        line-height: 72px;
+      }
+    }
+
+    .legacy {
+      .num-overlay {
+        left: 200px;
+        bottom: 76px;
+      }
+    }
+  }
 }
