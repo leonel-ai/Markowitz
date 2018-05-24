@@ -16,11 +16,9 @@ const Accordion = () => {
 
         <div id="collapseOne" className="collapse" aria-labelledby="headingOne" data-parent="#accordion">
           <div className="card-body">
-            <p>"Thanks for making this process as painless as possible. I am not American, so
-              I really didn't know what to expect. I was in and out of the courtroom with the
-              ticket dismissed within one hour. I really liked the fact that we could submit everything
-              electronically, and it was really uncomplicated.”</p>
-            <p>— Ana</p>
+            <p>What do you do when you get a traffic ticket in a city hundreds of miles away from home?
+              Easy—submit your case to Markowitz. Our Court Valet service allows us to represent and fight for you in
+              court while you rest easy back home, no flights necessary.</p>
           </div>
         </div>
       </div>
@@ -34,11 +32,9 @@ const Accordion = () => {
         </div>
         <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
           <div className="card-body">
-            <p>"I have a CDL, so I couldn't afford this ticket on my driving record. I researched and called many lawyers,
-              and Mr. Markowitz was by far the most professional lawyer I spoke to. He knew exactly what he was going to do
-              and told me his exact plan for me if I hired him. When we got to court, Mr. Markowitz and his team had a plan,
-              and that plan worked. Ticket dismissed!”</p>
-            <p>— Jeremy</p>
+            <p>Your teen’s first traffic ticket can mean high anxiety and even higher insurance rates for the whole family.
+              We’ve all been new to the rules of the road, but our team of lawyers are veterans when it comes to second
+              chances and ticket dismissals for young drivers. </p>
           </div>
         </div>
       </div>
@@ -52,10 +48,9 @@ const Accordion = () => {
         </div>
         <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordion">
           <div className="card-body">
-            <p>"Thank you so much Markowitz and associates! I had three traffic citations which were all thrown out.
-              I could have been in serious trouble with my drivers license... I didn't have the money to pay my fines.
-              The help I received was most appreciated.”</p>
-            <p>— Kent</p>
+            <p>Racing past red lights, running stop signs, and speeding down the highway to clock in on time.
+              Sound familiar? Driving to and from work can leave a lot of room for traffic violations.
+              Luckily, we’re well-versed in getting cases dismissed and keeping driving records clean.</p>
           </div>
         </div>
       </div>
@@ -69,12 +64,8 @@ const Accordion = () => {
         </div>
         <div id="collapseFour" className="collapse" aria-labelledby="headingFour" data-parent="#accordion">
           <div className="card-body">
-            <p>"I have a CDL, so I couldn't afford this ticket on my driving record.
-              Mr. Markowitz was by far the most professional lawyer I spoke to.
-              He knew exactly what he was going to do. 
-              When we got to court, Mr. Markowitz and his team had a plan,
-              and that plan worked. Ticket dismissed!”</p>
-            <p>— Jeremy</p>
+            <p>You’ve already got valuable cargo to transport. The last thing you need to worry about is a compromised CDL.
+              We specialize in case dismissal for commercial drivers, so you can get back on the road again, worry-free.</p>
           </div>
         </div>
       </div>

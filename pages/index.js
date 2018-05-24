@@ -39,6 +39,9 @@ const Home = () => {
           <div className="y-blob">
             <img src="/static/elements/y-blob.gif" alt=""/>
           </div>
+          <div className="g-blob">
+            <img src="/static/elements/g-blob.gif" alt=""/>
+          </div>
           <p>Gone are the days where you have to spend hours sitting in court just to pay hefty fees and be assigned defensive driving.
             At Markowitz Law, you have the option to let our attorneys fight <b>for</b> you or <b>with</b> you in court to get the results you want.</p>
           <p>See which route is best for you, below.</p>
