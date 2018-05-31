@@ -42,9 +42,10 @@ const Home = () => {
           <div className="g-blob">
             <img src="/static/elements/g-blob.gif" alt=""/>
           </div>
-          <p>Gone are the days where you have to spend hours sitting in court just to pay hefty fees and be assigned defensive driving.
-            At Markowitz Law, you have the option to let our attorneys fight <b>for</b> you or <b>with</b> you in court to get the results you want.</p>
-          <p>See which route is best for you, below.</p>
+          <p>Sitting in court for hours just to pay hefty fees and get ordered into defensive driving is no longer your only option when fighting a traffic ticket.</p>
+          <p>At Markowitz Law, you can choose convenience over convention. Whether you choose to fight the ticket in court with a Markowitz trial attorney or opt for a more refined
+            "court valet" service, we go to court prepared to get the results you need.</p>
+          <p>See which route may be best for you below.</p>
         </div>
 
         <div className="row section">
@@ -58,7 +59,7 @@ const Home = () => {
             <div className="deco1">
               SAVE<br/>YOUR<br/>TIME
             </div>
-            <p className="lead">If your schedule is not as flexible and you prefer to have one of our attorneys represent you in court on your behalf, Court Valet may be the best option for you.</p>
+            <p className="lead">If your schedule is hectic and sacrificing uncertain hours in traffic court is out of the question, consider our Court Valet service. Court Valet may be the turnkey solution to your ticket problem.</p>
 
             <a className="home-link" href="/services">
               <h5 className="text-muted home-explore">EXPLORE YOUR OPTIONS </h5>
@@ -79,7 +80,7 @@ const Home = () => {
             <div className="deco2">
               SAVE<br/>YOUR<br/>ENERGY
             </div>
-            <p className="lead">If your schedule is flexible and you prefer to attend court with one of our lawyers, Ticket Defense is the best option for you.</p>
+            <p className="lead">If your schedule is flexible and you prefer to attend court with one of our lawyers, Ticket Defense may be the best option for you.</p>
 
             <a className="home-link" href="/services">
               <h5 className="text-muted home-explore">EXPLORE YOUR OPTIONS </h5>
@@ -95,14 +96,14 @@ const Home = () => {
 
         <div className="section legacy home5">
           <div className="num-container">
-            <img className="img-responsive" src="/static/20.svg" alt="" />
+            <img className="img-responsive" src="/static/25.svg" alt="" />
             <div className="num-overlay">
               <h3 className="display-4 head3"><b>Our Legacy</b></h3>
             </div>
           </div>
 
             <h5 className="text-muted"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Est. 1993</h5>
-            <p className="legacy-text">For more than 20 years, Markowitz Law has consistently delivered legal solutions
+            <p className="legacy-text">For more than 25 years, Markowitz Law has consistently delivered legal solutions
             and unparalleled value to Texas residents and its visitors. We’ve earned our reputation as a top-performing
             firm through our experienced attorneys and results-driven practice model.</p>
 

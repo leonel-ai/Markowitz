@@ -53,9 +53,9 @@ const Accordion = () => {
         </div>
         <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordion">
           <div className="card-body">
-            <p>Racing past red lights, running stop signs, and speeding down the highway to clock in on time.
-              Sound familiar? Driving to and from work can leave a lot of room for traffic violations.
-              Luckily, we’re well-versed in getting cases dismissed and keeping driving records clean.</p>
+            <p>It's tough out there and even the best of us can inadvertently bust a red light, roll a stop or press through the posted speed limit.
+              Sound familiar? The clock never stops and that can leave a lot of room for traffic violations.
+              Luckily, we are well-versed in navigating around convictions and finding backroads to dismissals.</p>
           </div>
         </div>
       </div>
@@ -73,7 +73,7 @@ const Accordion = () => {
         <div id="collapseFour" className="collapse" aria-labelledby="headingFour" data-parent="#accordion">
           <div className="card-body">
             <p>You’ve already got valuable cargo to transport. The last thing you need to worry about is a compromised CDL.
-              We specialize in case dismissal for commercial drivers, so you can get back on the road again, worry-free.</p>
+            Our team is highly experienced in fighting to lessen the severity of your case, so you can get back on the road again, worry-free.</p>
           </div>
         </div>
       </div>

@@ -422,7 +422,7 @@ hr {
   }
 
   .action {
-    padding-top: 20%;
+    padding-top: 10vh;
   }
 
   .row.section iframe {
@@ -559,6 +559,7 @@ hr {
 
   #main {
     background-image: url('/static/billboard.jpg');
+    min-height: 100vh;
 
     .head1, .head2, .head3 {
       font-size: 85px;
@@ -566,9 +567,13 @@ hr {
     }
   }
 
+  .action {
+    padding-top: 15vh;
+  }
+
   .container-fluid {
     .home1 {
-      max-width: 700px;
+      max-width: 800px;
     }
 
     .options {
@@ -602,6 +607,11 @@ hr {
 
     .home3, .home4 {
       margin-bottom: 10em;
+
+      h1 {
+        font-size: 72px;
+        line-height: 72px;
+      }
 
       .deco1 {
         top: 10em;
@@ -658,7 +668,7 @@ hr {
   }
 
   .action {
-    padding-top: 14%;
+    padding-top: 35vh;
   }
 
   .row.section iframe {
@@ -818,7 +828,7 @@ hr {
 @media (min-width: 1200px) {
 
   .action {
-    padding-top: 25%;
+    padding-top: 38vh;
   }
 
   .row.section iframe {
@@ -826,6 +836,9 @@ hr {
   }
 
   .container-fluid {
+    .home1 {
+      max-width: 1000px;
+    }
     .cta {
       padding-left: 80px;
     }
@@ -904,10 +917,13 @@ hr {
 
 @media (min-width: 1300px) {
   .action {
-    padding-top: 15% !important;
+    padding-top: 40vh;
   }
 
   .container-fluid {
+    .home1 {
+      max-width: 1080px;
+    }
     .options {
       .r-blob {
         left: 840px;
