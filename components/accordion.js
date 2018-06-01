@@ -53,9 +53,9 @@ const Accordion = () => {
         </div>
         <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordion">
           <div className="card-body">
-            <p>It's tough out there and even the best of us can inadvertently bust a red light, roll a stop or press through the posted speed limit.
-              Sound familiar? The clock never stops and that can leave a lot of room for traffic violations.
-              Luckily, we are well-versed in navigating around convictions and finding backroads to dismissals.</p>
+            <p>It's a rat race out there, and even the best of us can miss a red light, roll a stop sign, or
+              press through the posted speed limit. Sound familiar? The clock never stops, and that can leave a lot
+              of room for traffic violations. Luckily, we are well-versed in navigating around convictions and finding the backroads to dismissals.</p>
           </div>
         </div>
       </div>
