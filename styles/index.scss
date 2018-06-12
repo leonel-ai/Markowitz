@@ -411,6 +411,87 @@ hr {
   }
 }
 
+/* services */
+#services-page {
+  h1, p {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #services {
+    background-color: white;
+    height: 70px;
+    padding-top: 12px;
+  }
+
+  .services-banner {
+    margin-top: 5em;
+    margin-bottom: 5em;
+    position: relative;
+
+    img {
+      display: block;
+      margin: 0 auto;
+      height: auto;
+      max-width: 100%;
+    }
+
+    .banner-line {
+      width: 25%;
+      display: inline-block;
+      height: 1px;
+      min-width: 5rem;
+      margin-right: 1em;
+      margin-bottom: .375em;
+      margin-left: 1em;
+      background-color: rgba(27, 27, 28, .13);
+    }
+
+    .banner-overlay {
+      position: absolute;
+      bottom: 232px;
+      padding-left: 20px;
+
+      h1 {
+        font-size: 24px;
+        line-height: 26px;
+      }
+    }
+
+    .banner-subtitle {
+      position: absolute;
+      bottom: 30px;
+      left: 33%;
+    }
+  }
+
+  .services-detail {
+    .txt-deco {
+      position: relative;
+      display: block;
+
+      .deco-line {
+        position: absolute;
+        left: 2em;
+        top: .28em;
+        display: block;
+        width: 3em;
+        height: 2px;
+        background-color: $primary-color;
+      }
+      .deco-label {
+        padding-left: 6em;
+        margin-bottom: 2em;
+        line-height: 1;
+      }
+    }
+    p {
+      line-height: 1.6;
+      margin-bottom: 1.75em;
+    }
+  }
+}
+
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
 
@@ -833,6 +914,16 @@ hr {
 
   .row.section iframe {
     height: 768px;
+  }
+
+  #main {
+    .head1 {
+      font-size: 104px;
+      line-height: 104px;
+    }
+    h1, p {
+      width: 400px;
+    }
   }
 
   .container-fluid {
