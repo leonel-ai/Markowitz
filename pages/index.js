@@ -21,9 +21,12 @@ const Home = () => {
       <MobileNav/>
       <Nav/>
 
+        <div className="home-header">
+          <img src="/static/mlaw.svg" alt="logo" className="img-fluid marko-logo" />
+        </div>
+
         <div className="jumbotron jumbotron-fluid" id="main">
           <div className="container home1">
-            <img src="/static/mlaw.svg" alt="logo" className="img-fluid marko-logo" />
             <h1 className="display-4 head1"><b>Traffic court sucks. Period.</b></h1>
             <p className="lead">Let the experts fight on your behalf.</p>
             <p className="action">Scroll</p>
