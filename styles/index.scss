@@ -525,42 +525,78 @@ hr {
       position: absolute;
       z-index: -2;
       left: 160px;
-      margin-top: 17em;
+      margin-top: 14em;
 
       img {
         width: 210px;
         opacity: .9;
       }
     }
+    .b-blob {
+      display: block;
+      position: absolute;
+      z-index: -2;
+      left: -160px;
+      margin-top: -11em;
+
+      img {
+        width: 400px;
+        opacity: .85;
+      }
+    }
+    h4 { font-size: 28px; line-height: 36px; }
+    ul, li {
+      list-style: none;
+      font-size: 14px;
+      line-height: 22px;
+      font-family: 'Inter UI';
+    }
   }
 
   .questions-grid {
     margin-bottom: 3em;
 
-    .faq {
-      margin: 0 0 5%;
-      padding: 2em;
-      border: 2px solid #f6f6f6;
+    #faq {
+      .card, .card-header {
+        background-color: white !important;
+        padding: 3em;
+      }
 
-      h5 {
-        margin-bottom: 1em;
-        line-height: 1.6;
-        font-family: 'Inter UI';
-        font-size: 12px;
-      }
-      h4 {
+      .btn, .btn-link {
+        color: $primary-color;
+        text-decoration: none;
+        padding: 0;
         max-width: 16rem;
-        margin-bottom: 0;
-        letter-spacing: .045rem;
+        text-align: left;
+        white-space: normal;
+        &:hover, &:active, &:visited { text-decoration: none; }
       }
-    }
-    .faq-line {
-      width: 2em;
-      height: 1px;
-      margin-top: 1em;
-      margin-bottom: 1em;
-      background-color: #f6f6f6;
-      color: #f6f6f6;
+
+      .faq {
+        margin: 0 0 5%;
+        padding: 0;
+        border: 2px solid #f6f6f6;
+
+        .case-action {
+          margin-bottom: 2em;
+          line-height: 1.6;
+          font-size: 12px;
+        }
+        .case-client {
+          max-width: 16rem;
+          margin-bottom: 0;
+          letter-spacing: .045rem;
+          font-family: 'Bebas Neue';
+        }
+      }
+      .faq-line {
+        width: 2em;
+        height: 1px;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        background-color: #f6f6f6;
+        color: #f6f6f6;
+      }
     }
 
     .banner-line {
@@ -573,12 +609,12 @@ hr {
       margin-left: 1em;
       background-color: $accent;
     }
-
     .faq-contact {
       margin-top: 5em;
       margin-left: 2em;
     }
   }
+
 
   .resources-detail {
     margin-top: 0;
@@ -641,6 +677,65 @@ hr {
     h3 {
       padding-left: 40px;
       padding-right: 40px;
+    }
+  }
+
+  #resources {
+    margin: auto;
+    width: 100%;
+
+    .res-action {
+      color: white;
+      letter-spacing: .07em;
+      line-height: 3;
+      padding-left: 1.85em;
+      font-size: 13px !important;
+    }
+
+    .res-header {
+      color: white;
+      font-family: 'Bebas Neue';
+      font-size: 1.75em;
+      letter-spacing: .07em;
+      line-height: 1;
+      text-align: left;
+      padding: 0;
+    }
+
+    .card {
+      width: 100%;
+      padding: 0;
+    }
+
+    .red {
+      background-color: #ff1400;
+      margin-bottom: 1em;
+    }
+    .yellow {
+      background-color: #ffc300;
+      margin-bottom: 1em;
+    }
+    .blue {
+      background-color: #1b126c;
+      margin-bottom: 1em;
+    }
+
+    .btn, .btn-link, .btn-link:focus, .btn-link:hover, .btn-link:active {
+      text-decoration: none !important;
+      color: rgb(53, 53, 53) !important;
+      width: 100%;
+      padding-left: 0;
+      padding-top: 10em;
+    }
+
+    .card-header {
+      border-bottom: none;
+      padding-left: 0;
+    }
+
+    .card-body p, a {
+      color: white;
+      line-height: .75;
     }
   }
 }
@@ -761,6 +856,64 @@ hr {
 
   }
 
+  /* services */
+  .services-detail {
+
+  }
+
+  .questions-grid {
+    margin-bottom: 3em;
+
+    #faq {
+      .btn, .btn-link {
+        max-width: 16rem;
+        text-align: left;
+        white-space: normal;
+        &:hover, &:active, &:visited { text-decoration: none; }
+      }
+
+      .faq {
+        margin: 0 0 5%;
+        padding: 0;
+        border: 2px solid #f6f6f6;
+
+        .case-action {
+          margin-bottom: 2em;
+          line-height: 1.6;
+          font-size: 12px;
+        }
+        .case-client {
+          max-width: 16rem;
+          margin-bottom: 0;
+          letter-spacing: .045rem;
+          font-family: 'Bebas Neue';
+        }
+      }
+      .faq-line {
+        width: 2em;
+        height: 1px;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        background-color: #f6f6f6;
+        color: #f6f6f6;
+      }
+    }
+
+    .banner-line {
+      width: 25%;
+      display: inline-block;
+      height: 1px;
+      min-width: 3rem;
+      margin-right: 1em;
+      margin-bottom: .375em;
+      margin-left: 1em;
+      background-color: $accent;
+    }
+    .faq-contact {
+      margin-top: 5em;
+      margin-left: 2em;
+    }
+  }
 }
 
 // Medium devices (tablets, 768px and up)
@@ -870,6 +1023,13 @@ hr {
     #footer {
       padding-left: 60px;
       padding-right: 60px;
+    }
+  }
+
+   /* services */
+   .services-detail {
+    h4 {
+      margin-top: 1.5em;
     }
   }
 
@@ -1154,6 +1314,11 @@ hr {
         padding-bottom: 0em;
       }
     }
+  }
+
+/* services */
+  .services-detail {
+
   }
 }
 

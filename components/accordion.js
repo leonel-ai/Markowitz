@@ -1,7 +1,5 @@
 import React from 'react';
 
-import stylesheet from 'styles/index.scss'
-
 const Accordion = () => {
   return (
     <div id="accordion" className="row">

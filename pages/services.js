@@ -4,6 +4,8 @@ import Head from 'next/head'
 import stylesheet from 'styles/index.scss'
 import MobileNav from '../components/mobileNav'
 import Nav from '../components/navigation'
+import Resources from '../components/resources'
+import FAQ from '../components/faq'
 import Footer from '../components/footer'
 
 
@@ -37,42 +39,35 @@ const Services = () => {
         </div>
 
         <div className="row section services-detail">
-          <h1 className="display-5 head2">SOMETHING ABOUT OUR SERVICES</h1>
-          <div className="txt-deco">
-            <div className="deco-line"></div>
-            <div className="deco-label">LINK TO START CASE</div>
+            <h1 className="display-5 head2">SOMETHING ABOUT OUR SERVICES</h1>
+            <div className="col-sm-12 col-md-6">
+              <div className="txt-deco">
+                <div className="deco-line"></div>
+                <div className="deco-label">LINK TO START CASE</div>
+              </div>
+              <div className="o-blob">
+                <img src="/static/elements/o-blob.gif" alt=""/>
+              </div>
+              <div className="b-blob">
+                <img src="/static/elements/b-blob.gif" alt=""/>
+              </div>
+              <p>Sitting in court for hours just to pay hefty fees and getasdfasdfasdfasdf fasdfthrthwgvsnb fgdfhrt erg s df sfgs gsa fga gafg saf asdfasdfasdf asd fasdfadfadsfasd df ads fs  ordered into defensive driving is no longer your only option when fighting a traffic ticket.</p>
+              <p>Sitting in court for hours just to pay hefty five asdfas defensive asdfasdf is no longer y no longer your only option when fighting a traffic ticket.</p>
           </div>
-
-          <div className="o-blob">
-            <img src="/static/elements/o-blob.gif" alt=""/>
+          <div className="col-sm-12 col-md-6">
+            <h4>Services</h4>
+              <ul>
+                <li>Traffic Ticket and Criminal Defense</li>
+                <li>DWI and License Revocation</li>
+                <li>Failure to Appear and Bonding</li>
+                <li>Occupational Driver's License</li>
+                <li>Expunction and Non-Disclosure of Records</li>
+              </ul>
           </div>
-          <p>Sitting in court for hours just to pay hefty fees and get ordered into defensive driving is no longer your only option when fighting a traffic ticket.</p>
-          <p>Sitting in court for hours just to pay hefty fees and get ordered into defensive driving is no longer your only option when fighting a traffic ticket.</p>
         </div>
 
         <div className="container questions-grid">
-          <div className="row">
-            <div className="faq col-sm">
-              <h5>Time Responsible</h5>
-              <div className="faq-line"></div>
-              <h4>What about insurance rates tho?</h4></div>
-            <div className="faq col-sm">
-              <h5>Business Oriented</h5>
-              <div className="faq-line"></div>
-              <h4>Da fuq is an escort service?</h4></div>
-            <div className="faq col-sm">
-              <h5>Solution Driven</h5>
-              <div className="faq-line"></div>
-              <h4>How much does this cost me?</h4></div>
-            <div className="faq col-sm">
-              <h5>Multiplatform</h5>
-              <div className="faq-line"></div>
-              <h4>Who is Clio? Who is she?</h4></div>
-            <div className="faq col-sm">
-              <h5>Human Centered</h5>
-              <div className="faq-line"></div>
-              <h4>Why should I even?</h4></div>
-          </div>
+          <FAQ/>
           <div className="row faq-contact"><h5><span className="banner-line"></span>Get in touch</h5></div>
         </div>
 
@@ -92,6 +87,7 @@ const Services = () => {
             <div className="deco-line"></div>
             <div className="deco-label">LINK TO CONTACT FORM</div>
           </div>
+          <Resources/>
         </div>
 
       <div className="footer-info">
