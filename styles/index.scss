@@ -465,7 +465,7 @@ hr {
     .banner-overlay {
       position: absolute;
       bottom: 350px;
-      padding-left: 20px;
+      padding-left: 30px;
 
       h1 {
         font-size: 24px;
@@ -736,6 +736,118 @@ hr {
     .card-body p, a {
       color: white;
       line-height: .75;
+    }
+  }
+}
+
+#contact-page {
+  h1, p {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+  #contact {
+    background-color: white;
+    height: 70px;
+    padding-top: 12px;
+
+    .contact-header {
+      position: fixed;
+      z-index: 1030;
+    }
+  }
+
+  .contact-banner {
+    margin-top: 8em;
+    margin-bottom: 10em;
+    position: relative;
+
+    img {
+      display: block;
+      margin: 0 auto;
+      height: auto;
+      max-width: 100%;
+    }
+
+    .banner-line {
+      width: 25%;
+      display: inline-block;
+      height: 1px;
+      min-width: 5rem;
+      margin-right: 1em;
+      margin-bottom: .375em;
+      margin-left: 1em;
+      background-color: rgba(27, 27, 28, .13);
+    }
+
+    .banner-overlay {
+      position: absolute;
+      bottom: 350px;
+      padding-left: 30px;
+
+      h1 {
+        font-size: 24px;
+        line-height: 26px;
+        letter-spacing: .035em;
+      }
+    }
+
+    .banner-subtitle {
+      position: absolute;
+      left: 25%;
+      bottom: 30%;
+    }
+
+    .action {
+      padding-top: 20%;
+      font-size: 13px !important;
+      text-align: center;
+      margin-bottom: 6px;
+    }
+
+    hr {
+      margin: 0 auto;
+      padding: auto;
+      float: inherit;
+    }
+  }
+
+  .contact-forms {
+    padding: 2em;
+    border: 1px solid red;
+  }
+
+  .contact-cta {
+    margin-top: 3em;
+    padding: 3em;
+    border: 1px solid blue;
+  }
+
+  .contact-info {
+    margin-top: 3em;
+  }
+
+  .bookend {
+    margin-top: 3em;
+    margin-bottom: 5em;
+
+    .bookend-text {
+      margin-left: 20px;
+      .bookend-deco {
+        margin-left: 20px;
+        margin-bottom: 2em;
+      }
+    }
+
+    .banner-line {
+      width: 25%;
+      display: inline-block;
+      height: 1px;
+      min-width: 5rem;
+      margin-right: 1em;
+      margin-bottom: .375em;
+      margin-left: 1em;
+      background-color: rgba(27, 27, 28, .13);
     }
   }
 }
