@@ -24,14 +24,14 @@ const Services = () => {
       <Nav/>
         <div id="services">
           <div className="container services-header">
-            <img src="/static/mlaw.svg" alt="logo" className="img-fluid marko-logo" />
+            <a href="/"><img src="/static/mlaw.svg" alt="logo" className="img-fluid marko-logo" /></a>
           </div>
         </div>
 
         <div className="services-banner">
           <img src="/static/services-temp.png" alt="" className="img-fluid"/>
           <div className="banner-overlay">
-            <h1 className="display-4">HAVE PROBLEMS <span className="banner-line"></span></h1>
+            <h1 className="display-4">HAVE A PROBLEM <span className="banner-line"></span></h1>
           </div>
           <div className="banner-subtitle"><span className="banner-line"></span> 25 YEARS STRONG</div>
           <p className="action">Scroll</p>
@@ -39,11 +39,12 @@ const Services = () => {
         </div>
 
         <div className="row section services-detail">
-            <h1 className="display-5 head2">SOMETHING ABOUT OUR SERVICES</h1>
+            <h1 className="display-5 head2">WE'RE PREPARED TO MEET YOUR NEEDS</h1>
             <div className="col-sm-12 col-md-6">
               <div className="txt-deco">
                 <div className="deco-line"></div>
-                <div className="deco-label">LINK TO START CASE</div>
+                <div className="deco-label">
+                  <a href="/contact">Take the next step</a></div>
               </div>
               <div className="o-blob">
                 <img src="/static/elements/o-blob.gif" alt=""/>
@@ -51,8 +52,8 @@ const Services = () => {
               <div className="b-blob">
                 <img src="/static/elements/b-blob.gif" alt=""/>
               </div>
-              <p>Sitting in court for hours just to pay hefty fees and getasdfasdfasdfasdf fasdfthrthwgvsnb fgdfhrt erg s df sfgs gsa fga gafg saf asdfasdfasdf asd fasdfadfadsfasd df ads fs  ordered into defensive driving is no longer your only option when fighting a traffic ticket.</p>
-              <p>Sitting in court for hours just to pay hefty five asdfas defensive asdfasdf is no longer y no longer your only option when fighting a traffic ticket.</p>
+              <p>With over 25 years of experience in resolving traffic matters, we’ve mastered the art of attaining the results our clients desire. Whether you seek dismissal or a quick resolution, you can rest assured that when you hire Markowitz Law, you minimize the hassle and maximize efficiency.</p>
+              <p>No matter the story, we can help.</p>
           </div>
           <div className="col-sm-12 col-md-6">
             <h4>Services</h4>
@@ -68,24 +69,20 @@ const Services = () => {
 
         <div className="container questions-grid">
           <FAQ/>
-          <div className="row faq-contact"><h5><span className="banner-line"></span>Get in touch</h5></div>
-        </div>
-
-        <div className="resources-banner">
-          <img src="/static/services-temp.png" alt="" className="img-fluid"/>
         </div>
 
         <div className="row section resources-detail">
           <div className="res-info">
             <div className="num-line"></div>
-            <div className="num-label">NO.</div>
-            <div className="num-value">03</div>
+            <div className="num-label">RESOURCES</div>
           </div>
 
-          <h3 className="display-5 head2">SOMETHING ABOUT RESOURCES</h3>
+          <h3 className="display-5 head2">Helping you every step of the way</h3>
           <div className="txt-deco">
             <div className="deco-line"></div>
-            <div className="deco-label">LINK TO CONTACT FORM</div>
+            <div className="deco-label">
+              <a href="/contact">Get in touch</a>
+            </div>
           </div>
           <Resources/>
         </div>

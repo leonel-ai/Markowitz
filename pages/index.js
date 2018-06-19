@@ -52,7 +52,7 @@ const Home = () => {
         </div>
 
         <div className="row section">
-          <iframe width="420" height="300" src="https://www.youtube.com/embed/H8NExnW8fNM?rel=0&amp;controls=0&amp;showinfo=0"
+          <iframe width="420" height="210" src="https://www.youtube.com/embed/H8NExnW8fNM?rel=0&amp;controls=0&amp;showinfo=0"
           frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
           <div className="home3">
             <div className="num-line"></div>
@@ -73,7 +73,7 @@ const Home = () => {
         </div>
 
         <div className="row section">
-          <iframe width="420" height="300" src="https://www.youtube.com/embed/jZ5zgDhmjYg?rel=0&amp;controls=0&amp;showinfo=0"
+          <iframe width="420" height="210" src="https://www.youtube.com/embed/jZ5zgDhmjYg?rel=0&amp;controls=0&amp;showinfo=0"
           frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
           <div className="home4">
             <div className="num-line"></div>

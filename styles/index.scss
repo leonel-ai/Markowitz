@@ -92,11 +92,11 @@ hr {
   }
 
   .home-header {
-    position: fixed;
     margin: 0 auto;
     width: 100%;
-    top: 2%;
+    padding-top: 12px;
     z-index: 1030;
+    height: 10px;
   }
 
   .home1 {
@@ -330,6 +330,8 @@ hr {
     }
   }
 
+  .navbar-toggler { outline: none; }
+
   .navbar-dark .navbar-nav .nav-link {
     color: white;
   }
@@ -432,11 +434,6 @@ hr {
     background-color: white;
     height: 70px;
     padding-top: 12px;
-
-    .services-header {
-      position: fixed;
-      z-index: 1030;
-    }
   }
 
   .services-banner {
@@ -497,6 +494,11 @@ hr {
   .services-detail {
     margin-bottom: 3em;
 
+    a {
+      text-decoration: none;
+      color: #252b7e;
+    }
+
     .txt-deco {
       position: relative;
       display: block;
@@ -525,7 +527,7 @@ hr {
       position: absolute;
       z-index: -2;
       left: 160px;
-      margin-top: 14em;
+      margin-top: 16em;
 
       img {
         width: 210px;
@@ -536,11 +538,11 @@ hr {
       display: block;
       position: absolute;
       z-index: -2;
-      left: -160px;
-      margin-top: -11em;
+      left: -80px;
+      margin-top: -6em;
 
       img {
-        width: 400px;
+        width: 200px;
         opacity: .85;
       }
     }
@@ -556,10 +558,28 @@ hr {
   .questions-grid {
     margin-bottom: 3em;
 
+    a {
+      text-decoration: none;
+      color: #252b7e;
+    }
+
     #faq {
+      ul, li {
+        list-style: none;
+        padding-left: .25em;
+        letter-spacing: .03em;
+      }
+
       .card, .card-header {
         background-color: white !important;
         padding: 3em;
+      }
+
+      .card-body {
+        p {
+          font-size: 14px !important;
+          line-height: 22px;
+        }
       }
 
       .btn, .btn-link {
@@ -598,30 +618,20 @@ hr {
         color: #f6f6f6;
       }
     }
-
-    .banner-line {
-      width: 25%;
-      display: inline-block;
-      height: 1px;
-      min-width: 3rem;
-      margin-right: 1em;
-      margin-bottom: .375em;
-      margin-left: 1em;
-      background-color: $accent;
-    }
-    .faq-contact {
-      margin-top: 5em;
-      margin-left: 2em;
-    }
   }
-
 
   .resources-detail {
     margin-top: 0;
     padding-top: 0;
     margin-bottom: 8em;
 
+    a {
+      text-decoration: none;
+      color: #252b7e;
+    }
+
     .res-info {
+      margin-top: 2em;
       margin-bottom: 3em;
       margin-left: 40px;
       margin-right: 40px;
@@ -630,7 +640,7 @@ hr {
         margin-bottom: 1em;
         margin-top: 0;
         height: 2px;
-        max-width: 2em;
+        max-width: 1em;
         background-color: #111;
       }
 
@@ -639,14 +649,6 @@ hr {
         letter-spacing: .1em;
         color: $primary-color;
         font-size: 13px;
-      }
-
-      .num-value {
-        font-size: 1.2em;
-        line-height: 1.5;
-        font-weight: 400px;
-        letter-spacing: .03em;
-        color: $primary-color;
       }
     }
 
@@ -666,14 +668,11 @@ hr {
       }
       .deco-label {
         padding-left: 7em;
-        margin-bottom: 2em;
+        margin-bottom: 6em;
         line-height: 1;
       }
     }
-    p {
-      line-height: 1.6;
-      margin-bottom: 1.75em;
-    }
+
     h3 {
       padding-left: 40px;
       padding-right: 40px;
@@ -750,16 +749,11 @@ hr {
     background-color: white;
     height: 70px;
     padding-top: 12px;
-
-    .contact-header {
-      position: fixed;
-      z-index: 1030;
-    }
   }
 
   .contact-banner {
-    margin-top: 8em;
-    margin-bottom: 10em;
+    margin-top: 4em;
+    margin-bottom: 1.5em;
     position: relative;
 
     img {
@@ -797,34 +791,123 @@ hr {
       left: 25%;
       bottom: 30%;
     }
+  }
 
-    .action {
-      padding-top: 20%;
-      font-size: 13px !important;
-      text-align: center;
-      margin-bottom: 6px;
+  .contact-main {
+    a {
+      text-decoration: none;
+      color: #252b7e;
     }
 
-    hr {
+    .contact-form {
+      padding: 0 2em;
       margin: 0 auto;
-      padding: auto;
-      float: inherit;
+      line-height: 2;
+
+      form {
+
+        textarea, select, input, button { outline: none; }
+
+        label {
+          display: block;
+          margin-bottom: 30px;
+          padding: 0;
+        }
+
+        input, textarea {
+          font-family: 'Inter UI';
+          width: 100%;
+          border: 0;
+          border-bottom: 2px solid $primary-color;
+          padding: 5.5px;
+        }
+
+        textarea {
+          border: 2px solid $primary-color;
+          margin-top: 5px;
+        }
+
+        input[type=radio] {
+          width: initial;
+        }
+
+        input[type=date] {}
+
+        .r-label {
+          display: inline-block;
+          vertical-align: middle;
+          margin: 0;
+          font-size: 16px;
+          letter-spacing: .03em;
+        }
+
+        .r-divide {
+          display: inline-block;
+          margin-right: 4em;
+        }
+
+        .f-select {
+          margin-bottom: 1em;
+          text-align: center;
+        }
+
+        .f-label {
+          font-size: 14px;
+          letter-spacing: .03em;
+          vertical-align: baseline;
+          margin-bottom: 5px;
+        }
+
+        .f-date {
+          text-align: center;
+        }
+
+        .f-support {
+          font-family: 'Inter UI';
+          font-size: 11px;
+        }
+
+        .f-send {
+          font-family: 'Bebas Neue';
+          background-color: #ff7000;
+          font-size: 20px;
+          display: inline-block;
+          padding: 24px 60px;
+          border: 0 solid transparent;
+          border-radius: 0;
+          line-height: 14px;
+          color: white;
+          letter-spacing: .06em;
+        }
+
+        p {
+          font-size: 14px;
+          line-height: 20px;
+          padding: 0;
+          margin-bottom: 30px;
+        }
+      }
+    }
+
+    .contact-info {
+      margin-top: 0;
+      margin-bottom: 4em;
+      font-family: 'Inter UI';
+      font-size: 13px;
+      line-height: 20px;
+      margin-left: 2em;
+
+      ul, li {
+        list-style: none;
+        padding: 0;
+      }
     }
   }
 
-  .contact-forms {
-    padding: 2em;
-    border: 1px solid red;
-  }
-
-  .contact-cta {
+  .contact-clio {
     margin-top: 3em;
     padding: 3em;
     border: 1px solid blue;
-  }
-
-  .contact-info {
-    margin-top: 3em;
   }
 
   .bookend {
