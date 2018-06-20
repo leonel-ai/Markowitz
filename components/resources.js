@@ -1,9 +1,11 @@
-import React from 'react';
+import React from 'react'
+import Fade from 'react-reveal/Fade'
 
 const Resources = () => {
   return (
   <div id="resources" className="row">
     <div className="col col-lg-4">
+    <Fade bottom>
       <div className="card yellow col-lg-12">
         <div className="card-header" id="headingSeven">
           <p className="mb-0 res-action">Resolve
@@ -23,8 +25,10 @@ const Resources = () => {
           </div>
         </div>
       </div>
+      </Fade>
     </div>
     <div className="col col-lg-4">
+    <Fade bottom>
       <div className="card red col-lg-12">
         <div className="card-header" id="headingEight">
           <p className="mb-0 res-action">Discover
@@ -44,9 +48,11 @@ const Resources = () => {
           </div>
         </div>
       </div>
+      </Fade>
       </div>
 
       <div className="col col-lg-4">
+      <Fade bottom>
       <div className="card blue col-lg-12">
         <div className="card-header" id="headingNine">
           <p className="mb-0 res-action">Dismiss
@@ -63,6 +69,7 @@ const Resources = () => {
           </div>
         </div>
       </div>
+      </Fade>
     </div>
   </div>
   );

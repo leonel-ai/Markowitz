@@ -130,7 +130,7 @@ var MyDocument = function (_Document) {
               lineNumber: 8
             }
           }),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", { name: "viewport", content: "width=device-width, initial-scale=1, shrink-to-fit=no", __source: {
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", { name: "viewport", content: "width=device-width, initial-scale=1.0, shrink-to-fit=no", __source: {
               fileName: _jsxFileName,
               lineNumber: 9
             }

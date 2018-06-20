@@ -1,9 +1,11 @@
-import React from 'react';
+import React from 'react'
+import Fade from 'react-reveal/Fade'
 
 const FAQ = () => {
   return (
   <div id="faq" className="row">
     <div className="col-sm-4">
+    <Fade bottom>
       <div className="card faq col-sm">
         <div className="card-header" id="headingOne">
           <h5 className="case-action">Time Responsible
@@ -25,9 +27,11 @@ const FAQ = () => {
           </div>
         </div>
       </div>
+    </Fade>
     </div>
 
     <div className="col-sm-4">
+    <Fade bottom>
       <div className="card faq col-sm">
         <div className="card-header" id="headingTwo">
           <h5 className="case-action">Business Oriented
@@ -44,9 +48,11 @@ const FAQ = () => {
           </div>
         </div>
       </div>
+      </Fade>
       </div>
 
     <div className="col-sm-4">
+    <Fade bottom>
       <div className="card faq col-sm">
         <div className="card-header" id="headingThree">
           <h5 className="case-action">Solution Driven
@@ -62,9 +68,11 @@ const FAQ = () => {
           </div>
         </div>
       </div>
+      </Fade>
     </div>
 
     <div className="col-sm-4 col-md-4 offset-md-2">
+    <Fade bottom>
       <div className="card faq col-sm">
         <div className="card-header" id="headingFour">
           <h5 className="case-action">Multiplatform
@@ -82,10 +90,12 @@ const FAQ = () => {
           </div>
         </div>
       </div>
+      </Fade>
     </div>
 
 
     <div className="col-sm-4">
+    <Fade bottom>
       <div className="card faq col-sm">
         <div className="card-header" id="headingFive">
           <h5 className="case-action">Human Centered
@@ -102,26 +112,8 @@ const FAQ = () => {
           </div>
         </div>
       </div>
+    </Fade>
     </div>
-
-    {/* <div className="col-sm-4">
-      <div className="card faq col-sm">
-        <div className="card-header" id="headingSix">
-          <h5 className="case-action">Another One
-            <span className="faq-line"></span>
-          </h5>
-          <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-            <h4 className="case-client">Another question here?</h4>
-          </button>
-        </div>
-        <div id="collapseSix" className="collapse" aria-labelledby="headingSix" data-parent="#faq">
-          <div className="card-body">
-            <p>asdfsdfs</p>
-          </div>
-        </div>
-      </div>
-    </div> */}
-
   </div>
   );
 }

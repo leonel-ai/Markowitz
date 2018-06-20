@@ -1,9 +1,11 @@
 import React from 'react';
+import Fade from 'react-reveal/Fade'
 
 const Accordion = () => {
   return (
     <div id="accordion" className="row">
     <div className="col col-lg-6">
+    <Fade bottom>
       <div className="card yellow col-lg-12">
         <div className="card-header" id="headingOne">
           <p className="mb-0 case-action">Resolve
@@ -20,8 +22,10 @@ const Accordion = () => {
           </div>
         </div>
       </div>
+      </Fade>
     </div>
     <div className="col col-lg-6">
+    <Fade bottom>
       <div className="card red col-lg-12">
         <div className="card-header" id="headingTwo">
           <p className="mb-0 case-action">Dismiss
@@ -38,9 +42,11 @@ const Accordion = () => {
           </div>
         </div>
       </div>
+      </Fade>
       </div>
 
       <div className="col col-lg-6">
+      <Fade bottom>
       <div className="card blue col-lg-12">
         <div className="card-header" id="headingThree">
           <p className="mb-0 case-action">Reduce
@@ -57,9 +63,11 @@ const Accordion = () => {
           </div>
         </div>
       </div>
+      </Fade>
     </div>
 
     <div className="col col-lg-6">
+    <Fade bottom>
       <div className="card orange col-lg-12">
         <div className="card-header" id="headingFour">
           <p className="mb-0 case-action">Recover
@@ -75,6 +83,7 @@ const Accordion = () => {
           </div>
         </div>
       </div>
+      </Fade>
       </div>
 
     </div>
