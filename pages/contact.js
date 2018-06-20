@@ -100,40 +100,33 @@ const Contact = () => {
               <div className="f-support">We highly recommend a minimum 72-hr window.</div>
             </label>
 
-            <p>By submitting, you agree to this agreement and there's no way out of it.</p>
+            <p>Using this form does not establish an attorney-client relationship.
+              Please refrain from sending confidential or time-sensitive information.
+            </p>
 
             <input type="submit" value="Send" className="f-send"/>
           </form>
         </div>
       </div>
 
-      <div className="row section contact-forms">
-        {/* <h1>Let's Get Started</h1>
-        <p>Please fill out the form below and we will be in contact shortly.</p> */}
-
-      </div>
-
     <div className="row section contact-clio">
-      <div className="clio-prompt">Already started your case?</div>
-      <h4 className="clio-cta">sign into clio</h4>
+      <div className="col clio-prompt">Already started your case?</div>
+        <div className="y-blob">
+          <img src="/static/elements/y-blob.gif" alt=""/>
+        </div>
+      <div className="col clio-cta">
+        <button><a href="#">sign-in to clio</a></button>
+      </div>
     </div>
 
     <div className="row section bookend">
-      <div className="col-sm-12 col-md-6">
+      {/* <div className="col-sm-12 col-md-6">
         <div className="bookend-banner">
-          <img src="/static/services-temp.png" alt="" className="img-fluid"/>
+          <img src="/static/billboard2.jpg" alt="" className="img-fluid"/>
         </div>
-      </div>
-      <div className="col-sm-12 col-md-6">
-        <div className="bookend-text">
-          <div className="bookend-deco">
-            <div className="num-line"></div>
-            <div className="num-label">NO.</div>
-            <div className="num-value">04</div>
-          </div>
-          <h2>Let's do some business.</h2>
-          <a href="/" className="mini-cta"><span className="banner-line"></span>Action if needed</a>
-        </div>
+      </div> */}
+      <div className="col-md-6">
+        <h3 className="display-4">Your <span className="orange">case</span><br/>Meets our <span className="yellow">skill</span>.<br/>Tell us your story.</h3>
       </div>
     </div>
 

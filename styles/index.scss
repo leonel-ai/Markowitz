@@ -831,8 +831,6 @@ hr {
           width: initial;
         }
 
-        input[type=date] {}
-
         .r-label {
           display: inline-block;
           vertical-align: middle;
@@ -859,12 +857,15 @@ hr {
         }
 
         .f-date {
+          font-size: 14px;
+          padding-left: 22px;
           text-align: center;
         }
 
         .f-support {
           font-family: 'Inter UI';
           font-size: 11px;
+          color: #a7a7a7;
         }
 
         .f-send {
@@ -881,9 +882,10 @@ hr {
         }
 
         p {
-          font-size: 14px;
+          font-size: 14px !important;
           line-height: 20px;
           padding: 0;
+          margin: 0;
           margin-bottom: 30px;
         }
       }
@@ -905,32 +907,125 @@ hr {
   }
 
   .contact-clio {
-    margin-top: 3em;
-    padding: 3em;
-    border: 1px solid blue;
+    margin-top: 5em;
+
+    .clio-prompt {
+      padding: 1em;
+      font-size: 32px;
+      line-height: 38px;
+      text-align: center;
+    }
+
+    .clio-cta {
+      padding: 1em;
+      padding-top: 1.5em;
+      font-size: 32px;
+      line-height: 38px;
+      text-align: center;
+
+      button {
+        font-family: 'Bebas Neue';
+        background-color: blue;
+        font-size: 20px;
+        display: inline-block;
+        padding: 20px 30px;
+        border: 0 solid transparent;
+        border-radius: 0;
+        line-height: 20px;
+        color: white;
+        letter-spacing: .06em;
+      }
+      a {
+        color: white;
+        text-decoration: none;
+        outline: none;
+      }
+    }
+    .y-blob {
+      display: block;
+      position: absolute;
+      z-index: -2;
+      left: 0;
+      margin-top: -2em;
+
+      img {
+        width: 350px;
+        opacity: .9;
+      }
+    }
   }
 
   .bookend {
     margin-top: 3em;
     margin-bottom: 5em;
 
-    .bookend-text {
-      margin-left: 20px;
-      .bookend-deco {
-        margin-left: 20px;
-        margin-bottom: 2em;
-      }
-    }
+    // .bookend-banner {
+    //   position: absolute;
+    //   margin-top: 3em;
+    // }
 
-    .banner-line {
-      width: 25%;
-      display: inline-block;
-      height: 1px;
-      min-width: 5rem;
-      margin-right: 1em;
-      margin-bottom: .375em;
-      margin-left: 1em;
-      background-color: rgba(27, 27, 28, .13);
+    // .bookend-text {
+    //   position: relative;
+    //   margin-left: 20px;
+    //   margin-top: -8em;
+    //   .bookend-deco {
+    //     margin-left: 20px;
+    //     margin-bottom: 2em;
+
+    //     .num-line {
+    //       margin-bottom: 1em;
+    //       margin-top: 5em;
+    //       height: 2px;
+    //       max-width: 2em;
+    //       background-color: #111;
+    //     }
+
+    //     .num-label {
+    //       line-height: 1;
+    //       letter-spacing: .1em;
+    //       color: $primary-color;
+    //       font-size: 13px;
+    //     }
+
+    //     .num-value {
+    //       font-size: 1.2em;
+    //       line-height: 1.5;
+    //       font-weight: 400px;
+    //       letter-spacing: .03em;
+    //       color: $primary-color;
+    //     }
+
+    //   }
+    // }
+
+    // .banner-line {
+    //   width: 25%;
+    //   display: inline-block;
+    //   height: 1px;
+    //   min-width: 5rem;
+    //   margin-right: 1em;
+    //   margin-bottom: .375em;
+    //   margin-left: 1em;
+    //   background-color: rgba(27, 27, 28, .13);
+    // }
+    text-align: left;
+    background:  linear-gradient(to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.45)
+    ), url('/static/billboard2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    height: 622px;
+    padding-top: 23em;
+    padding-left: 15px;
+    text-shadow: 0px .25px .25px #111517;
+
+    .yellow {
+      color: #ffd100;
+    }
+    .orange {
+      color: #de561c;
     }
   }
 }
