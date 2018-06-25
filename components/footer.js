@@ -5,7 +5,7 @@ import stylesheet from 'styles/index.scss'
 const Footer = () => {
   return (
     <div id="footer" className="container-fluid">
-    <Fade bottom delay={500}>
+    <Fade bottom delay={400}>
       <h5 className="text-muted info">Markowitz Law</h5>
       <h5 className="text-muted info">Proudly headquartered in Houston, TX</h5>
       <hr className="footer-line"/>

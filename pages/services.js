@@ -34,7 +34,7 @@ const Services = () => {
 
         <div className="services-banner">
         <Fade bottom delay={500}>
-          <img src="/static/services-temp.png" alt="" className="img-fluid"/>
+          <img src="/static/get_results.svg" alt="" className="img-fluid"/>
         </Fade>
         <Fade bottom delay={500}>
           <div className="banner-overlay">
@@ -52,13 +52,18 @@ const Services = () => {
           <Fade bottom>
             <h1 className="display-5 head2">WE'RE PREPARED TO MEET YOUR NEEDS</h1>
           </Fade>
-            <div className="col-sm-12 col-md-6">
+            <div className="col-sm-12 col-md-8">
             <Fade bottom delay={500}>
               <div className="txt-deco">
                 <div className="deco-line"></div>
                 <div className="deco-label">
                   <a href="/contact">Take the next step</a></div>
               </div>
+              </Fade>
+              <Fade bottom delay={500}>
+                <div className="deco1">
+                  TELL<br/>YOUR<br/>STORY
+                </div>
               </Fade>
             <Fade bottom delay={500}>
               <div className="o-blob">
@@ -69,11 +74,11 @@ const Services = () => {
               </div>
             </Fade>
             <Fade bottom delay={500}>
-              <p>With over 25 years of experience in resolving traffic matters, we’ve mastered the art of attaining the results our clients desire. Whether you seek dismissal or a quick resolution, you can rest assured that when you hire Markowitz Law, you minimize the hassle and maximize efficiency.</p>
-              <p>No matter the story, we can help.</p>
+              <p className="detail">With over 25 years of experience in resolving traffic matters, we’ve mastered the art of attaining the results our clients want. Whether you seek dismissal or a quick resolution, you can rest assured that when you hire Markowitz Law, you minimize the hassle and maximize efficiency.</p>
+              <p className="detail">No matter the story, we can help.</p>
             </Fade>
           </div>
-          <div className="col-sm-12 col-md-6">
+          <div className="col-sm-12 col-md-4">
           <Fade bottom delay={500}>
             <h4>Services</h4>
               <ul>

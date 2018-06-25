@@ -30,16 +30,16 @@ class Home extends Component {
         </div>
       </Fade>
 
-      <Fade bottom delay={500}>
         <div className="jumbotron jumbotron-fluid" id="main">
           <div className="container home1">
+          <Fade bottom delay={500}>
             <h1 className="display-4 head1"><b>Traffic court sucks. Period.</b></h1>
             <p className="lead">Let the experts fight on your behalf.</p>
             <p className="action">Scroll</p>
             <hr/>
+          </Fade>
           </div>
         </div>
-      </Fade>
 
         <div className="row section options home2">
           <Fade bottom delay={500}>

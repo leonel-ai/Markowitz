@@ -32,7 +32,7 @@ const Contact = () => {
 
       <div className="contact-banner">
       <Fade bottom delay={500}>
-        <img src="/static/contact-temp.png" alt="" className="img-fluid"/>
+        <img src="/static/get_started.svg" alt="" className="img-fluid"/>
       </Fade>
         {/* <div className="banner-overlay">
           <h1 className="display-4">HAVE PROBLEMS <span className="banner-line"></span></h1>
@@ -138,32 +138,22 @@ const Contact = () => {
       </div>
 
     <div className="row section contact-clio">
-    <Fade bottom delay={500}>
-      <div className="col clio-prompt">Already started your case?</div>
-    </Fade>
-      <Fade bottom delay={500}>
+        <div className="clio-signin">
+        <Fade bottom delay={500}>
+          <div className="clio-case">Already have a case?</div>
+          <h4><a href="https://app.clio.com/session/new" target="_blank">Sign-in to Clio Connect</a></h4>
+        </Fade>
+        <Fade bottom delay={500}>
         <div className="y-blob">
           <img src="/static/elements/y-blob.gif" alt=""/>
         </div>
-      </Fade>
-      <Fade bottom delay={500}>
-      <div className="col clio-cta">
-        <button><a href="#">sign-in to clio</a></button>
-      </div>
-      </Fade>
-    </div>
-
-    <div className="row section bookend">
-      {/* <div className="col-sm-12 col-md-6">
-        <div className="bookend-banner">
-          <img src="/static/billboard2.jpg" alt="" className="img-fluid"/>
+        </Fade>
+        <Fade bottom delay={500}>
+        <div className="b-blob">
+          <img src="/static/elements/b-blob.gif" alt=""/>
         </div>
-      </div> */}
-      <div className="col-md-6">
-      <Fade bottom delay={500}>
-        <h3 className="display-4">Your <span className="orange">case</span><br/>Meets our <span className="yellow">skill</span>.<br/>Tell us your story.</h3>
-      </Fade>
-      </div>
+        </Fade>
+        </div>
     </div>
 
     <div className="footer-info">

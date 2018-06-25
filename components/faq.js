@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade'
 const FAQ = () => {
   return (
   <div id="faq" className="row">
-    <div className="col-sm-4">
+    <div className="col-sm-12 col-md-4">
     <Fade bottom>
       <div className="card faq col-sm">
         <div className="card-header" id="headingOne">
@@ -30,7 +30,7 @@ const FAQ = () => {
     </Fade>
     </div>
 
-    <div className="col-sm-4">
+    <div className="col-sm-12 col-md-4">
     <Fade bottom>
       <div className="card faq col-sm">
         <div className="card-header" id="headingTwo">
@@ -45,13 +45,14 @@ const FAQ = () => {
           <div className="card-body">
             <p><a href="https://www.youtube.com/embed/H8NExnW8fNM" target="_blank">Court Valet</a> — Our team handles the case on your behalf and significantly reduces your time spent in court. Your court attendance may not be necessary*.</p>
             <p><a href="https://www.youtube.com/embed/jZ5zgDhmjYg" target="_blank">Ticket Defense</a> — Our team handles the ticket in court before a trial judge. Your attendance may be required*.</p>
+            <h6>* Dependent on court requirements and nature of case.</h6>
           </div>
         </div>
       </div>
       </Fade>
       </div>
 
-    <div className="col-sm-4">
+    <div className="col-sm-12 col-md-4">
     <Fade bottom>
       <div className="card faq col-sm">
         <div className="card-header" id="headingThree">
@@ -71,7 +72,7 @@ const FAQ = () => {
       </Fade>
     </div>
 
-    <div className="col-sm-4 col-md-4 offset-md-2">
+    <div className="col-sm-12 col-md-4 offset-md-2">
     <Fade bottom>
       <div className="card faq col-sm">
         <div className="card-header" id="headingFour">
@@ -94,7 +95,7 @@ const FAQ = () => {
     </div>
 
 
-    <div className="col-sm-4">
+    <div className="col-sm-12 col-md-4">
     <Fade bottom>
       <div className="card faq col-sm">
         <div className="card-header" id="headingFive">
