@@ -32,28 +32,31 @@ const Contact = () => {
 
       <div className="contact-banner">
       <Fade bottom delay={500}>
+        <div className="banner-overlay">
+          <div>We're just 05 minutes away from the <span className="nearby"> GALLERIA</span></div>
+        </div>
+      </Fade>
+      <Fade bottom delay={500}>
         <img src="/static/get_started.svg" alt="" className="img-fluid"/>
       </Fade>
-        {/* <div className="banner-overlay">
-          <h1 className="display-4">HAVE PROBLEMS <span className="banner-line"></span></h1>
-        </div> */}
-        {/* <div className="banner-subtitle"><span className="banner-line"></span> 25 YEARS STRONG</div> */}
       </div>
 
       <div className="row section contact-main">
       <Fade bottom delay={500}>
-        <div className="col-sm-12 col-md-4 contact-info">
+        <div className="col-sm-12 col-md-4 col-lg-12 contact-info">
           <ul>
             <li>Markowitz Law</li>
+            <a href="https://www.google.com/maps/search/?api=1&query=Markowitz+Law+Firm" target="_blank">
             <li>5610 SW Freeway, Suite 104</li>
             <li>Houston, TX 77057</li>
+          </a>
             <br/>
-            <li><a href="tel:713-521-7568">Tel 713-521-7568</a></li>
+            <li>Tel<a href="tel:713-521-7568"> 713-521-7568</a></li>
             <li><a href="mailto:staff@thetrafficticketman.com?subject=Let's talk."><b>staff@thetrafficticketman.com</b></a></li>
           </ul>
         </div>
       </Fade>
-        <div className="col-sm-12 col-md-8 contact-form">
+        <div className="col-sm-12 col-md-10 col-lg-6 contact-form">
           <form action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSfMudiGEhtZqJrpY4axY_C4Ubkj52bWKtbZr0WamXB1d1BGSA/formResponse"
                 className="clio-intake-form">
             <input type="hidden" name="token" value=""/>
@@ -61,6 +64,7 @@ const Contact = () => {
 
           <Fade bottom>
             <label className="f-select">
+              <h5>Please select one of the following:</h5>
               <input type="radio" name="entry.2018616690" id="c1" value="Submit Case"/>
               <label htmlFor="c1" className="r-label">&nbsp; Submit Case</label>
               <span className="r-divide">&nbsp;</span>
@@ -70,28 +74,28 @@ const Contact = () => {
             </Fade>
 
           <Fade bottom>
-            <label>
+            <label className="col-md-5 split">
               <span className="f-label">First *</span>
               <input type="text" name="entry.1601318407" required/>
             </label>
           </Fade>
 
           <Fade bottom>
-            <label>
+            <label className="col-md-5 offset-md-2 split">
               <span className="f-label">Last *</span>
               <input type="text" name="entry.1992502422" required/>
             </label>
           </Fade>
 
          <Fade bottom>
-            <label>
+            <label className="col-md-5 split">
               <span className="f-label">Email *</span>
               <input type="email" name="emailAddress" required/>
             </label>
           </Fade>
 
          <Fade bottom>
-            <label>
+            <label className="col-md-5 offset-md-2 split">
               <span className="f-label">Phone </span>
               <input type="text" name="entry.789951872" required/>
             </label>
@@ -105,24 +109,24 @@ const Contact = () => {
           </Fade>
 
          <Fade bottom>
-            <label>
+            <label className="col-md-5 split">
               <span className="f-label">Citation # </span>
               <input type="text" name="entry.236670299"/>
             </label>
           </Fade>
 
          <Fade bottom>
-            <label>
+            <label className="col-md-5 offset-md-2 split">
               <span className="f-label">License # </span>
               <input type="text" name="entry.88074758"/>
             </label>
           </Fade>
 
          <Fade bottom>
-            <label htmlFor="deadline">
+            <label htmlFor="deadline" className="col-md-10 offset-md-1">
               <span className="f-label">Due Date </span>
               <input type="date" name="entry.371323935" className="f-date"/>
-              <div className="f-support">We highly recommend a minimum 72-hr window.</div>
+              <div className="f-support">Minimum 72-hr window for upcoming court dates. Missed court? We can still help.</div>
             </label>
           </Fade>
 
@@ -135,13 +139,36 @@ const Contact = () => {
           </Fade>
           </form>
         </div>
+        <div className="contact-clio-desktop col-lg-4">
+          <div className="clio-signin">
+          <Fade bottom delay={500}>
+            <div className="clio-case">Already have a case?</div>
+            <h4><a href="https://app.clio.com/session/new" target="_blank">Sign In to Clio Connect</a></h4>
+          </Fade>
+          </div>
+          <Fade bottom delay={500}>
+          <div className="g-blob">
+            <img src="/static/elements/g-blob.gif" alt=""/>
+          </div>
+          </Fade>
+          <Fade bottom delay={500}>
+          <div className="y-blob">
+            <img src="/static/elements/y-blob.gif" alt=""/>
+          </div>
+          </Fade>
+          <Fade bottom delay={550}>
+          <div className="r-blob">
+            <img src="/static/elements/r-blob.gif" alt=""/>
+          </div>
+          </Fade>
+        </div>
       </div>
 
     <div className="row section contact-clio">
-        <div className="clio-signin">
+        <div className="clio-signin col-lg-4 order-lg-1">
         <Fade bottom delay={500}>
           <div className="clio-case">Already have a case?</div>
-          <h4><a href="https://app.clio.com/session/new" target="_blank">Sign-in to Clio Connect</a></h4>
+          <h4><a href="https://app.clio.com/session/new" target="_blank">Sign In to Clio Connect</a></h4>
         </Fade>
         <Fade bottom delay={500}>
         <div className="y-blob">

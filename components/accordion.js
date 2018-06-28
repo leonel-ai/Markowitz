@@ -17,7 +17,7 @@ const Accordion = () => {
         <div id="collapseOne" className="collapse" aria-labelledby="headingOne" data-parent="#accordion">
           <div className="card-body">
             <p>What do you do when you get a traffic ticket in a city hundreds of miles away from home?
-              Easy—submit your case to Markowitz. Our Court Valet service allows us to represent and fight for you in
+              Easy—submit your case to Markowitz Law. Our Court Valet service allows us to represent and fight for you in
               court while you rest easy back home, no flights necessary.</p>
           </div>
         </div>
@@ -37,8 +37,7 @@ const Accordion = () => {
         <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
           <div className="card-body">
             <p>Your teen’s first traffic ticket can mean high anxiety and even higher insurance rates for the whole family.
-              We’ve all been new to the rules of the road, but our team of lawyers are veterans when it comes to second
-              chances and ticket dismissals for young drivers. </p>
+              We’ve all been new to the rules of the road, and Markowitz Law can help parents and teens understand the law.</p>
           </div>
         </div>
       </div>
@@ -57,9 +56,9 @@ const Accordion = () => {
         </div>
         <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordion">
           <div className="card-body">
-            <p>It's a rat race out there, and even the best of us can miss a red light, roll a stop sign, or
-              press through the posted speed limit. Sound familiar? The clock never stops, and that can leave a lot
-              of room for traffic violations. Luckily, we are well-versed in navigating around convictions and finding the backroads to dismissals.</p>
+            <p>It's a race out there, and even the best of us can miss a red light, roll a stop sign, or
+              exceed the posted speed limit. Sound familiar? The law never stops, and that can leave a lot
+              of room for traffic violations.</p>
           </div>
         </div>
       </div>
@@ -79,7 +78,7 @@ const Accordion = () => {
         <div id="collapseFour" className="collapse" aria-labelledby="headingFour" data-parent="#accordion">
           <div className="card-body">
             <p>You’ve already got valuable cargo to transport. The last thing you need to worry about is a compromised CDL.
-            Our team is highly experienced in fighting to lessen the severity of your case, so you can get back on the road again, worry-free.</p>
+            Markowitz Law is highly experienced in fighting to lessen the severity of your case, so you can get back on the road again, worry-free.</p>
           </div>
         </div>
       </div>

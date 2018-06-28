@@ -45,12 +45,13 @@ const Services = () => {
         <Fade bottom delay={500}>
           <p className="action">Scroll</p>
           <hr/>
+          <a className="cta-services" href="/contact">Let's Get To Work &nbsp;&nbsp;<span className="at-cta">@</span></a>
         </Fade>
         </div>
 
         <div className="row section services-detail">
           <Fade bottom>
-            <h1 className="display-5 head2">WE'RE PREPARED TO MEET YOUR NEEDS</h1>
+            <h1 className="display-5 head2">WE'RE PREPARED TO<br/>MEET YOUR NEEDS</h1>
           </Fade>
             <div className="col-sm-12 col-md-8">
             <Fade bottom delay={500}>
@@ -69,12 +70,12 @@ const Services = () => {
               <div className="o-blob">
                 <img src="/static/elements/o-blob.gif" alt=""/>
               </div>
-              <div className="b-blob">
-                <img src="/static/elements/b-blob.gif" alt=""/>
+              <div className="y-blob">
+                <img src="/static/elements/y-blob.gif" alt=""/>
               </div>
             </Fade>
             <Fade bottom delay={500}>
-              <p className="detail">With over 25 years of experience in resolving traffic matters, we’ve mastered the art of attaining the results our clients want. Whether you seek dismissal or a quick resolution, you can rest assured that when you hire Markowitz Law, you minimize the hassle and maximize efficiency.</p>
+              <p className="detail">With over 25 years of experience in resolving traffic matters, we're experienced in the art of attaining the results our clients want. Whether you seek dismissal or a quick resolution, you can rest assured that when you hire Markowitz Law, you minimize the hassle and maximize efficiency.</p>
               <p className="detail">No matter the story, we can help.</p>
             </Fade>
           </div>
@@ -85,8 +86,9 @@ const Services = () => {
                 <li>Traffic Ticket and Criminal Defense</li>
                 <li>DWI and License Revocation</li>
                 <li>Failure to Appear and Bonding</li>
-                <li>Occupational Driver's License</li>
+                <li>Occupational Driver License</li>
                 <li>Expunction and Non-Disclosure of Records</li>
+                <li>Other Services Available</li>
               </ul>
             </Fade>
           </div>
@@ -113,6 +115,14 @@ const Services = () => {
             <div className="deco-label">
               <a href="/contact">Get in touch</a>
             </div>
+          </div>
+        </Fade>
+        <Fade bottom delay={500}>
+          <div className="g-blob">
+            <img src="/static/elements/g-blob.gif" alt=""/>
+          </div>
+          <div className="b-blob">
+            <img src="/static/elements/b-blob.gif" alt=""/>
           </div>
         </Fade>
           <Resources/>

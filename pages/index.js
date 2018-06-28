@@ -34,7 +34,7 @@ class Home extends Component {
           <div className="container home1">
           <Fade bottom delay={500}>
             <h1 className="display-4 head1"><b>Traffic court sucks. Period.</b></h1>
-            <p className="lead">Let the experts fight on your behalf.</p>
+            <p className="lead">Everyone has a story.<br/>Tell us yours.</p>
             <p className="action">Scroll</p>
             <hr/>
           </Fade>
@@ -59,7 +59,7 @@ class Home extends Component {
           <Fade bottom delay={500}>
           <p>Sitting in court for hours just to pay hefty fees and get ordered into defensive driving is no longer your only option when fighting a traffic ticket.</p>
           <p>At Markowitz Law, you can choose convenience over convention. Whether you choose to fight the ticket in court with a Markowitz trial attorney or opt for a more refined
-            "court valet" service, we go to court prepared to get the results you need.</p>
+            "court valet" service, we go to court to help you through the process.</p>
           <p>See which route may be best for you below.</p>
           </Fade>
         </div>
@@ -114,7 +114,7 @@ class Home extends Component {
             </div>
           </Fade>
           <Fade bottom delay={500}>
-            <p className="lead">If your schedule is flexible and you prefer to attend court with one of our lawyers, Ticket Defense may be the best option for you.</p>
+            <p className="lead">If your schedule is flexible and you prefer to attend court, contact us. Ticket Defense may be the best option for you.</p>
             <a className="home-link" href="/services">
               <h5 className="text-muted home-explore">EXPLORE YOUR OPTIONS </h5>
               <img className="arrow" src="/static/arrow-right.svg" alt=""/>
@@ -144,9 +144,9 @@ class Home extends Component {
             <h5 className="text-muted"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Est. 1993</h5>
           </Fade>
           <Fade bottom delay={500}>
-            <p className="legacy-text">For more than 25 years, Markowitz Law has consistently delivered legal solutions
-            and unparalleled value to Texas residents and its visitors. We’ve earned our reputation as a top-performing
-            firm through our experienced attorneys and results-driven practice model.</p>
+            <p className="legacy-text">For more than 25 years, Markowitz Law has consistently
+            strived to deliver legal solutions to Texas residents and its visitors. We've
+            earned our reputation with our clients for a results-driven practice model.</p>
           </Fade>
           <Fade bottom delay={500}>
             <h4 className="case-title">How We Can Help You</h4>

@@ -10,7 +10,7 @@ const Resources = () => {
         <div className="card-header" id="headingSeven">
           <p className="mb-0 res-action">Resolve
             <button className="btn btn-link" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
-              <h4 className="res-header">Client Resources</h4>
+              <h4 className="res-header">General Clients</h4>
             </button>
           </p>
         </div>
@@ -33,7 +33,7 @@ const Resources = () => {
         <div className="card-header" id="headingEight">
           <p className="mb-0 res-action">Discover
             <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-              <h4 className="res-header">Organizations</h4>
+              <h4 className="res-header">Legal Professionals</h4>
             </button>
           </p>
         </div>
@@ -55,9 +55,9 @@ const Resources = () => {
       <Fade bottom>
       <div className="card blue col-lg-12">
         <div className="card-header" id="headingNine">
-          <p className="mb-0 res-action">Dismiss
+          <p className="mb-0 res-action">Recover
             <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-              <h4 className="res-header">CDL</h4>
+              <h4 className="res-header">Commercial Drivers</h4>
             </button>
           </p>
         </div>

@@ -443,6 +443,8 @@ hr {
     margin-left: 2em;
     margin-right: 2em;
 
+    .cta-services {display: none;}
+
     img {
       display: block;
       margin: 0 auto;
@@ -537,7 +539,7 @@ hr {
         opacity: .9;
       }
     }
-    .b-blob {
+    .y-blob {
       display: block;
       position: absolute;
       z-index: -2;
@@ -580,7 +582,7 @@ hr {
       }
 
       .card, .card-header {
-        background-color: white !important;
+        background-color: transparent !important;
         padding: 3em;
       }
 
@@ -639,6 +641,8 @@ hr {
       text-decoration: none;
       color: #252b7e;
     }
+
+    .g-blob, .b-blob { display: none; }
 
     .res-info {
       margin-top: 2em;
@@ -777,34 +781,7 @@ hr {
       max-width: 100%;
     }
 
-    .banner-line {
-      width: 25%;
-      display: inline-block;
-      height: 1px;
-      min-width: 5rem;
-      margin-right: 1em;
-      margin-bottom: .375em;
-      margin-left: 1em;
-      background-color: rgba(27, 27, 28, .13);
-    }
-
-    .banner-overlay {
-      position: absolute;
-      bottom: 350px;
-      padding-left: 30px;
-
-      h1 {
-        font-size: 24px;
-        line-height: 26px;
-        letter-spacing: .035em;
-      }
-    }
-
-    .banner-subtitle {
-      position: absolute;
-      left: 25%;
-      bottom: 30%;
-    }
+    .banner-overlay { display: none; }
   }
 
   .contact-main {
@@ -812,6 +789,8 @@ hr {
       text-decoration: none;
       color: #252b7e;
     }
+
+    .contact-clio-desktop {display: none;}
 
     .contact-form {
       padding: 0 2em;
@@ -1333,24 +1312,29 @@ hr {
   }
 
   .footer-info {
-    padding-bottom: 1em;
+    padding-bottom: 0em;
 
     #footer {
-      padding-left: 60px;
-      padding-right: 60px;
+      h5, ul {
+        font-size: 11px;
+        line-height: 11px;
+      }
+      .footer-line {
+        width: 100%;
+      }
     }
   }
 
    /* services */
   #services-page {
     .services-banner {
-      margin-top: 18em;
-      margin-bottom: 20em;
+      margin-top: 15em;
+      margin-bottom: 22em;
       img {
-        max-width: 82%;
+        max-width: 72%;
       }
       .banner-overlay {
-        left: 12%;
+        left: 16%;
         bottom: 322px;
         h1 {
           font-size: 22px;
@@ -1370,6 +1354,7 @@ hr {
         line-height: 48px;
         letter-spacing: 0;
         margin-left: 14%;
+        margin-top: 1.9em;
       }
       .txt-deco {
         margin-left: 18%;
@@ -1395,25 +1380,28 @@ hr {
         left: 60px;
         z-index: -1;
         line-height: .8;
-        top: -40%;
+        top: -53%;
       }
       .o-blob {
-        margin-top: 10em;
-        left: 480px;
+        margin-top: 8em;
+        left: 350px;
         img {
-          width: 260px;
+          width: 340px;
         }
       }
-      .b-blob {
+      .y-blob {
+        left: 600px;
+        margin-top: -18em;
         img {
-          width: 220px;
+          width: 120px;
         }
       }
     }
 
     .questions-grid {
-      #faq {
+      margin-top: 4em;
 
+      #faq {
         .card-header {
           padding: 2em;
         }
@@ -1435,6 +1423,133 @@ hr {
         }
       }
     }
+
+    .resources-detail {
+      margin-top: 7em;
+
+      h3 {
+        font-size: 42px;
+        line-height: 42px;
+        margin-left: 4.3em;
+      }
+
+      .res-info {
+        margin-left: 14em;
+      }
+
+      .txt-deco {
+        .deco-line {
+          left: 16em;
+         }
+        .deco-label {
+          padding-left: 20em;
+        }
+      }
+
+      .g-blob {
+        display: block;
+        position: absolute;
+        z-index: -2;
+        left: 30px;
+        margin-top: 6em;
+
+        img {
+          width: 160px;
+          opacity: .9;
+        }
+      }
+
+      .b-blob {
+        display: block;
+        position: absolute;
+        z-index: -3;
+        left: 52px;
+        margin-top: -.5em;
+
+        img {
+          width: 200px;
+          opacity: .9;
+        }
+      }
+
+      #resources {
+        margin-top: 4em;
+      }
+
+    }
+  }
+
+  /* contact */
+  #contact-page {
+    h1, p {
+      margin-left: 12px;
+      margin-right: 12px;
+    }
+
+    #contact { display: none;}
+
+    .contact-banner {
+      margin-top: 12.5em;
+      margin-bottom: 0;
+
+      img {
+        min-width: 560px;
+      }
+
+      .banner-overlay {
+        display: block;
+        font-family: 'Inter UI';
+        font-size: 11px;
+        line-height: 11px;
+        margin-bottom: 6em;
+        margin-left: 14em;
+
+        .nearby {
+          font-family: 'Bebas Neue';
+          font-size: 20px;
+          line-height: 20px;
+        }
+      }
+    }
+
+    .contact-main {
+      .contact-info {
+        margin-top: 1em;
+        margin-left: 16em;
+        font-size: 11px;
+        line-height: 17px;
+      }
+
+      .contact-form {
+        margin-top: 4em;
+        form {
+          .f-select {
+            border: 1px solid #f6f6f6;
+            padding: 2em;
+            .r-label {
+              font-family: 'Inter UI';
+            }
+          }
+
+          .split {
+            display: inline-block;
+          }
+        }
+      }
+    }
+
+    .contact-clio {
+      margin-top: 8em;
+      margin-bottom: 8em;
+
+      .b-blob {
+        left: 522px;
+        margin-top: -1em;
+        img {
+          width: 168px;
+        }
+      }
+    }
   }
 
 }
@@ -1446,7 +1561,8 @@ hr {
   }
 
   .navbar {
-    padding-left: 3rem;
+    padding-left: 2rem;
+    margin-top: 14px;
       .navbar-nav > li{
         font-size: 15px;
         line-height: 15px;
@@ -1460,6 +1576,8 @@ hr {
 
   #main {
     background-image: url('/static/full-bill.jpg');
+    margin-top: 0;
+    background-size: cover;
 
     .head1, .head2, .head3 {
       font-size: 75px;
@@ -1622,6 +1740,232 @@ hr {
     }
   }
 
+  /* services */
+  #services-page {
+    .services-banner {
+      margin-top: 10em;
+      margin-bottom: 16em;
+      img {
+        max-width: 56%;
+      }
+      .banner-overlay {
+        bottom: 320px;
+        left: 28%;
+      }
+      .banner-subtitle {
+        left: 45%;
+      }
+      .cta-services {
+        display: block;
+        position: absolute;
+        font-family: 'Inter UI';
+        font-size: 11px;
+        line-height: 11px;
+        text-decoration: none;
+        color: #252b7e;
+        right: 2.5%;
+        bottom: -56%;
+        z-index: 3;
+        line-height: 1;
+        text-align: right;
+      }
+      .at-cta {
+        font-family: 'Bebas Neue';
+        font-size: 14px;
+        line-height: 14px;
+      }
+    }
+
+    .services-detail {
+      .head2 {
+        font-size: 56px;
+        line-height: 56px;
+        letter-spacing: 0;
+        margin-left: 14%;
+        margin-top: 1.9em;
+      }
+      .deco1 {
+        font-size: 14vw;
+        top: -68%;
+      }
+      .detail {
+        font-size: 16px;
+        line-height: 32px;
+      }
+      .o-blob {
+        left: 500px;
+        margin-top: 9em;
+        img {
+          width: 280px;
+        }
+      }
+      .y-blob {
+        left: 680px;
+        margin-top: -20em;
+      }
+
+    }
+
+    .resources-detail {
+      h3 {
+        margin-left: 6em;
+      }
+
+      .res-info {
+        margin-left: 18.5em;
+      }
+
+      .txt-deco {
+        margin-top: 2em;
+        .deco-line {
+          left: 18.25em;
+        }
+        .deco-label {
+          padding-left: 22.25em;
+        }
+      }
+
+      .b-blob {
+        margin-top: -3em;
+        left: 80px;
+        img {
+          width: 260px;
+        }
+      }
+    }
+
+    .questions-grid {
+      #faq {
+        .faq {
+          .case-client {
+            font-size: 16px;
+            line-height: 32px;
+            letter-spacing: .03em;
+          }
+        }
+      }
+    }
+  }
+
+  /* contact */
+  #contact-page {
+
+    .contact-banner {
+      margin-top: 11em;
+      margin-bottom: 1em;
+
+      img {
+        min-width: 800px;
+      }
+
+      .banner-overlay {
+        font-size: 13px;
+        line-height: 13px;
+        .nearby {
+          font-size: 24px;
+          line-height: 24px;
+        }
+      }
+    }
+
+    .contact-main {
+      margin-bottom: 8em;
+
+      .contact-info {
+        margin-left: 0;
+        font-size: 13px;
+        line-height: 19px;
+
+        ul {
+          margin-left: 14em;
+        }
+      }
+
+      .contact-form {
+        margin-top: 0;
+        form {
+          .f-select {
+            .r-label {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+
+      .contact-clio-desktop {
+        display:block;
+        margin-right: 3em;
+
+        .clio-signin {
+          border: 2px solid #f6f6f6;
+          padding: 1em;
+          margin: 0 auto;
+          margin-top: 3em;
+          width: 84%;
+
+          .clio-case {
+            margin-bottom: 1.5em;
+            line-height: 1.6;
+            font-size: 14px;
+            font-family: 'Inter UI';
+          }
+
+          h4 {
+            margin-top: 0;
+            padding: 0;
+            max-width: 16rem;
+            margin-bottom: 0;
+            line-height: 1.1;
+            letter-spacing: .04em;
+          }
+
+          a {
+            text-decoration: none;
+            outline: none;
+            color: #252b7e;
+          }
+        }
+
+        .g-blob {
+          display: block;
+          position: absolute;
+          z-index: -2;
+          left: 140px;
+          margin-top: -18em;
+
+          img {
+            width: 370px;
+            opacity: .9;
+          }
+        }
+
+        .y-blob {
+          left: 522px;
+          margin-top: 2em;
+          img {
+            width: 280px;
+          }
+        }
+
+        .r-blob {
+          display: block;
+          position: absolute;
+          z-index: -2;
+          left: 180px;
+          margin-top: 14em;
+
+          img {
+            width: 128px;
+            opacity: .9;
+          }
+        }
+
+      }
+    }
+    .contact-clio {display: none;}
+
+
+  }
 }
 
 // Extra large devices (large desktops, 1200px and up)
@@ -1727,9 +2071,80 @@ hr {
   }
 
 /* services */
+#services-page{
+  .services-banner {
+    img {
+      max-width: 42%;
+    }
+  }
+
   .services-detail {
+    .deco1 {
+      top: -75%;
+    }
+    .o-blob {
+      left: 700px;
+      margin-top: 8em;
+    }
+    .y-blob {
+      left: 900px;
+    }
+  }
+
+  .resources-detail {
+    h3 {
+      margin-left: 7.5em;
+      font-size: 56px;
+      line-height: 56px;
+    }
+    .res-info {
+      margin-left: 26em;
+      font-size: 18px;
+      line-height: 18px;
+    }
+    .txt-deco {
+      .deco-line {
+        left: 29em;
+      }
+      .deco-label {
+        padding-left: 33em;
+      }
+    }
+    .b-blob {
+      left: 200px;
+    }
+    .g-blob {
+      left: 120px;
+    }
+  }
+}
+
+/* contact */
+#contact-page {
+  .contact-banner {
+    img {
+      min-width: 1080px;
+    }
+  }
+
+  .contact-main {
+    .contact-clio-desktop {
+      .g-blob {
+        left: 200px;
+      }
+      .y-blob {
+        margin-top: 6em;
+      }
+      .r-blob {
+        margin-top: 8em;
+        left: 222px;
+      }
+    }
 
   }
+
+}
+
 }
 
 @media (min-width: 1300px) {

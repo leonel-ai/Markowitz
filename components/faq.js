@@ -8,7 +8,7 @@ const FAQ = () => {
     <Fade bottom>
       <div className="card faq col-sm">
         <div className="card-header" id="headingOne">
-          <h5 className="case-action">Time Responsible
+          <h5 className="case-action">Convenient
             <span className="faq-line"></span>
           </h5>
           <button className="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -34,7 +34,7 @@ const FAQ = () => {
     <Fade bottom>
       <div className="card faq col-sm">
         <div className="card-header" id="headingTwo">
-          <h5 className="case-action">Business Oriented
+          <h5 className="case-action">Solution Driven
             <span className="faq-line"></span>
           </h5>
           <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -43,9 +43,9 @@ const FAQ = () => {
         </div>
         <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#faq">
           <div className="card-body">
-            <p><a href="https://www.youtube.com/embed/H8NExnW8fNM" target="_blank">Court Valet</a> — Our team handles the case on your behalf and significantly reduces your time spent in court. Your court attendance may not be necessary*.</p>
-            <p><a href="https://www.youtube.com/embed/jZ5zgDhmjYg" target="_blank">Ticket Defense</a> — Our team handles the ticket in court before a trial judge. Your attendance may be required*.</p>
-            <h6>* Dependent on court requirements and nature of case.</h6>
+            <p><a href="https://www.youtube.com/embed/H8NExnW8fNM" target="_blank">Court Valet</a> — Markowitz Law handles the case on your behalf and significantly reduces your time spent in court. Your court attendance may not be necessary.*</p>
+            <p><a href="https://www.youtube.com/embed/jZ5zgDhmjYg" target="_blank">Ticket Defense</a> — An attorney attends court with you to fight the case. Your attendance may be required.*</p>
+            <h6>* Dependent on court requirements and nature of case</h6>
           </div>
         </div>
       </div>
@@ -56,7 +56,7 @@ const FAQ = () => {
     <Fade bottom>
       <div className="card faq col-sm">
         <div className="card-header" id="headingThree">
-          <h5 className="case-action">Solution Driven
+          <h5 className="case-action">Time Responsible
             <span className="faq-line"></span>
           </h5>
           <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -86,7 +86,7 @@ const FAQ = () => {
         <div id="collapseFour" className="collapse" aria-labelledby="headingFour" data-parent="#faq">
           <div className="card-body">
             <p>Clio is a cloud-based software platform we use to track and manage your case. Through the Clio Connect dashboard, you’ll be able to
-              review the current status, upload any necessary documents, and receive any communication from our team as your case progresses.</p>
+              view the current status of your case, upload any necessary documents, and receive communication from our team as your case progresses.</p>
             <p>Find out more about our case portal on the <a href="https://support.clio.com/hc/en-us" target="_blank">Clio Support Page.</a></p>
           </div>
         </div>
@@ -99,7 +99,7 @@ const FAQ = () => {
     <Fade bottom>
       <div className="card faq col-sm">
         <div className="card-header" id="headingFive">
-          <h5 className="case-action">Human Centered
+          <h5 className="case-action">Client Centered
             <span className="faq-line"></span>
           </h5>
           <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
@@ -108,7 +108,7 @@ const FAQ = () => {
         </div>
         <div id="collapseFive" className="collapse" aria-labelledby="headingFive" data-parent="#faq">
           <div className="card-body">
-            <p>Although ticket dismissal is our highest priority for our clients, the effect on your insurance rate depends on the violation and outcome of your case.</p>
+            <p>Although ticket dismissal is our highest priority for clients, the effect on your insurance rate depends on the violation and outcome of your case.</p>
             <p><a href="https://www.insurance.com/auto-insurance/saving-money/tickets.aspx" target="_blank">Estimate your rate increase.</a></p>
           </div>
         </div>
