@@ -794,33 +794,6 @@ var Contact = function Contact() {
                 },
                 ' 713-521-7568'
               )
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'li',
-              {
-                __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 55
-                }
-              },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'a',
-                { href: 'mailto:staff@thetrafficticketman.com?subject=Let\'s talk.', __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 55
-                  }
-                },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'b',
-                  {
-                    __source: {
-                      fileName: _jsxFileName,
-                      lineNumber: 55
-                    }
-                  },
-                  'staff@thetrafficticketman.com'
-                )
-              )
             )
           )
         )
@@ -829,39 +802,39 @@ var Contact = function Contact() {
         'div',
         { className: 'col-sm-12 col-md-10 col-lg-6 contact-form', __source: {
             fileName: _jsxFileName,
-            lineNumber: 59
+            lineNumber: 58
           }
         },
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           'form',
-          { action: 'https://docs.google.com/forms/u/2/d/e/1FAIpQLSfMudiGEhtZqJrpY4axY_C4Ubkj52bWKtbZr0WamXB1d1BGSA/formResponse',
+          { action: 'https://docs.google.com/forms/u/2/d/e/1FAIpQLSdeaOc5RdN6fpd1rH545M6TgX2V6K7UT5MaSXrDmHVqlB1OJA/formResponse',
             className: 'clio-intake-form', __source: {
               fileName: _jsxFileName,
-              lineNumber: 60
+              lineNumber: 59
             }
           },
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'hidden', name: 'token', value: '', __source: {
               fileName: _jsxFileName,
-              lineNumber: 62
+              lineNumber: 61
             }
           }),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'hidden', name: 'utm_campaign', __source: {
               fileName: _jsxFileName,
-              lineNumber: 63
+              lineNumber: 62
             }
           }),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             __WEBPACK_IMPORTED_MODULE_2_react_reveal_Fade___default.a,
             { bottom: true, __source: {
                 fileName: _jsxFileName,
-                lineNumber: 65
+                lineNumber: 64
               }
             },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'label',
               { className: 'f-select', __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 66
+                  lineNumber: 65
                 }
               },
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -869,21 +842,21 @@ var Contact = function Contact() {
                 {
                   __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 67
+                    lineNumber: 66
                   }
                 },
                 'Please select one of the following:'
               ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'radio', name: 'entry.2018616690', id: 'c1', value: 'Submit Case', __source: {
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'radio', name: 'entry.978263809', id: 'c1', value: 'Submit Case', __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 68
+                  lineNumber: 67
                 }
               }),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'label',
                 { htmlFor: 'c1', className: 'r-label', __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 69
+                    lineNumber: 68
                   }
                 },
                 '\xA0 Submit Case'
@@ -892,21 +865,21 @@ var Contact = function Contact() {
                 'span',
                 { className: 'r-divide', __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 70
+                    lineNumber: 69
                   }
                 },
                 '\xA0'
               ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'radio', name: 'entry.2018616690', id: 'c2', value: 'Send Message', __source: {
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'radio', name: 'entry.978263809', id: 'c2', value: 'Send Message', __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 71
+                  lineNumber: 70
                 }
               }),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'label',
                 { htmlFor: 'c2', className: 'r-label', __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 72
+                    lineNumber: 71
                   }
                 },
                 '\xA0 Send Message'
@@ -917,28 +890,28 @@ var Contact = function Contact() {
             __WEBPACK_IMPORTED_MODULE_2_react_reveal_Fade___default.a,
             { bottom: true, __source: {
                 fileName: _jsxFileName,
-                lineNumber: 76
+                lineNumber: 75
               }
             },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'label',
               { className: 'col-md-5 split', __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 77
+                  lineNumber: 76
                 }
               },
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'span',
                 { className: 'f-label', __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 78
+                    lineNumber: 77
                   }
                 },
                 'First *'
               ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', name: 'entry.1601318407', required: true, __source: {
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', name: 'entry.1273444917', required: true, __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 79
+                  lineNumber: 78
                 }
               })
             )
@@ -947,28 +920,28 @@ var Contact = function Contact() {
             __WEBPACK_IMPORTED_MODULE_2_react_reveal_Fade___default.a,
             { bottom: true, __source: {
                 fileName: _jsxFileName,
-                lineNumber: 83
+                lineNumber: 82
               }
             },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'label',
               { className: 'col-md-5 offset-md-2 split', __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 84
+                  lineNumber: 83
                 }
               },
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'span',
                 { className: 'f-label', __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 85
+                    lineNumber: 84
                   }
                 },
                 'Last *'
               ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', name: 'entry.1992502422', required: true, __source: {
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', name: 'entry.989041041', required: true, __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 86
+                  lineNumber: 85
                 }
               })
             )
@@ -977,28 +950,28 @@ var Contact = function Contact() {
             __WEBPACK_IMPORTED_MODULE_2_react_reveal_Fade___default.a,
             { bottom: true, __source: {
                 fileName: _jsxFileName,
-                lineNumber: 90
+                lineNumber: 89
               }
             },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'label',
               { className: 'col-md-5 split', __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 91
+                  lineNumber: 90
                 }
               },
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'span',
                 { className: 'f-label', __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 92
+                    lineNumber: 91
                   }
                 },
                 'Email *'
               ),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'email', name: 'emailAddress', required: true, __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 93
+                  lineNumber: 92
                 }
               })
             )
@@ -1007,28 +980,28 @@ var Contact = function Contact() {
             __WEBPACK_IMPORTED_MODULE_2_react_reveal_Fade___default.a,
             { bottom: true, __source: {
                 fileName: _jsxFileName,
-                lineNumber: 97
+                lineNumber: 96
               }
             },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'label',
               { className: 'col-md-5 offset-md-2 split', __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 98
+                  lineNumber: 97
                 }
               },
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'span',
                 { className: 'f-label', __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 99
+                    lineNumber: 98
                   }
                 },
                 'Phone '
               ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', name: 'entry.789951872', required: true, __source: {
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', name: 'entry.1905867614', required: true, __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 100
+                  lineNumber: 99
                 }
               })
             )
@@ -1037,7 +1010,7 @@ var Contact = function Contact() {
             __WEBPACK_IMPORTED_MODULE_2_react_reveal_Fade___default.a,
             { bottom: true, __source: {
                 fileName: _jsxFileName,
-                lineNumber: 104
+                lineNumber: 103
               }
             },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -1045,21 +1018,22 @@ var Contact = function Contact() {
               {
                 __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 105
+                  lineNumber: 104
                 }
               },
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'span',
                 { className: 'f-label', __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 106
+                    lineNumber: 105
                   }
                 },
                 'Tell us your story *'
               ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('textarea', { name: 'entry.1666005408', id: 'contact-msg', cols: '36', rows: '8', required: true, __source: {
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('textarea', { placeholder: 'Please list all violations as well as any preference for Court Valet or Ticket Defense options.',
+                name: 'entry.439355783', id: 'contact-msg', cols: '36', rows: '8', required: true, __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 107
+                  lineNumber: 106
                 }
               })
             )
@@ -1087,7 +1061,7 @@ var Contact = function Contact() {
                 },
                 'Citation # '
               ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', name: 'entry.236670299', __source: {
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', name: 'entry.1694926184', __source: {
                   fileName: _jsxFileName,
                   lineNumber: 114
                 }
@@ -1117,7 +1091,7 @@ var Contact = function Contact() {
                 },
                 'License # '
               ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', name: 'entry.88074758', __source: {
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', name: 'entry.1406961481', __source: {
                   fileName: _jsxFileName,
                   lineNumber: 121
                 }
@@ -1133,7 +1107,7 @@ var Contact = function Contact() {
             },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'label',
-              { htmlFor: 'deadline', className: 'col-md-10 offset-md-1', __source: {
+              { className: 'col-md-5 split', __source: {
                   fileName: _jsxFileName,
                   lineNumber: 126
                 }
@@ -1145,18 +1119,78 @@ var Contact = function Contact() {
                     lineNumber: 127
                   }
                 },
-                'Due Date '
+                'Last 4 SSN digits *'
               ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'date', name: 'entry.371323935', className: 'f-date', __source: {
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', name: 'entry.2048038734', required: true, __source: {
                   fileName: _jsxFileName,
                   lineNumber: 128
+                }
+              })
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            __WEBPACK_IMPORTED_MODULE_2_react_reveal_Fade___default.a,
+            { bottom: true, __source: {
+                fileName: _jsxFileName,
+                lineNumber: 132
+              }
+            },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'label',
+              { className: 'col-md-5 offset-md-2 split', __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 133
+                }
+              },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'span',
+                { className: 'f-label', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 134
+                  }
+                },
+                'Date of Birth *'
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'date', name: 'entry.1401730271', className: 'f-date', required: true, __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 135
+                }
+              })
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            __WEBPACK_IMPORTED_MODULE_2_react_reveal_Fade___default.a,
+            { bottom: true, __source: {
+                fileName: _jsxFileName,
+                lineNumber: 139
+              }
+            },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'label',
+              { htmlFor: 'deadline', className: 'col-md-10 offset-md-1', __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 140
+                }
+              },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'span',
+                { className: 'f-label', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 141
+                  }
+                },
+                'Due Date '
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'date', name: 'entry.740600167', className: 'f-date', __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 142
                 }
               }),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'div',
                 { className: 'f-support', __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 129
+                    lineNumber: 143
                   }
                 },
                 'Minimum 72-hr window for upcoming court dates. Missed court? We can still help.'
@@ -1167,7 +1201,7 @@ var Contact = function Contact() {
             __WEBPACK_IMPORTED_MODULE_2_react_reveal_Fade___default.a,
             { bottom: true, delay: 500, __source: {
                 fileName: _jsxFileName,
-                lineNumber: 133
+                lineNumber: 147
               }
             },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -1175,14 +1209,14 @@ var Contact = function Contact() {
               {
                 __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 134
+                  lineNumber: 148
                 }
               },
               'Using this form does not establish an attorney-client relationship. Please refrain from sending confidential or time-sensitive information.'
             ),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'submit', value: 'Send', className: 'f-send', __source: {
                 fileName: _jsxFileName,
-                lineNumber: 138
+                lineNumber: 152
               }
             })
           )
@@ -1192,28 +1226,28 @@ var Contact = function Contact() {
         'div',
         { className: 'contact-clio-desktop col-lg-4', __source: {
             fileName: _jsxFileName,
-            lineNumber: 142
+            lineNumber: 156
           }
         },
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           'div',
           { className: 'clio-signin', __source: {
               fileName: _jsxFileName,
-              lineNumber: 143
+              lineNumber: 157
             }
           },
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             __WEBPACK_IMPORTED_MODULE_2_react_reveal_Fade___default.a,
             { bottom: true, delay: 500, __source: {
                 fileName: _jsxFileName,
-                lineNumber: 144
+                lineNumber: 158
               }
             },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'div',
               { className: 'clio-case', __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 145
+                  lineNumber: 159
                 }
               },
               'Already have a case?'
@@ -1223,14 +1257,14 @@ var Contact = function Contact() {
               {
                 __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 146
+                  lineNumber: 160
                 }
               },
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'a',
                 { href: 'https://app.clio.com/session/new', target: '_blank', __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 146
+                    lineNumber: 160
                   }
                 },
                 'Sign In to Clio Connect'
@@ -1242,19 +1276,19 @@ var Contact = function Contact() {
           __WEBPACK_IMPORTED_MODULE_2_react_reveal_Fade___default.a,
           { bottom: true, delay: 500, __source: {
               fileName: _jsxFileName,
-              lineNumber: 149
+              lineNumber: 163
             }
           },
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'div',
             { className: 'g-blob', __source: {
                 fileName: _jsxFileName,
-                lineNumber: 150
+                lineNumber: 164
               }
             },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/static/elements/g-blob.gif', alt: '', __source: {
                 fileName: _jsxFileName,
-                lineNumber: 151
+                lineNumber: 165
               }
             })
           )
@@ -1263,19 +1297,19 @@ var Contact = function Contact() {
           __WEBPACK_IMPORTED_MODULE_2_react_reveal_Fade___default.a,
           { bottom: true, delay: 500, __source: {
               fileName: _jsxFileName,
-              lineNumber: 154
+              lineNumber: 168
             }
           },
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'div',
             { className: 'y-blob', __source: {
                 fileName: _jsxFileName,
-                lineNumber: 155
+                lineNumber: 169
               }
             },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/static/elements/y-blob.gif', alt: '', __source: {
                 fileName: _jsxFileName,
-                lineNumber: 156
+                lineNumber: 170
               }
             })
           )
@@ -1284,19 +1318,19 @@ var Contact = function Contact() {
           __WEBPACK_IMPORTED_MODULE_2_react_reveal_Fade___default.a,
           { bottom: true, delay: 550, __source: {
               fileName: _jsxFileName,
-              lineNumber: 159
+              lineNumber: 173
             }
           },
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'div',
             { className: 'r-blob', __source: {
                 fileName: _jsxFileName,
-                lineNumber: 160
+                lineNumber: 174
               }
             },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/static/elements/r-blob.gif', alt: '', __source: {
                 fileName: _jsxFileName,
-                lineNumber: 161
+                lineNumber: 175
               }
             })
           )
@@ -1307,28 +1341,28 @@ var Contact = function Contact() {
       'div',
       { className: 'row section contact-clio', __source: {
           fileName: _jsxFileName,
-          lineNumber: 167
+          lineNumber: 181
         }
       },
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         'div',
         { className: 'clio-signin col-lg-4 order-lg-1', __source: {
             fileName: _jsxFileName,
-            lineNumber: 168
+            lineNumber: 182
           }
         },
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           __WEBPACK_IMPORTED_MODULE_2_react_reveal_Fade___default.a,
           { bottom: true, delay: 500, __source: {
               fileName: _jsxFileName,
-              lineNumber: 169
+              lineNumber: 183
             }
           },
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'div',
             { className: 'clio-case', __source: {
                 fileName: _jsxFileName,
-                lineNumber: 170
+                lineNumber: 184
               }
             },
             'Already have a case?'
@@ -1338,14 +1372,14 @@ var Contact = function Contact() {
             {
               __source: {
                 fileName: _jsxFileName,
-                lineNumber: 171
+                lineNumber: 185
               }
             },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'a',
               { href: 'https://app.clio.com/session/new', target: '_blank', __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 171
+                  lineNumber: 185
                 }
               },
               'Sign In to Clio Connect'
@@ -1356,19 +1390,19 @@ var Contact = function Contact() {
           __WEBPACK_IMPORTED_MODULE_2_react_reveal_Fade___default.a,
           { bottom: true, delay: 500, __source: {
               fileName: _jsxFileName,
-              lineNumber: 173
+              lineNumber: 187
             }
           },
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'div',
             { className: 'y-blob', __source: {
                 fileName: _jsxFileName,
-                lineNumber: 174
+                lineNumber: 188
               }
             },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/static/elements/y-blob.gif', alt: '', __source: {
                 fileName: _jsxFileName,
-                lineNumber: 175
+                lineNumber: 189
               }
             })
           )
@@ -1377,19 +1411,19 @@ var Contact = function Contact() {
           __WEBPACK_IMPORTED_MODULE_2_react_reveal_Fade___default.a,
           { bottom: true, delay: 500, __source: {
               fileName: _jsxFileName,
-              lineNumber: 178
+              lineNumber: 192
             }
           },
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'div',
             { className: 'b-blob', __source: {
                 fileName: _jsxFileName,
-                lineNumber: 179
+                lineNumber: 193
               }
             },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/static/elements/b-blob.gif', alt: '', __source: {
                 fileName: _jsxFileName,
-                lineNumber: 180
+                lineNumber: 194
               }
             })
           )
@@ -1400,13 +1434,13 @@ var Contact = function Contact() {
       'div',
       { className: 'footer-info', __source: {
           fileName: _jsxFileName,
-          lineNumber: 186
+          lineNumber: 200
         }
       },
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__components_footer__["a" /* default */], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 187
+          lineNumber: 201
         }
       })
     )
