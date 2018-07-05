@@ -1971,10 +1971,6 @@ hr {
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
 
-  .row.section iframe {
-    height: 768px;
-  }
-
   #main {
     .head1 {
       font-size: 104px;
@@ -2000,7 +1996,7 @@ hr {
     .home2 {
       h1, p {
         padding-left: 220px;
-        width: 790px;
+        min-width: 1000px;
       }
     }
 
@@ -2037,9 +2033,8 @@ hr {
     }
 
     .row.section iframe {
-      width: 90%;
-      margin: 0 auto;
-      height: 600px;
+      width: 100%;
+      height: 768px;
     }
 
     .legacy {
@@ -2154,22 +2149,40 @@ hr {
 
   .container-fluid {
     .home1 {
-      max-width: 1080px;
+      max-width: 1200px;
     }
+
+    .home2 {
+      h1, p {
+        padding-left: 300px;
+        min-width: 1000px;
+      }
+    }
+
     .options {
+      .y-blob {
+        left: 80px;
+      }
       .r-blob {
-        left: 840px;
+        left: 960px;
       }
       .g-blob {
-        left: 1000px;
+        left: 1090px;
       }
     }
+
+    .row.section iframe {
+      width: 100%;
+      height: 800px;
+    }
+
     .home3, .home4 {
+      padding-left: 620px;
       .deco1 {
-        top: 9.5em;
+        top: 7em;
       }
       .deco2 {
-        top: 16.2em;
+        top: 12em;
       }
     }
 
@@ -2188,4 +2201,17 @@ hr {
       }
     }
   }
+
+  /* services */
+#services-page{
+  .services-banner {
+    margin-top: 14em;
+    img {
+      max-width: 45%;
+    }
+    .banner-overlay {
+      bottom: 24em;
+    }
+  }
+}
 }
