@@ -32,5 +32,12 @@ module.exports = {
       }
     )
     return config
+  },
+  exportPathMap: async function (defaultPathMap) {
+    return {
+      '/': { page: '/' },
+      '/services': { page: '/services' },
+      '/contact': { page: '/contact' }
+    }
   }
 }

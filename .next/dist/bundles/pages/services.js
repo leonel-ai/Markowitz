@@ -67,7 +67,7 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 10);
+/******/ 	return __webpack_require__(__webpack_require__.s = 14);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -348,453 +348,912 @@ var Footer = function Footer() {
 /* 7 */,
 /* 8 */,
 /* 9 */,
-/* 10 */
+/* 10 */,
+/* 11 */,
+/* 12 */,
+/* 13 */,
+/* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(11);
+module.exports = __webpack_require__(15);
 
 
 /***/ }),
-/* 11 */
+/* 15 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_head__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_head__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_reveal_Fade__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_reveal_Fade___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_react_reveal_Fade__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__styles_index_scss__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__styles_index_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__styles_index_scss__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_mobileNav__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_navigation__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_footer__ = __webpack_require__(6);
+
+// EXTERNAL MODULE: external "react"
+var external__react_ = __webpack_require__(0);
+var external__react__default = /*#__PURE__*/__webpack_require__.n(external__react_);
+
+// EXTERNAL MODULE: external "next/head"
+var head_ = __webpack_require__(3);
+var head__default = /*#__PURE__*/__webpack_require__.n(head_);
+
+// EXTERNAL MODULE: external "react-reveal/Fade"
+var Fade_ = __webpack_require__(2);
+var Fade__default = /*#__PURE__*/__webpack_require__.n(Fade_);
+
+// EXTERNAL MODULE: ./styles/index.scss
+var styles = __webpack_require__(1);
+var styles_default = /*#__PURE__*/__webpack_require__.n(styles);
+
+// EXTERNAL MODULE: ./components/mobileNav.js
+var mobileNav = __webpack_require__(4);
+
+// EXTERNAL MODULE: ./components/navigation.js
+var navigation = __webpack_require__(5);
+
+// CONCATENATED MODULE: ./components/resources.js
 
 
 
 
 
-
-
-
-
-
-
-
-var Contact = function Contact() {
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+var resources_Resources = function Resources() {
+  return external__react__default.a.createElement(
     'div',
-    { className: 'container-fluid', id: 'contact-page' },
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      __WEBPACK_IMPORTED_MODULE_1_next_head___default.a,
-      null,
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'title',
-        null,
-        'Contact | Markowitz Law'
-      ),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('meta', { name: 'description', content: 'TBD' }),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('meta', { name: 'keywords', content: 'TBD' }),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('meta', { name: 'author', content: 'Markowitz Law' }),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('style', { dangerouslySetInnerHTML: { __html: __WEBPACK_IMPORTED_MODULE_3__styles_index_scss___default.a } })
-    ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__components_mobileNav__["a" /* default */], null),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__components_navigation__["a" /* default */], null),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      __WEBPACK_IMPORTED_MODULE_2_react_reveal_Fade___default.a,
-      { bottom: true, delay: 500 },
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'div',
-        { id: 'contact' },
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'div',
-          { className: 'container contact-header' },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'a',
-            { href: '/' },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/static/mlaw.svg', alt: 'logo', className: 'img-fluid marko-logo' })
-          )
-        )
-      )
-    ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    { id: 'resources', className: 'row' },
+    external__react__default.a.createElement(
       'div',
-      { className: 'contact-banner' },
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        __WEBPACK_IMPORTED_MODULE_2_react_reveal_Fade___default.a,
-        { bottom: true, delay: 500 },
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      { className: 'col col-lg-4' },
+      external__react__default.a.createElement(
+        Fade__default.a,
+        { bottom: true },
+        external__react__default.a.createElement(
           'div',
-          { className: 'banner-overlay' },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          { className: 'card yellow col-lg-12' },
+          external__react__default.a.createElement(
             'div',
-            null,
-            'We\'re just 05 minutes away from the ',
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'span',
-              { className: 'nearby' },
-              ' GALLERIA'
-            )
-          )
-        )
-      ),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        __WEBPACK_IMPORTED_MODULE_2_react_reveal_Fade___default.a,
-        { bottom: true, delay: 500 },
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/static/get_started.svg', alt: '', className: 'img-fluid' })
-      )
-    ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'div',
-      { className: 'row section contact-main' },
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        __WEBPACK_IMPORTED_MODULE_2_react_reveal_Fade___default.a,
-        { bottom: true, delay: 500 },
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'div',
-          { className: 'col-sm-12 col-md-4 col-lg-12 contact-info' },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'ul',
-            null,
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'li',
-              null,
-              'Markowitz Law'
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'a',
-              { href: 'https://www.google.com/maps/search/?api=1&query=Markowitz+Law+Firm', target: '_blank' },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'li',
-                null,
-                '5610 SW Freeway, Suite 104'
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'li',
-                null,
-                'Houston, TX 77057'
-              )
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'li',
-              null,
-              'Tel',
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'a',
-                { href: 'tel:713-521-7568' },
-                ' 713-521-7568'
-              )
-            )
-          )
-        )
-      ),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'div',
-        { className: 'col-sm-12 col-md-10 col-lg-6 contact-form' },
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'form',
-          { action: 'https://docs.google.com/forms/u/2/d/e/1FAIpQLSdeaOc5RdN6fpd1rH545M6TgX2V6K7UT5MaSXrDmHVqlB1OJA/formResponse',
-            className: 'clio-intake-form' },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'hidden', name: 'token', value: '' }),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'hidden', name: 'utm_campaign' }),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            __WEBPACK_IMPORTED_MODULE_2_react_reveal_Fade___default.a,
-            { bottom: true },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'label',
-              { className: 'f-select' },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'h5',
-                null,
-                'Please select one of the following:'
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'radio', name: 'entry.978263809', id: 'c1', value: 'Submit Case' }),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'label',
-                { htmlFor: 'c1', className: 'r-label' },
-                '\xA0 Submit Case'
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'span',
-                { className: 'r-divide' },
-                '\xA0'
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'radio', name: 'entry.978263809', id: 'c2', value: 'Send Message' }),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'label',
-                { htmlFor: 'c2', className: 'r-label' },
-                '\xA0 Send Message'
-              )
-            )
-          ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            __WEBPACK_IMPORTED_MODULE_2_react_reveal_Fade___default.a,
-            { bottom: true },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'label',
-              { className: 'col-md-5 split' },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'span',
-                { className: 'f-label' },
-                'First *'
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', name: 'entry.1273444917', required: true })
-            )
-          ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            __WEBPACK_IMPORTED_MODULE_2_react_reveal_Fade___default.a,
-            { bottom: true },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'label',
-              { className: 'col-md-5 offset-md-2 split' },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'span',
-                { className: 'f-label' },
-                'Last *'
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', name: 'entry.989041041', required: true })
-            )
-          ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            __WEBPACK_IMPORTED_MODULE_2_react_reveal_Fade___default.a,
-            { bottom: true },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'label',
-              { className: 'col-md-5 split' },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'span',
-                { className: 'f-label' },
-                'Email *'
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'email', name: 'emailAddress', required: true })
-            )
-          ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            __WEBPACK_IMPORTED_MODULE_2_react_reveal_Fade___default.a,
-            { bottom: true },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'label',
-              { className: 'col-md-5 offset-md-2 split' },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'span',
-                { className: 'f-label' },
-                'Phone '
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', name: 'entry.1905867614', required: true })
-            )
-          ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            __WEBPACK_IMPORTED_MODULE_2_react_reveal_Fade___default.a,
-            { bottom: true },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'label',
-              null,
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'span',
-                { className: 'f-label' },
-                'Tell us your story *'
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('textarea', { placeholder: 'Please list all violations as well as any preference for Court Valet or Ticket Defense options.',
-                name: 'entry.439355783', id: 'contact-msg', cols: '36', rows: '8', required: true })
-            )
-          ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            __WEBPACK_IMPORTED_MODULE_2_react_reveal_Fade___default.a,
-            { bottom: true },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'label',
-              { className: 'col-md-5 split' },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'span',
-                { className: 'f-label' },
-                'Citation # '
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', name: 'entry.1694926184' })
-            )
-          ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            __WEBPACK_IMPORTED_MODULE_2_react_reveal_Fade___default.a,
-            { bottom: true },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'label',
-              { className: 'col-md-5 offset-md-2 split' },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'span',
-                { className: 'f-label' },
-                'License # '
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', name: 'entry.1406961481' })
-            )
-          ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            __WEBPACK_IMPORTED_MODULE_2_react_reveal_Fade___default.a,
-            { bottom: true },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'label',
-              { className: 'col-md-5 split' },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'span',
-                { className: 'f-label' },
-                'Last 4 SSN digits *'
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', name: 'entry.2048038734', required: true })
-            )
-          ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            __WEBPACK_IMPORTED_MODULE_2_react_reveal_Fade___default.a,
-            { bottom: true },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'label',
-              { className: 'col-md-5 offset-md-2 split' },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'span',
-                { className: 'f-label' },
-                'Date of Birth *'
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'date', name: 'entry.1401730271', className: 'f-date', required: true })
-            )
-          ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            __WEBPACK_IMPORTED_MODULE_2_react_reveal_Fade___default.a,
-            { bottom: true },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'label',
-              { htmlFor: 'deadline', className: 'col-md-10 offset-md-1' },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'span',
-                { className: 'f-label' },
-                'Due Date '
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'date', name: 'entry.740600167', className: 'f-date' }),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'div',
-                { className: 'f-support' },
-                'Minimum 72-hr window for upcoming court dates. Missed court? We can still help.'
-              )
-            )
-          ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            __WEBPACK_IMPORTED_MODULE_2_react_reveal_Fade___default.a,
-            { bottom: true, delay: 500 },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            { className: 'card-header', id: 'headingSeven' },
+            external__react__default.a.createElement(
               'p',
-              null,
-              'Using this form does not establish an attorney-client relationship. Please refrain from sending confidential or time-sensitive information.'
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'submit', value: 'Send', className: 'f-send' })
-          )
-        )
-      ),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'div',
-        { className: 'contact-clio-desktop col-lg-4' },
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'div',
-          { className: 'clio-signin' },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            __WEBPACK_IMPORTED_MODULE_2_react_reveal_Fade___default.a,
-            { bottom: true, delay: 500 },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              { className: 'mb-0 res-action' },
+              'Resolve',
+              external__react__default.a.createElement(
+                'button',
+                { className: 'btn btn-link', 'data-toggle': 'collapse', 'data-target': '#collapseSeven', 'aria-expanded': 'true', 'aria-controls': 'collapseSeven' },
+                external__react__default.a.createElement(
+                  'h4',
+                  { className: 'res-header' },
+                  'General Clients'
+                )
+              )
+            )
+          ),
+          external__react__default.a.createElement(
+            'div',
+            { id: 'collapseSeven', className: 'collapse', 'aria-labelledby': 'headingSeven', 'data-parent': '#resources' },
+            external__react__default.a.createElement(
               'div',
-              { className: 'clio-case' },
-              'Already have a case?'
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'h4',
-              null,
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'a',
-                { href: 'https://app.clio.com/session/new', target: '_blank' },
-                'Sign In to Clio Connect'
+              { className: 'card-body' },
+              external__react__default.a.createElement(
+                'p',
+                null,
+                external__react__default.a.createElement(
+                  'a',
+                  { href: 'http://www.txdps.state.tx.us/DriverLicense/index.htm', target: '_blank' },
+                  'Driver\'s License Portal'
+                )
+              ),
+              external__react__default.a.createElement(
+                'p',
+                null,
+                external__react__default.a.createElement(
+                  'a',
+                  { href: 'http://www.safedrivercentre.com/', target: '_blank' },
+                  'Driver\'s Safety Course'
+                )
+              ),
+              external__react__default.a.createElement(
+                'p',
+                null,
+                external__react__default.a.createElement(
+                  'a',
+                  { href: 'https://txapps.texas.gov/tolapp/txldrcdr/TXDPSLicenseeManager', target: '_blank' },
+                  'Driving Records'
+                )
+              ),
+              external__react__default.a.createElement(
+                'p',
+                null,
+                external__react__default.a.createElement(
+                  'a',
+                  { href: 'http://www.texasfailuretoappear.com/search.php', target: '_blank' },
+                  'Failure to Appear Program'
+                )
+              ),
+              external__react__default.a.createElement(
+                'p',
+                null,
+                external__react__default.a.createElement(
+                  'a',
+                  { href: 'https://txapps.texas.gov/txapp/txdps/dleligibility/', target: '_blank' },
+                  'License Status Check'
+                )
+              ),
+              external__react__default.a.createElement(
+                'p',
+                null,
+                external__react__default.a.createElement(
+                  'a',
+                  { href: 'http://www.sr22online.com/', target: '_blank' },
+                  'SR-22 Insurance'
+                )
               )
             )
           )
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          __WEBPACK_IMPORTED_MODULE_2_react_reveal_Fade___default.a,
-          { bottom: true, delay: 500 },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'div',
-            { className: 'g-blob' },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/static/elements/g-blob.gif', alt: '' })
-          )
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          __WEBPACK_IMPORTED_MODULE_2_react_reveal_Fade___default.a,
-          { bottom: true, delay: 500 },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'div',
-            { className: 'y-blob' },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/static/elements/y-blob.gif', alt: '' })
-          )
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          __WEBPACK_IMPORTED_MODULE_2_react_reveal_Fade___default.a,
-          { bottom: true, delay: 550 },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'div',
-            { className: 'r-blob' },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/static/elements/r-blob.gif', alt: '' })
-          )
         )
       )
     ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    external__react__default.a.createElement(
       'div',
-      { className: 'row section contact-clio' },
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'div',
-        { className: 'clio-signin col-lg-4 order-lg-1' },
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          __WEBPACK_IMPORTED_MODULE_2_react_reveal_Fade___default.a,
-          { bottom: true, delay: 500 },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      { className: 'col col-lg-4' },
+      external__react__default.a.createElement(
+        Fade__default.a,
+        { bottom: true },
+        external__react__default.a.createElement(
+          'div',
+          { className: 'card red col-lg-12' },
+          external__react__default.a.createElement(
             'div',
-            { className: 'clio-case' },
-            'Already have a case?'
+            { className: 'card-header', id: 'headingEight' },
+            external__react__default.a.createElement(
+              'p',
+              { className: 'mb-0 res-action' },
+              'Discover',
+              external__react__default.a.createElement(
+                'button',
+                { className: 'btn btn-link collapsed', 'data-toggle': 'collapse', 'data-target': '#collapseEight', 'aria-expanded': 'false', 'aria-controls': 'collapseEight' },
+                external__react__default.a.createElement(
+                  'h4',
+                  { className: 'res-header' },
+                  'Legal Professionals'
+                )
+              )
+            )
           ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'h4',
-            null,
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'a',
-              { href: 'https://app.clio.com/session/new', target: '_blank' },
-              'Sign In to Clio Connect'
+          external__react__default.a.createElement(
+            'div',
+            { id: 'collapseEight', className: 'collapse', 'aria-labelledby': 'headingEight', 'data-parent': '#resources' },
+            external__react__default.a.createElement(
+              'div',
+              { className: 'card-body' },
+              external__react__default.a.createElement(
+                'p',
+                null,
+                external__react__default.a.createElement(
+                  'a',
+                  { href: 'https://hccla.org/', target: '_blank' },
+                  'HCCLA'
+                )
+              ),
+              external__react__default.a.createElement(
+                'p',
+                null,
+                external__react__default.a.createElement(
+                  'a',
+                  { href: 'https://www.tcdla.com/TCDLA/Default.aspx', target: '_blank' },
+                  'TCDLA'
+                )
+              ),
+              external__react__default.a.createElement(
+                'p',
+                null,
+                external__react__default.a.createElement(
+                  'a',
+                  { href: 'http://tmcec.com/', target: '_blank' },
+                  'TMCEC'
+                )
+              ),
+              external__react__default.a.createElement(
+                'p',
+                null,
+                external__react__default.a.createElement(
+                  'a',
+                  { href: 'http://www.txmca.com/', target: '_blank' },
+                  'TMCA'
+                )
+              ),
+              external__react__default.a.createElement(
+                'p',
+                null,
+                external__react__default.a.createElement(
+                  'a',
+                  { href: 'https://www.texasbar.com/am/template.cfm', target: '_blank' },
+                  'State Bar of Texas'
+                )
+              ),
+              external__react__default.a.createElement(
+                'p',
+                null,
+                external__react__default.a.createElement(
+                  'a',
+                  { href: 'https://www.county.org//about-texas-counties/texas-counties-related-sites/Pages/default.aspx', target: '_blank' },
+                  'TX County Associations'
+                )
+              )
             )
           )
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          __WEBPACK_IMPORTED_MODULE_2_react_reveal_Fade___default.a,
-          { bottom: true, delay: 500 },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'div',
-            { className: 'y-blob' },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/static/elements/y-blob.gif', alt: '' })
-          )
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          __WEBPACK_IMPORTED_MODULE_2_react_reveal_Fade___default.a,
-          { bottom: true, delay: 500 },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'div',
-            { className: 'b-blob' },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/static/elements/b-blob.gif', alt: '' })
-          )
         )
       )
     ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    external__react__default.a.createElement(
       'div',
-      { className: 'footer-info' },
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__components_footer__["a" /* default */], null)
+      { className: 'col col-lg-4' },
+      external__react__default.a.createElement(
+        Fade__default.a,
+        { bottom: true },
+        external__react__default.a.createElement(
+          'div',
+          { className: 'card blue col-lg-12' },
+          external__react__default.a.createElement(
+            'div',
+            { className: 'card-header', id: 'headingNine' },
+            external__react__default.a.createElement(
+              'p',
+              { className: 'mb-0 res-action' },
+              'Recover',
+              external__react__default.a.createElement(
+                'button',
+                { className: 'btn btn-link collapsed', 'data-toggle': 'collapse', 'data-target': '#collapseNine', 'aria-expanded': 'false', 'aria-controls': 'collapseNine' },
+                external__react__default.a.createElement(
+                  'h4',
+                  { className: 'res-header' },
+                  'Commercial Drivers'
+                )
+              )
+            )
+          ),
+          external__react__default.a.createElement(
+            'div',
+            { id: 'collapseNine', className: 'collapse', 'aria-labelledby': 'headingNine', 'data-parent': '#resources' },
+            external__react__default.a.createElement(
+              'div',
+              { className: 'card-body' },
+              external__react__default.a.createElement(
+                'p',
+                null,
+                external__react__default.a.createElement(
+                  'a',
+                  { href: 'https://www.fmcsa.dot.gov/', target: '_blank' },
+                  'FMCSA'
+                )
+              ),
+              external__react__default.a.createElement(
+                'p',
+                null,
+                external__react__default.a.createElement(
+                  'a',
+                  { href: 'https://dataqs.fmcsa.dot.gov/Default.aspx', target: '_blank' },
+                  'FMCSA DataQs'
+                )
+              ),
+              external__react__default.a.createElement(
+                'p',
+                null,
+                external__react__default.a.createElement(
+                  'a',
+                  { href: 'https://csa.fmcsa.dot.gov/', target: '_blank' },
+                  'CSA 2010'
+                )
+              )
+            )
+          )
+        )
+      )
     )
   );
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Contact);
+/* harmony default export */ var resources = (resources_Resources);
+// CONCATENATED MODULE: ./components/faq.js
+
+
+
+
+
+var faq_FAQ = function FAQ() {
+  return external__react__default.a.createElement(
+    'div',
+    { id: 'faq', className: 'row' },
+    external__react__default.a.createElement(
+      'div',
+      { className: 'col-sm-12 col-md-4' },
+      external__react__default.a.createElement(
+        Fade__default.a,
+        { bottom: true },
+        external__react__default.a.createElement(
+          'div',
+          { className: 'card faq col-sm' },
+          external__react__default.a.createElement(
+            'div',
+            { className: 'card-header', id: 'headingOne' },
+            external__react__default.a.createElement(
+              'h5',
+              { className: 'case-action' },
+              'Convenient',
+              external__react__default.a.createElement('span', { className: 'faq-line' })
+            ),
+            external__react__default.a.createElement(
+              'button',
+              { className: 'btn btn-link', 'data-toggle': 'collapse', 'data-target': '#collapseOne', 'aria-expanded': 'true', 'aria-controls': 'collapseOne' },
+              external__react__default.a.createElement(
+                'h4',
+                { className: 'case-client' },
+                'How do I submit a case?'
+              )
+            )
+          ),
+          external__react__default.a.createElement(
+            'div',
+            { id: 'collapseOne', className: 'collapse', 'aria-labelledby': 'headingOne', 'data-parent': '#faq' },
+            external__react__default.a.createElement(
+              'div',
+              { className: 'card-body' },
+              external__react__default.a.createElement(
+                'p',
+                null,
+                'Submit your case via our ',
+                external__react__default.a.createElement(
+                  'a',
+                  { href: 'https://app.clio.com/session/new', target: '_blank' },
+                  'online portal'
+                ),
+                ' powered by Clio. Make sure to have the following items on hand once your case is taken:'
+              ),
+              external__react__default.a.createElement(
+                'ul',
+                null,
+                external__react__default.a.createElement(
+                  'li',
+                  null,
+                  'Original Citation'
+                ),
+                external__react__default.a.createElement(
+                  'li',
+                  null,
+                  'Valid State-Issued ID'
+                ),
+                external__react__default.a.createElement(
+                  'li',
+                  null,
+                  'Proof of Insurance'
+                ),
+                external__react__default.a.createElement(
+                  'li',
+                  null,
+                  'Photos/Videos of Incident (if available)'
+                )
+              )
+            )
+          )
+        )
+      )
+    ),
+    external__react__default.a.createElement(
+      'div',
+      { className: 'col-sm-12 col-md-4' },
+      external__react__default.a.createElement(
+        Fade__default.a,
+        { bottom: true },
+        external__react__default.a.createElement(
+          'div',
+          { className: 'card faq col-sm' },
+          external__react__default.a.createElement(
+            'div',
+            { className: 'card-header', id: 'headingTwo' },
+            external__react__default.a.createElement(
+              'h5',
+              { className: 'case-action' },
+              'Solution Driven',
+              external__react__default.a.createElement('span', { className: 'faq-line' })
+            ),
+            external__react__default.a.createElement(
+              'button',
+              { className: 'btn btn-link collapsed', 'data-toggle': 'collapse', 'data-target': '#collapseTwo', 'aria-expanded': 'false', 'aria-controls': 'collapseTwo' },
+              external__react__default.a.createElement(
+                'h4',
+                { className: 'case-client' },
+                'Court Valet or Ticket Defense?'
+              )
+            )
+          ),
+          external__react__default.a.createElement(
+            'div',
+            { id: 'collapseTwo', className: 'collapse', 'aria-labelledby': 'headingTwo', 'data-parent': '#faq' },
+            external__react__default.a.createElement(
+              'div',
+              { className: 'card-body' },
+              external__react__default.a.createElement(
+                'p',
+                null,
+                external__react__default.a.createElement(
+                  'a',
+                  { href: 'https://www.youtube.com/embed/H8NExnW8fNM', target: '_blank' },
+                  'Court Valet'
+                ),
+                ' \u2014 Markowitz Law handles the case on your behalf and significantly reduces your time spent in court. Your court attendance may not be necessary.*'
+              ),
+              external__react__default.a.createElement(
+                'p',
+                null,
+                external__react__default.a.createElement(
+                  'a',
+                  { href: 'https://www.youtube.com/embed/jZ5zgDhmjYg', target: '_blank' },
+                  'Ticket Defense'
+                ),
+                ' \u2014 An attorney attends court with you to fight the case. Your attendance may be required.*'
+              ),
+              external__react__default.a.createElement(
+                'h6',
+                null,
+                '* Dependent on court requirements and nature of case'
+              )
+            )
+          )
+        )
+      )
+    ),
+    external__react__default.a.createElement(
+      'div',
+      { className: 'col-sm-12 col-md-4' },
+      external__react__default.a.createElement(
+        Fade__default.a,
+        { bottom: true },
+        external__react__default.a.createElement(
+          'div',
+          { className: 'card faq col-sm' },
+          external__react__default.a.createElement(
+            'div',
+            { className: 'card-header', id: 'headingThree' },
+            external__react__default.a.createElement(
+              'h5',
+              { className: 'case-action' },
+              'Time Responsible',
+              external__react__default.a.createElement('span', { className: 'faq-line' })
+            ),
+            external__react__default.a.createElement(
+              'button',
+              { className: 'btn btn-link collapsed', 'data-toggle': 'collapse', 'data-target': '#collapseThree', 'aria-expanded': 'false', 'aria-controls': 'collapseThree' },
+              external__react__default.a.createElement(
+                'h4',
+                { className: 'case-client' },
+                'I\'ve submitted a case. What\'s next?'
+              )
+            )
+          ),
+          external__react__default.a.createElement(
+            'div',
+            { id: 'collapseThree', className: 'collapse', 'aria-labelledby': 'headingThree', 'data-parent': '#faq' },
+            external__react__default.a.createElement(
+              'div',
+              { className: 'card-body' },
+              external__react__default.a.createElement(
+                'p',
+                null,
+                'After analyzing your case, we will contact you to verify your citation details and establish a timeline to meet all of your court deadlines.'
+              )
+            )
+          )
+        )
+      )
+    ),
+    external__react__default.a.createElement(
+      'div',
+      { className: 'col-sm-12 col-md-4 offset-md-2' },
+      external__react__default.a.createElement(
+        Fade__default.a,
+        { bottom: true },
+        external__react__default.a.createElement(
+          'div',
+          { className: 'card faq col-sm' },
+          external__react__default.a.createElement(
+            'div',
+            { className: 'card-header', id: 'headingFour' },
+            external__react__default.a.createElement(
+              'h5',
+              { className: 'case-action' },
+              'Multiplatform',
+              external__react__default.a.createElement('span', { className: 'faq-line' })
+            ),
+            external__react__default.a.createElement(
+              'button',
+              { className: 'btn btn-link collapsed', 'data-toggle': 'collapse', 'data-target': '#collapseFour', 'aria-expanded': 'false', 'aria-controls': 'collapseFour' },
+              external__react__default.a.createElement(
+                'h4',
+                { className: 'case-client' },
+                'What is Clio Connect?'
+              )
+            )
+          ),
+          external__react__default.a.createElement(
+            'div',
+            { id: 'collapseFour', className: 'collapse', 'aria-labelledby': 'headingFour', 'data-parent': '#faq' },
+            external__react__default.a.createElement(
+              'div',
+              { className: 'card-body' },
+              external__react__default.a.createElement(
+                'p',
+                null,
+                'Clio is a cloud-based software platform we use to track and manage your case. Through the Clio Connect dashboard, you\u2019ll be able to view the current status of your case, upload any necessary documents, and receive communication from our team as your case progresses.'
+              ),
+              external__react__default.a.createElement(
+                'p',
+                null,
+                'Find out more about our case portal on the ',
+                external__react__default.a.createElement(
+                  'a',
+                  { href: 'https://support.clio.com/hc/en-us', target: '_blank' },
+                  'Clio Support Page.'
+                )
+              )
+            )
+          )
+        )
+      )
+    ),
+    external__react__default.a.createElement(
+      'div',
+      { className: 'col-sm-12 col-md-4' },
+      external__react__default.a.createElement(
+        Fade__default.a,
+        { bottom: true },
+        external__react__default.a.createElement(
+          'div',
+          { className: 'card faq col-sm' },
+          external__react__default.a.createElement(
+            'div',
+            { className: 'card-header', id: 'headingFive' },
+            external__react__default.a.createElement(
+              'h5',
+              { className: 'case-action' },
+              'Client Centered',
+              external__react__default.a.createElement('span', { className: 'faq-line' })
+            ),
+            external__react__default.a.createElement(
+              'button',
+              { className: 'btn btn-link collapsed', 'data-toggle': 'collapse', 'data-target': '#collapseFive', 'aria-expanded': 'false', 'aria-controls': 'collapseFive' },
+              external__react__default.a.createElement(
+                'h4',
+                { className: 'case-client' },
+                'Will this affect my insurance rate?'
+              )
+            )
+          ),
+          external__react__default.a.createElement(
+            'div',
+            { id: 'collapseFive', className: 'collapse', 'aria-labelledby': 'headingFive', 'data-parent': '#faq' },
+            external__react__default.a.createElement(
+              'div',
+              { className: 'card-body' },
+              external__react__default.a.createElement(
+                'p',
+                null,
+                'Although ticket dismissal is our highest priority for clients, the effect on your insurance rate depends on the violation and outcome of your case.'
+              ),
+              external__react__default.a.createElement(
+                'p',
+                null,
+                external__react__default.a.createElement(
+                  'a',
+                  { href: 'https://www.insurance.com/auto-insurance/saving-money/tickets.aspx', target: '_blank' },
+                  'Estimate your rate increase.'
+                )
+              )
+            )
+          )
+        )
+      )
+    )
+  );
+};
+
+/* harmony default export */ var faq = (faq_FAQ);
+// EXTERNAL MODULE: ./components/footer.js
+var footer = __webpack_require__(6);
+
+// CONCATENATED MODULE: ./pages/services.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+var services_Services = function Services() {
+  return external__react__default.a.createElement(
+    'div',
+    { className: 'container-fluid', id: 'services-page' },
+    external__react__default.a.createElement(
+      head__default.a,
+      null,
+      external__react__default.a.createElement(
+        'title',
+        null,
+        'Services | Markowitz Law'
+      ),
+      external__react__default.a.createElement('meta', { name: 'description', content: 'TBD' }),
+      external__react__default.a.createElement('meta', { name: 'keywords', content: 'TBD' }),
+      external__react__default.a.createElement('meta', { name: 'author', content: 'Markowitz Law' }),
+      external__react__default.a.createElement('style', { dangerouslySetInnerHTML: { __html: styles_default.a } })
+    ),
+    external__react__default.a.createElement(mobileNav["a" /* default */], null),
+    external__react__default.a.createElement(navigation["a" /* default */], null),
+    external__react__default.a.createElement(
+      Fade__default.a,
+      { bottom: true, delay: 500 },
+      external__react__default.a.createElement(
+        'div',
+        { id: 'services' },
+        external__react__default.a.createElement(
+          'div',
+          { className: 'container services-header' },
+          external__react__default.a.createElement(
+            'a',
+            { href: '/' },
+            external__react__default.a.createElement('img', { src: '/static/mlaw.svg', alt: 'logo', className: 'img-fluid marko-logo' })
+          )
+        )
+      )
+    ),
+    external__react__default.a.createElement(
+      'div',
+      { className: 'services-banner' },
+      external__react__default.a.createElement(
+        Fade__default.a,
+        { bottom: true, delay: 500 },
+        external__react__default.a.createElement('img', { src: '/static/get_results.svg', alt: '', className: 'img-fluid' })
+      ),
+      external__react__default.a.createElement(
+        Fade__default.a,
+        { bottom: true, delay: 500 },
+        external__react__default.a.createElement(
+          'div',
+          { className: 'banner-overlay' },
+          external__react__default.a.createElement(
+            'h1',
+            { className: 'display-4' },
+            'HAVE A PROBLEM ',
+            external__react__default.a.createElement('span', { className: 'banner-line' })
+          )
+        ),
+        external__react__default.a.createElement(
+          'div',
+          { className: 'banner-subtitle' },
+          external__react__default.a.createElement('span', { className: 'banner-line' }),
+          ' 25 YEARS STRONG'
+        )
+      ),
+      external__react__default.a.createElement(
+        Fade__default.a,
+        { bottom: true, delay: 500 },
+        external__react__default.a.createElement(
+          'p',
+          { className: 'action' },
+          'Scroll'
+        ),
+        external__react__default.a.createElement('hr', null),
+        external__react__default.a.createElement(
+          'a',
+          { className: 'cta-services', href: '/contact' },
+          'Let\'s Get To Work \xA0\xA0',
+          external__react__default.a.createElement(
+            'span',
+            { className: 'at-cta' },
+            '@'
+          )
+        )
+      )
+    ),
+    external__react__default.a.createElement(
+      'div',
+      { className: 'row section services-detail' },
+      external__react__default.a.createElement(
+        Fade__default.a,
+        { bottom: true },
+        external__react__default.a.createElement(
+          'h1',
+          { className: 'display-5 head2' },
+          'WE\'RE PREPARED TO',
+          external__react__default.a.createElement('br', null),
+          'MEET YOUR NEEDS'
+        )
+      ),
+      external__react__default.a.createElement(
+        'div',
+        { className: 'col-sm-12 col-md-8' },
+        external__react__default.a.createElement(
+          Fade__default.a,
+          { bottom: true, delay: 500 },
+          external__react__default.a.createElement(
+            'div',
+            { className: 'txt-deco' },
+            external__react__default.a.createElement('div', { className: 'deco-line' }),
+            external__react__default.a.createElement(
+              'div',
+              { className: 'deco-label' },
+              external__react__default.a.createElement(
+                'a',
+                { href: '/contact' },
+                'Take the next step'
+              )
+            )
+          )
+        ),
+        external__react__default.a.createElement(
+          Fade__default.a,
+          { bottom: true, delay: 500 },
+          external__react__default.a.createElement(
+            'div',
+            { className: 'deco1' },
+            'TELL',
+            external__react__default.a.createElement('br', null),
+            'YOUR',
+            external__react__default.a.createElement('br', null),
+            'STORY'
+          )
+        ),
+        external__react__default.a.createElement(
+          Fade__default.a,
+          { bottom: true, delay: 500 },
+          external__react__default.a.createElement(
+            'div',
+            { className: 'o-blob' },
+            external__react__default.a.createElement('img', { src: '/static/elements/o-blob.gif', alt: '' })
+          ),
+          external__react__default.a.createElement(
+            'div',
+            { className: 'y-blob' },
+            external__react__default.a.createElement('img', { src: '/static/elements/y-blob.gif', alt: '' })
+          )
+        ),
+        external__react__default.a.createElement(
+          Fade__default.a,
+          { bottom: true, delay: 500 },
+          external__react__default.a.createElement(
+            'p',
+            { className: 'detail' },
+            'With over 25 years of experience in resolving traffic matters, we\'re experienced in the art of attaining the results our clients want. Whether you seek dismissal or a quick resolution, you can rest assured that when you hire Markowitz Law, you minimize the hassle and maximize efficiency.'
+          ),
+          external__react__default.a.createElement(
+            'p',
+            { className: 'detail' },
+            'No matter the story, we can help.'
+          )
+        )
+      ),
+      external__react__default.a.createElement(
+        'div',
+        { className: 'col-sm-12 col-md-4' },
+        external__react__default.a.createElement(
+          Fade__default.a,
+          { bottom: true, delay: 500 },
+          external__react__default.a.createElement(
+            'h4',
+            null,
+            'Services'
+          ),
+          external__react__default.a.createElement(
+            'ul',
+            null,
+            external__react__default.a.createElement(
+              'li',
+              null,
+              'Traffic Ticket and Criminal Defense'
+            ),
+            external__react__default.a.createElement(
+              'li',
+              null,
+              'DWI and License Revocation'
+            ),
+            external__react__default.a.createElement(
+              'li',
+              null,
+              'Failure to Appear and Bonding'
+            ),
+            external__react__default.a.createElement(
+              'li',
+              null,
+              'Occupational Driver License'
+            ),
+            external__react__default.a.createElement(
+              'li',
+              null,
+              'Expunction and Non-Disclosure of Records'
+            ),
+            external__react__default.a.createElement(
+              'li',
+              null,
+              'Other Services Available'
+            )
+          )
+        )
+      )
+    ),
+    external__react__default.a.createElement(
+      'div',
+      { className: 'container questions-grid' },
+      external__react__default.a.createElement(faq, null)
+    ),
+    external__react__default.a.createElement(
+      'div',
+      { className: 'row section resources-detail' },
+      external__react__default.a.createElement(
+        Fade__default.a,
+        { bottom: true, delay: 500 },
+        external__react__default.a.createElement(
+          'div',
+          { className: 'res-info' },
+          external__react__default.a.createElement('div', { className: 'num-line' }),
+          external__react__default.a.createElement(
+            'div',
+            { className: 'num-label' },
+            'RESOURCES'
+          )
+        )
+      ),
+      external__react__default.a.createElement(
+        Fade__default.a,
+        { bottom: true, delay: 500 },
+        external__react__default.a.createElement(
+          'h3',
+          { className: 'display-5 head2' },
+          'Helping you every step of the way'
+        )
+      ),
+      external__react__default.a.createElement(
+        Fade__default.a,
+        { bottom: true, delay: 500 },
+        external__react__default.a.createElement(
+          'div',
+          { className: 'txt-deco' },
+          external__react__default.a.createElement('div', { className: 'deco-line' }),
+          external__react__default.a.createElement(
+            'div',
+            { className: 'deco-label' },
+            external__react__default.a.createElement(
+              'a',
+              { href: '/contact' },
+              'Get in touch'
+            )
+          )
+        )
+      ),
+      external__react__default.a.createElement(
+        Fade__default.a,
+        { bottom: true, delay: 500 },
+        external__react__default.a.createElement(
+          'div',
+          { className: 'g-blob' },
+          external__react__default.a.createElement('img', { src: '/static/elements/g-blob.gif', alt: '' })
+        ),
+        external__react__default.a.createElement(
+          'div',
+          { className: 'b-blob' },
+          external__react__default.a.createElement('img', { src: '/static/elements/b-blob.gif', alt: '' })
+        )
+      ),
+      external__react__default.a.createElement(resources, null)
+    ),
+    external__react__default.a.createElement(
+      'div',
+      { className: 'footer-info' },
+      external__react__default.a.createElement(footer["a" /* default */], null)
+    )
+  );
+};
+
+/* harmony default export */ var services = __webpack_exports__["default"] = (services_Services);
 
 /***/ })
 /******/ ]);
