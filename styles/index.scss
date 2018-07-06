@@ -1253,7 +1253,7 @@ hr {
 
   #main {
     background-image: url('/static/billboard.jpg');
-    min-height: 768px;
+    min-height: 820px;
     background-size: cover;
     background-attachment: scroll;
     margin-bottom: 0;
@@ -2304,4 +2304,62 @@ hr {
     }
   }
 }
+}
+
+@media (min-width: 1500px) {
+  .container-fluid {
+    .home1 {
+      max-width: 1400px;
+    }
+
+    #main {
+      min-height: 860px;
+    }
+
+    .options {
+      .y-blob {
+        left: 80px;
+      }
+      .r-blob {
+        left: 1080px;
+      }
+      .g-blob {
+        left: 1280px;
+      }
+    }
+
+    .row.section iframe {
+      width: 86%;
+      height: 636px;
+    }
+
+    .home3, .home4 {
+      padding-left: 500px;
+      .deco1 {
+        top: 7.75em;
+      }
+      .deco2 {
+        top: 12.65em;
+      }
+    }
+
+    .cta {
+      height: 640px;
+      padding-top: 21em;
+      h3 {
+        font-size: 82px;
+        line-height: 82px;
+      }
+    }
+
+    .legacy {
+      .num-overlay {
+        left: 200px;
+        bottom: 76px;
+      }
+      .num-container img {
+        width: 42%;
+      }
+    }
+  }
 }
