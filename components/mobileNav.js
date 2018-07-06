@@ -16,7 +16,7 @@ const MobileNav = () => {
         <a className="navbar-brand" href="/contact">
           <img className="nav-icons" src="/static/add-w.png"/>
         </a>
-        <a className="navbar-brand" href="tel:3372400858">
+        <a className="navbar-brand" href="tel:713-521-7568">
           <img className="nav-icons" src="/static/call-w.png"/>
         </a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">

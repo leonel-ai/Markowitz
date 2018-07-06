@@ -31,17 +31,14 @@ p {
   font-size: 16px !important;
 }
 
+.period { color: #ff1400; }
+
 .display-4 {
   line-height: 56px;
  }
 
 .head1 {
-  padding-top: .5em;
-}
-
-.head2, .head3 {
-  line-height: 46px;
-  font-size: 2.8em;
+  padding-top: .25em;
 }
 
 .action {
@@ -89,6 +86,12 @@ hr {
       padding-left: 15px;
       padding-right: 15px;
     }
+
+    iframe {
+      width: 90%;
+      height: 218px;
+      margin: 0 auto;
+    }
   }
 
   .home-header {
@@ -101,6 +104,10 @@ hr {
 
   .home1 {
     padding-left: 20px;
+    p {
+      margin-bottom: .5em;
+    }
+    .cta-services {display: none;}
   }
 
   .home2, .home3, .home4, .home5 {
@@ -108,9 +115,14 @@ hr {
     padding-right: 20px;
   }
 
+  .head2, .head3 {
+    line-height: 44px;
+    font-size: 44px;
+  }
+
   .options {
     padding-bottom: 4em;
-    padding-top: 2em;
+    padding-top: 4em;
 
     .r-blob {
       display: block;
@@ -146,11 +158,13 @@ hr {
 
     h1 {
       margin-top: 1.5em;
+      line-height: 44px;
+      font-size: 44px;
     }
 
     .num-line {
       margin-bottom: 1em;
-      margin-top: 5em;
+      margin-top: 3em;
       height: 2px;
       max-width: 2em;
       background-color: #111;
@@ -206,7 +220,7 @@ hr {
 
   .legacy {
     margin-bottom: 10em;
-    margin-top: 8em;
+    margin-top: 6em;
     width: 100%;
 
     .text-muted {
@@ -220,7 +234,7 @@ hr {
 
     .legacy-text {
       margin-top: 4em;
-      margin-bottom: 4em;
+      margin-bottom: 6em;
     }
 
     .case-title {
@@ -235,7 +249,7 @@ hr {
       rgba(0, 0, 0, 0.45)
     ), url('/static/cta.jpg') no-repeat center center fixed;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
     color: white;
     height: 622px;
     padding-top: 23em;
@@ -347,8 +361,8 @@ hr {
 #main {
   background-image: url('/static/half-bill.jpg');
   background-size: cover;
-  background-attachment: fixed;
-  min-height: 686px;
+  background-attachment: scroll;
+  min-height: 500px;
   margin-bottom: 0;
   margin-top: 12%;
 
@@ -813,6 +827,9 @@ hr {
           border: 0;
           border-bottom: 2px solid $primary-color;
           padding: 5.5px;
+          font-size: 14px;
+          line-height: 18px;
+          letter-spacing: .01em;
         }
 
         textarea {
@@ -974,7 +991,6 @@ hr {
   #main {
     margin-top: 6%;
     background: white;
-    min-height: auto;
     h1, p {
       width: 500px;
     }
@@ -987,14 +1003,11 @@ hr {
 
   .action { display: none; }
 
-  .head2, .head3 {
-    font-size: 76px;
-    line-height: 76px;
-  }
-
   .row.section iframe {
-    width: 100%;
-    height: 330px;
+    width: 85%;
+    height: 230px;
+    padding: 0;
+    margin: 0 auto;
   }
 
   .container-fluid {
@@ -1024,6 +1037,11 @@ hr {
         left: 358px;
         margin-top: 15.5em;
       }
+    }
+
+    .head2, .head3 {
+      font-size: 56px;
+      line-height: 56px;
     }
 
     .home3, .home4 {
@@ -1235,22 +1253,14 @@ hr {
 
   #main {
     background-image: url('/static/billboard.jpg');
-    min-height: 100vh;
+    min-height: 768px;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
     margin-bottom: 0;
-    margin-top: 16%;
+    margin-top: 8%;
 
     h1, p {
       max-width: 200px;
-    }
-
-    .head1, .head2, .head3 {
-      font-size: 85px;
-      line-height: 85px;
-    }
-    .head1 {
-      margin-top: 0;
     }
   }
 
@@ -1261,6 +1271,17 @@ hr {
   .container-fluid {
     .home1 {
       max-width: 660px;
+    }
+
+    .head1 {
+      font-size: 82px;
+      line-height: 82px;
+      margin-top: 0;
+    }
+
+    .head2, .head3 {
+      font-size: 56px;
+      line-height: 56px;
     }
 
     .options {
@@ -1296,17 +1317,30 @@ hr {
       margin-bottom: 10em;
 
       h1 {
-        font-size: 72px;
-        line-height: 72px;
+        font-size: 52px;
+        line-height: 52px;
       }
 
       .deco1 {
-        top: 10em;
+        top: 11.2em;
        }
-      .deco2 { top: 15.2em; }
+      .deco2 { top: 16.5em; }
 
       .home-link {
         padding-left: 24em;
+      }
+    }
+
+    .row.section iframe {
+      width: 90%;
+      height: 383px;
+      padding: 0;
+      margin: 0 auto;
+    }
+
+    .legacy {
+      .num-container img {
+        width: 55%;
       }
     }
   }
@@ -1576,27 +1610,42 @@ hr {
 
   #main {
     background-image: url('/static/full-bill.jpg');
-    margin-top: 0;
-    background-size: cover;
-
-    .head1, .head2, .head3 {
-      font-size: 75px;
-      line-height: 75px;
-    }
+    margin-top: 4%;
+    background-attachment: fixed;
+    max-height: 768px;
+    background-size: contain;
+    background-repeat: no-repeat;
 
     h1, p {
       width: 360px;
     }
   }
 
-  .row.section iframe {
-    width: 100%;
-    height: 580px;
-  }
-
   .container-fluid {
     .home1 {
-      max-width: 880px;
+      max-width: 960px;
+      p {
+        margin-bottom: 1em;
+      }
+      .cta-services {
+        display: block;
+        position: absolute;
+        font-family: 'Inter UI';
+        font-size: 11px;
+        line-height: 11px;
+        text-decoration: none;
+        color: #252b7e;
+        right: 2.5%;
+        bottom: 6%;
+        z-index: 3;
+        line-height: 1;
+        text-align: right;
+      }
+      .at-cta {
+        font-family: 'Bebas Neue';
+        font-size: 14px;
+        line-height: 14px;
+      }
     }
 
     .home2 {
@@ -1604,6 +1653,16 @@ hr {
         width: 600px;
         padding-left: 100px;
       }
+    }
+
+    .head1 {
+      font-size: 86px;
+      line-height: 86px;
+    }
+
+    .head2, .head3 {
+      font-size: 56px;
+      line-height: 56px;
     }
 
     .options {
@@ -1635,11 +1694,23 @@ hr {
       }
     }
 
+    .row.section iframe {
+      width: 92%;
+      height: 531px;
+      padding: 0;
+      margin: 0 auto;
+    }
+
     .home3, .home4 {
       padding-left: 268px;
       h1, p {
         width: 600px;
       }
+      h1 {
+        font-size: 56px;
+        line-height: 56px;
+      }
+
       .deco1 {
         padding-left: 20px;
         font-size: 21vw;
@@ -1652,12 +1723,23 @@ hr {
       }
     }
 
+    .cta {
+      background-attachment: fixed;
+      height: 600px;
+      padding-top: 21em;
+      h3 {
+        font-size: 72px;
+        line-height: 72px;
+      }
+    }
+
     .legacy {
+      margin-top: 8em;
       .text-muted {
         margin-left: 24em;
       }
       .num-container img {
-        width: 45%;
+        width: 50%;
       }
       .num-overlay {
         bottom: 64px;
@@ -1764,7 +1846,7 @@ hr {
         text-decoration: none;
         color: #252b7e;
         right: 2.5%;
-        bottom: -56%;
+        bottom: -45%;
         z-index: 3;
         line-height: 1;
         text-align: right;
@@ -1972,6 +2054,12 @@ hr {
 @media (min-width: 1200px) {
 
   #main {
+    margin-top: 3em;
+    width: 100%;
+    height: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+
     .head1 {
       font-size: 104px;
       line-height: 104px;
@@ -1987,6 +2075,7 @@ hr {
     }
     .cta {
       padding-left: 80px;
+      height: 600px;
     }
 
     .marko-logo {
@@ -2019,22 +2108,23 @@ hr {
     }
 
     .home3, .home4 {
-      padding-left: 480px;
+      padding-left: 400px;
       padding-bottom: 6em;
       padding-top: 5em;
       .deco1 {
-        top: 12em;
+        top: 9.5em;
         font-size: 18vw;
       }
       .deco2 {
         font-size: 18vw;
-        top: 19.5em;
+        top: 15.8em;
       }
     }
 
     .row.section iframe {
-      width: 100%;
-      height: 768px;
+      width: 85%;
+      height: 576px;
+      margin: 0 auto;
     }
 
     .legacy {
@@ -2135,11 +2225,8 @@ hr {
         left: 222px;
       }
     }
-
   }
-
 }
-
 }
 
 @media (min-width: 1300px) {
@@ -2164,30 +2251,30 @@ hr {
         left: 80px;
       }
       .r-blob {
-        left: 960px;
+        left: 780px;
       }
       .g-blob {
-        left: 1090px;
+        left: 960px;
       }
     }
 
     .row.section iframe {
-      width: 100%;
-      height: 800px;
+      width: 82%;
     }
 
     .home3, .home4 {
-      padding-left: 620px;
+      padding-left: 420px;
       .deco1 {
-        top: 7em;
+        top: 8.9em;
       }
       .deco2 {
-        top: 12em;
+        top: 14.7em;
       }
     }
 
     .cta {
-      padding-top: 28em;
+      padding-top: 20em;
+      width: 100%;
       h3 {
         font-size: 72px;
         line-height: 72px;
@@ -2205,12 +2292,15 @@ hr {
   /* services */
 #services-page{
   .services-banner {
-    margin-top: 14em;
+    margin-top: 12em;
     img {
       max-width: 45%;
     }
     .banner-overlay {
-      bottom: 24em;
+      bottom: 22em;
+    }
+    .cta-services {
+      bottom: -40%;
     }
   }
 }

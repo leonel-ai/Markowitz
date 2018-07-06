@@ -33,11 +33,16 @@ class Home extends Component {
         <div className="jumbotron jumbotron-fluid" id="main">
           <div className="container home1">
           <Fade bottom delay={500}>
-            <h1 className="display-4 head1"><b>Traffic court sucks. Period.</b></h1>
-            <p className="lead">Everyone has a story.<br/>Tell us yours.</p>
-            <p className="action">Scroll</p>
-            <hr/>
+            <h1 className="display-4 head1"><b>Traffic court sucks, <span className="period">Period.</span></b></h1>
           </Fade>
+          <Fade bottom delay={510}>
+            <p className="lead">Everyone has a story.<br/>Tell us yours.</p>
+          </Fade>
+            <Fade bottom delay={520}>
+              <p className="action">Scroll</p>
+              <hr/>
+              <a className="cta-services" href="/contact">Let's Get To Work &nbsp;&nbsp;<span className="at-cta">@</span></a>
+            </Fade>
           </div>
         </div>
 
@@ -66,7 +71,7 @@ class Home extends Component {
 
       <div className="row section">
       <Fade bottom delay={500}>
-          <iframe width="420" height="210" src="https://www.youtube.com/embed/H8NExnW8fNM?rel=0&amp;controls=0&amp;showinfo=0"
+          <iframe src="https://www.youtube.com/embed/H8NExnW8fNM?rel=0&amp;controls=0&amp;showinfo=0"
           frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
         </Fade>
           <div className="home3">
@@ -96,7 +101,7 @@ class Home extends Component {
 
         <div className="row section">
         <Fade bottom delay={500}>
-          <iframe width="420" height="210" src="https://www.youtube.com/embed/jZ5zgDhmjYg?rel=0&amp;controls=0&amp;showinfo=0"
+          <iframe src="https://www.youtube.com/embed/jZ5zgDhmjYg?rel=0&amp;controls=0&amp;showinfo=0"
           frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
         </Fade>
           <div className="home4">
@@ -125,7 +130,7 @@ class Home extends Component {
 
       <Fade bottom delay={500}>
         <div className="cta">
-          <h3 className="display-4">Save <span className="orange">time</span>.<br/>Save <span className="yellow">energy</span>.<br/>Submit your case today.</h3>
+          <h3 className="display-4">Save <span className="orange">time</span><br/>Save <span className="yellow">energy</span><br/>Submit your case today</h3>
         </div>
       </Fade>
 

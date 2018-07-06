@@ -42,7 +42,7 @@ const Services = () => {
           </div>
           <div className="banner-subtitle"><span className="banner-line"></span> 25 YEARS STRONG</div>
         </Fade>
-        <Fade bottom delay={500}>
+        <Fade bottom delay={520}>
           <p className="action">Scroll</p>
           <hr/>
           <a className="cta-services" href="/contact">Let's Get To Work &nbsp;&nbsp;<span className="at-cta">@</span></a>

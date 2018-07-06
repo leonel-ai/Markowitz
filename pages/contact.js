@@ -31,7 +31,7 @@ const Contact = () => {
       </Fade>
 
       <div className="contact-banner">
-      <Fade bottom delay={500}>
+      <Fade bottom delay={510}>
         <div className="banner-overlay">
           <div>We're just 05 minutes away from the <span className="nearby"> GALLERIA</span></div>
         </div>
@@ -42,7 +42,7 @@ const Contact = () => {
       </div>
 
       <div className="row section contact-main">
-      <Fade bottom delay={500}>
+      <Fade bottom delay={520}>
         <div className="col-sm-12 col-md-4 col-lg-12 contact-info">
           <ul>
             <li>Markowitz Law</li>
@@ -103,7 +103,7 @@ const Contact = () => {
          <Fade bottom>
             <label>
               <span className="f-label">Tell us your story *</span>
-              <textarea placeholder="Please list all violations as well as any preference for Court Valet or Ticket Defense options."
+              <textarea placeholder="Please list all violations. Interested in Court Valet or Ticket Defense? Let us know."
                 name="entry.439355783" id="contact-msg" cols="36" rows="8" required></textarea>
             </label>
           </Fade>
