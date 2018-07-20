@@ -56,7 +56,7 @@ const Contact = () => {
         </div>
       </Fade>
         <div className="col-sm-12 col-md-10 col-lg-6 contact-form">
-          <form action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSdeaOc5RdN6fpd1rH545M6TgX2V6K7UT5MaSXrDmHVqlB1OJA/formResponse"
+          <form action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSfwJNeWQ1TmJMUxuKSBwrB-6HCrnJCEJPJwe9cXGtitQqslJQ/formResponse"
                 className="clio-intake-form">
             <input type="hidden" name="token" value=""/>
             <input type="hidden" name="utm_campaign"/>
@@ -64,10 +64,10 @@ const Contact = () => {
           <Fade bottom>
             <label className="f-select">
               <h5>Please select one of the following:</h5>
-              <input type="radio" name="entry.978263809" id="c1" value="Submit Case"/>
+              <input type="radio" name="entry.127695460" id="c1" value="Submit Case"/>
               <label htmlFor="c1" className="r-label">&nbsp; Submit Case</label>
               <span className="r-divide">&nbsp;</span>
-              <input type="radio" name="entry.978263809" id="c2" value="Send Message"/>
+              <input type="radio" name="entry.127695460" id="c2" value="Send Message"/>
               <label htmlFor="c2" className="r-label">&nbsp; Send Message</label>
             </label>
             </Fade>
@@ -75,28 +75,28 @@ const Contact = () => {
           <Fade bottom>
             <label className="col-md-5 split">
               <span className="f-label">First *</span>
-              <input type="text" name="entry.1273444917" required/>
+              <input type="text" name="entry.829767597" required/>
             </label>
           </Fade>
 
           <Fade bottom>
             <label className="col-md-5 offset-md-2 split">
               <span className="f-label">Last *</span>
-              <input type="text" name="entry.989041041" required/>
+              <input type="text" name="entry.2106032748" required/>
             </label>
           </Fade>
 
          <Fade bottom>
             <label className="col-md-5 split">
               <span className="f-label">Email *</span>
-              <input type="email" name="emailAddress" required/>
+              <input type="email" name="entry.59579137" required/>
             </label>
           </Fade>
 
          <Fade bottom>
             <label className="col-md-5 offset-md-2 split">
               <span className="f-label">Phone </span>
-              <input type="text" name="entry.1905867614" required/>
+              <input type="text" name="entry.1405552835" required/>
             </label>
           </Fade>
 
@@ -104,42 +104,42 @@ const Contact = () => {
             <label>
               <span className="f-label">Tell us your story *</span>
               <textarea placeholder="Please list all violations. Interested in Court Valet or Ticket Defense? Let us know."
-                name="entry.439355783" id="contact-msg" cols="36" rows="8" required></textarea>
+                name="entry.172526349" id="contact-msg" cols="36" rows="8" required></textarea>
             </label>
           </Fade>
 
          <Fade bottom>
             <label className="col-md-5 split">
               <span className="f-label">Citation # </span>
-              <input type="text" name="entry.1694926184"/>
+              <input type="text" name="entry.1772818909"/>
             </label>
           </Fade>
 
          <Fade bottom>
             <label className="col-md-5 offset-md-2 split">
               <span className="f-label">License # </span>
-              <input type="text" name="entry.1406961481"/>
+              <input type="text" name="entry.93247389"/>
             </label>
           </Fade>
 
           <Fade bottom>
             <label className="col-md-5 split">
               <span className="f-label">Last 4 SSN digits *</span>
-              <input type="text" name="entry.2048038734" required/>
+              <input type="text" name="entry.1003852542" required/>
             </label>
           </Fade>
 
          <Fade bottom>
             <label className="col-md-5 offset-md-2 split">
               <span className="f-label">Date of Birth *</span>
-              <input type="date" name="entry.1401730271" className="f-date" required/>
+              <input type="date" name="entry.883205225" className="f-date" required/>
             </label>
           </Fade>
 
          <Fade bottom>
             <label htmlFor="deadline" className="col-md-10 offset-md-1">
               <span className="f-label">Due Date </span>
-              <input type="date" name="entry.740600167" className="f-date"/>
+              <input type="date" name="entry.503771199" className="f-date"/>
               <div className="f-support">Minimum 72-hr window for upcoming court dates. Missed court? We can still help.</div>
             </label>
           </Fade>
