@@ -70,10 +70,13 @@ class Home extends Component {
         </div>
 
       <div className="row section">
-      <Fade bottom delay={500}>
-          <iframe src="https://www.youtube.com/embed/H8NExnW8fNM?rel=0&amp;controls=0&amp;showinfo=0"
-          frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+        <Fade bottom delay={500}>
+          <div className="video-wrapper embed-responsive embed-responsive-16by9">
+            <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/qon4iL69Hh0?rel=0&amp;showinfo=0"
+              allow="autoplay; encrypted-media" allowFullScreen></iframe>
+          </div>
         </Fade>
+
           <div className="home3">
           <Fade bottom delay={500}>
             <div className="num-line"></div>
@@ -100,10 +103,12 @@ class Home extends Component {
         </div>
 
         <div className="row section">
-        <Fade bottom delay={500}>
-          <iframe src="https://www.youtube.com/embed/jZ5zgDhmjYg?rel=0&amp;controls=0&amp;showinfo=0"
-          frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
-        </Fade>
+          <Fade bottom delay={500}>
+            <div className="video-wrapper embed-responsive embed-responsive-16by9">
+              <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/JoFWEzQxIa0?rel=0&amp;showinfo=0"
+                allow="autoplay; encrypted-media" allowFullScreen></iframe>
+            </div>
+          </Fade>
           <div className="home4">
           <Fade bottom delay={500}>
             <div className="num-line"></div>

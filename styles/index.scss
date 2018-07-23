@@ -87,10 +87,9 @@ hr {
       padding-right: 15px;
     }
 
-    iframe {
-      width: 90%;
-      height: 218px;
+    .video-wrapper {
       margin: 0 auto;
+      width: 90%;
     }
   }
 
@@ -1003,11 +1002,9 @@ hr {
 
   .action { display: none; }
 
-  .row.section iframe {
-    width: 85%;
-    height: 230px;
-    padding: 0;
+  .video-wrapper {
     margin: 0 auto;
+    width: 90%;
   }
 
   .container-fluid {
@@ -1331,11 +1328,9 @@ hr {
       }
     }
 
-    .row.section iframe {
-      width: 90%;
-      height: 383px;
-      padding: 0;
+    .video-wrapper {
       margin: 0 auto;
+      width: 90%;
     }
 
     .legacy {
@@ -1694,11 +1689,9 @@ hr {
       }
     }
 
-    .row.section iframe {
-      width: 92%;
-      height: 531px;
-      padding: 0;
+    .video-wrapper {
       margin: 0 auto;
+      width: 90%;
     }
 
     .home3, .home4 {
@@ -2121,10 +2114,9 @@ hr {
       }
     }
 
-    .row.section iframe {
-      width: 85%;
-      height: 576px;
+    .video-wrapper {
       margin: 0 auto;
+      width: 90%;
     }
 
     .legacy {
@@ -2258,8 +2250,9 @@ hr {
       }
     }
 
-    .row.section iframe {
-      width: 82%;
+    .video-wrapper {
+      margin: 0 auto;
+      width: 90%;
     }
 
     .home3, .home4 {
@@ -2328,9 +2321,9 @@ hr {
       }
     }
 
-    .row.section iframe {
-      width: 86%;
-      height: 636px;
+    .video-wrapper {
+      margin: 0 auto;
+      width: 90%;
     }
 
     .home3, .home4 {
