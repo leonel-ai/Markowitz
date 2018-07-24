@@ -72,8 +72,8 @@ class Home extends Component {
       <div className="row section">
         <Fade bottom delay={500}>
           <div className="video-wrapper embed-responsive embed-responsive-16by9">
-            <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/jp_ZhBNMcBw?rel=0&amp;showinfo=0"
-              allow="autoplay; encrypted-media" allowFullScreen></iframe>
+            <iframe className="embed-responsive-item" src="https://player.vimeo.com/video/281501443?title=0&byline=0&portrait=0"
+              allow="autoplay; encrypted-media" webkitAllowFullScreen mozAllowFullScreen allowFullScreen></iframe>
           </div>
         </Fade>
 
@@ -105,8 +105,8 @@ class Home extends Component {
         <div className="row section">
           <Fade bottom delay={500}>
             <div className="video-wrapper embed-responsive embed-responsive-16by9">
-              <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/Satb2dspntI?rel=0&amp;showinfo=0"
-                allow="autoplay; encrypted-media" allowFullScreen></iframe>
+              <iframe className="embed-responsive-item" src="https://player.vimeo.com/video/281502442?title=0&byline=0&portrait=0"
+                allow="autoplay; encrypted-media" webkitAllowFullScreen mozAllowFullScreen allowFullScreen></iframe>
             </div>
           </Fade>
           <div className="home4">

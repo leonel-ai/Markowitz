@@ -1,1 +1,1968 @@
-module.exports=__NEXT_REGISTER_PAGE("/",function(){var e=webpackJsonp([3],{196:function(e,a,t){e.exports=t(197)},197:function(e,a,t){"use strict";Object.defineProperty(a,"__esModule",{value:true});var l=t(1);var r=t.n(l);var c=t(15);var n=t.n(c);var o=t(68);var s=t.n(o);var m=t(21);var i=t.n(m);var d=t(69);var u=t(70);var E=function e(){return r.a.createElement("div",{id:"accordion",className:"row"},r.a.createElement("div",{className:"col col-lg-6"},r.a.createElement(n.a,{bottom:true},r.a.createElement("div",{className:"card yellow col-lg-12"},r.a.createElement("div",{className:"card-header",id:"headingOne"},r.a.createElement("p",{className:"mb-0 case-action"},"Resolve",r.a.createElement("button",{className:"btn btn-link","data-toggle":"collapse","data-target":"#collapseOne","aria-expanded":"true","aria-controls":"collapseOne"},r.a.createElement("h4",{className:"case-client"},"Out-of-Towner")))),r.a.createElement("div",{id:"collapseOne",className:"collapse","aria-labelledby":"headingOne","data-parent":"#accordion"},r.a.createElement("div",{className:"card-body"},r.a.createElement("p",null,"What do you do when you get a traffic ticket in a city hundreds of miles away from home? Easy—submit your case to Markowitz Law. Our Court Valet service allows us to represent and fight for you in court while you rest easy back home, no flights necessary.")))))),r.a.createElement("div",{className:"col col-lg-6"},r.a.createElement(n.a,{bottom:true},r.a.createElement("div",{className:"card red col-lg-12"},r.a.createElement("div",{className:"card-header",id:"headingTwo"},r.a.createElement("p",{className:"mb-0 case-action"},"Dismiss",r.a.createElement("button",{className:"btn btn-link collapsed","data-toggle":"collapse","data-target":"#collapseTwo","aria-expanded":"false","aria-controls":"collapseTwo"},r.a.createElement("h4",{className:"case-client"},"Teen Driver")))),r.a.createElement("div",{id:"collapseTwo",className:"collapse","aria-labelledby":"headingTwo","data-parent":"#accordion"},r.a.createElement("div",{className:"card-body"},r.a.createElement("p",null,"Your teen’s first traffic ticket can mean high anxiety and even higher insurance rates for the whole family. We’ve all been new to the rules of the road, and Markowitz Law can help parents and teens understand the law.")))))),r.a.createElement("div",{className:"col col-lg-6"},r.a.createElement(n.a,{bottom:true},r.a.createElement("div",{className:"card blue col-lg-12"},r.a.createElement("div",{className:"card-header",id:"headingThree"},r.a.createElement("p",{className:"mb-0 case-action"},"Reduce",r.a.createElement("button",{className:"btn btn-link collapsed","data-toggle":"collapse","data-target":"#collapseThree","aria-expanded":"false","aria-controls":"collapseThree"},r.a.createElement("h4",{className:"case-client"},"Daily Commuter")))),r.a.createElement("div",{id:"collapseThree",className:"collapse","aria-labelledby":"headingThree","data-parent":"#accordion"},r.a.createElement("div",{className:"card-body"},r.a.createElement("p",null,"It's a race out there, and even the best of us can miss a red light, roll a stop sign, or exceed the posted speed limit. Sound familiar? The law never stops, and that can leave a lot of room for traffic violations.")))))),r.a.createElement("div",{className:"col col-lg-6"},r.a.createElement(n.a,{bottom:true},r.a.createElement("div",{className:"card orange col-lg-12"},r.a.createElement("div",{className:"card-header",id:"headingFour"},r.a.createElement("p",{className:"mb-0 case-action"},"Recover",r.a.createElement("button",{className:"btn btn-link collapsed","data-toggle":"collapse","data-target":"#collapseFour","aria-expanded":"false","aria-controls":"collapseFour"},r.a.createElement("h4",{className:"case-client"},"Commercial Trucker")))),r.a.createElement("div",{id:"collapseFour",className:"collapse","aria-labelledby":"headingFour","data-parent":"#accordion"},r.a.createElement("div",{className:"card-body"},r.a.createElement("p",null,"You’ve already got valuable cargo to transport. The last thing you need to worry about is a compromised CDL. Markowitz Law is highly experienced in fighting to lessen the severity of your case, so you can get back on the road again, worry-free.")))))))};var p=E;var b=t(71);var h=function(){function e(e,a){for(var t=0;t<a.length;t++){var l=a[t];l.enumerable=l.enumerable||false;l.configurable=true;"value"in l&&(l.writable=true);Object.defineProperty(e,l.key,l)}}return function(a,t,l){t&&e(a.prototype,t);l&&e(a,l);return a}}();function y(e,a){if(!(e instanceof a))throw new TypeError("Cannot call a class as a function")}function v(e,a){if(!e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return!a||"object"!==typeof a&&"function"!==typeof a?e:a}function f(e,a){if("function"!==typeof a&&null!==a)throw new TypeError("Super expression must either be null or a function, not "+typeof a);e.prototype=Object.create(a&&a.prototype,{constructor:{value:e,enumerable:false,writable:true,configurable:true}});a&&(Object.setPrototypeOf?Object.setPrototypeOf(e,a):e.__proto__=a)}var N=function(e){f(a,e);function a(){y(this,a);return v(this,(a.__proto__||Object.getPrototypeOf(a)).apply(this,arguments))}h(a,[{key:"render",value:function e(){return r.a.createElement("div",{className:"container-fluid"},r.a.createElement(s.a,null,r.a.createElement("title",null,"Markowitz Law"),r.a.createElement("meta",{name:"description",content:"TBD"}),r.a.createElement("meta",{name:"keywords",content:"TBD"}),r.a.createElement("meta",{name:"author",content:"Markowitz Law"}),r.a.createElement("style",{dangerouslySetInnerHTML:{__html:i.a}})),r.a.createElement(d["a"],null),r.a.createElement(u["a"],null),r.a.createElement(n.a,{bottom:true,delay:500},r.a.createElement("div",{className:"home-header"},r.a.createElement("img",{src:"/static/mlaw.svg",alt:"logo",className:"img-fluid marko-logo"}))),r.a.createElement("div",{className:"jumbotron jumbotron-fluid",id:"main"},r.a.createElement("div",{className:"container home1"},r.a.createElement(n.a,{bottom:true,delay:500},r.a.createElement("h1",{className:"display-4 head1"},r.a.createElement("b",null,"Traffic court sucks, ",r.a.createElement("span",{className:"period"},"Period.")))),r.a.createElement(n.a,{bottom:true,delay:510},r.a.createElement("p",{className:"lead"},"Everyone has a story.",r.a.createElement("br",null),"Tell us yours.")),r.a.createElement(n.a,{bottom:true,delay:520},r.a.createElement("p",{className:"action"},"Scroll"),r.a.createElement("hr",null),r.a.createElement("a",{className:"cta-services",href:"/contact"},"Let's Get To Work   ",r.a.createElement("span",{className:"at-cta"},"@"))))),r.a.createElement("div",{className:"row section options home2"},r.a.createElement(n.a,{bottom:true,delay:500},r.a.createElement("h1",{className:"display-5 head2"},"You have options.",r.a.createElement("br",null),"Choose wisely.")),r.a.createElement(n.a,{bottom:true,delay:500},r.a.createElement("div",{className:"r-blob"},r.a.createElement("img",{src:"/static/elements/r-blob.gif",alt:""})),r.a.createElement("div",{className:"y-blob"},r.a.createElement("img",{src:"/static/elements/y-blob.gif",alt:""})),r.a.createElement("div",{className:"g-blob"},r.a.createElement("img",{src:"/static/elements/g-blob.gif",alt:""}))),r.a.createElement(n.a,{bottom:true,delay:500},r.a.createElement("p",null,"Sitting in court for hours just to pay hefty fees and get ordered into defensive driving is no longer your only option when fighting a traffic ticket."),r.a.createElement("p",null,'At Markowitz Law, you can choose convenience over convention. Whether you choose to fight the ticket in court with a Markowitz trial attorney or opt for a more refined "court valet" service, we go to court to help you through the process.'),r.a.createElement("p",null,"See which route may be best for you below."))),r.a.createElement("div",{className:"row section"},r.a.createElement(n.a,{bottom:true,delay:500},r.a.createElement("div",{className:"video-wrapper embed-responsive embed-responsive-16by9"},r.a.createElement("iframe",{className:"embed-responsive-item",src:"https://www.youtube.com/embed/jp_ZhBNMcBw?rel=0&showinfo=0",allow:"autoplay; encrypted-media",allowFullScreen:true}))),r.a.createElement("div",{className:"home3"},r.a.createElement(n.a,{bottom:true,delay:500},r.a.createElement("div",{className:"num-line"}),r.a.createElement("div",{className:"num-label"},"NO."),r.a.createElement("div",{className:"num-value"},"01")),r.a.createElement(n.a,{bottom:true,delay:500},r.a.createElement("h1",{className:"display-5"},r.a.createElement("b",null,"Court Valet"))),r.a.createElement(n.a,{bottom:true,delay:500},r.a.createElement("div",{className:"deco1"},"SAVE",r.a.createElement("br",null),"YOUR",r.a.createElement("br",null),"TIME")),r.a.createElement(n.a,{bottom:true,delay:500},r.a.createElement("p",{className:"lead"},"If your schedule is hectic and sacrificing uncertain hours in traffic court is out of the question, consider our Court Valet service. Court Valet may be the turnkey solution to your ticket problem."),r.a.createElement("a",{className:"home-link",href:"/services"},r.a.createElement("h5",{className:"text-muted home-explore"},"EXPLORE YOUR OPTIONS "),r.a.createElement("img",{className:"arrow",src:"/static/arrow-right.svg",alt:""}))))),r.a.createElement("div",{className:"row section"},r.a.createElement(n.a,{bottom:true,delay:500},r.a.createElement("div",{className:"video-wrapper embed-responsive embed-responsive-16by9"},r.a.createElement("iframe",{className:"embed-responsive-item",src:"https://www.youtube.com/embed/Satb2dspntI?rel=0&showinfo=0",allow:"autoplay; encrypted-media",allowFullScreen:true}))),r.a.createElement("div",{className:"home4"},r.a.createElement(n.a,{bottom:true,delay:500},r.a.createElement("div",{className:"num-line"}),r.a.createElement("div",{className:"num-label"},"NO."),r.a.createElement("div",{className:"num-value"},"02")),r.a.createElement(n.a,{bottom:true,delay:500},r.a.createElement("h1",{className:"display-5"},r.a.createElement("b",null,"Ticket Defense"))),r.a.createElement(n.a,{bottom:true,delay:500},r.a.createElement("div",{className:"deco2"},"SAVE",r.a.createElement("br",null),"YOUR",r.a.createElement("br",null),"ENERGY")),r.a.createElement(n.a,{bottom:true,delay:500},r.a.createElement("p",{className:"lead"},"If your schedule is flexible and you prefer to attend court, contact us. Ticket Defense may be the best option for you."),r.a.createElement("a",{className:"home-link",href:"/services"},r.a.createElement("h5",{className:"text-muted home-explore"},"EXPLORE YOUR OPTIONS "),r.a.createElement("img",{className:"arrow",src:"/static/arrow-right.svg",alt:""}))))),r.a.createElement(n.a,{bottom:true,delay:500},r.a.createElement("div",{className:"cta"},r.a.createElement("h3",{className:"display-4"},"Save ",r.a.createElement("span",{className:"orange"},"time"),r.a.createElement("br",null),"Save ",r.a.createElement("span",{className:"yellow"},"energy"),r.a.createElement("br",null),"Submit your case today"))),r.a.createElement("div",{className:"section legacy home5"},r.a.createElement("div",{className:"num-container"},r.a.createElement(n.a,{bottom:true,delay:500},r.a.createElement("img",{className:"img-responsive",src:"/static/25.svg",alt:""})),r.a.createElement(n.a,{bottom:true,delay:500},r.a.createElement("div",{className:"num-overlay"},r.a.createElement("h3",{className:"display-4 head3"},r.a.createElement("b",null,"Our Legacy"))))),r.a.createElement(n.a,{bottom:true,delay:500},r.a.createElement("h5",{className:"text-muted"},"       Est. 1993")),r.a.createElement(n.a,{bottom:true,delay:500},r.a.createElement("p",{className:"legacy-text"},"For more than 25 years, Markowitz Law has consistently strived to deliver legal solutions to Texas residents and its visitors. We've earned our reputation with our clients for a results-driven practice model.")),r.a.createElement(n.a,{bottom:true,delay:500},r.a.createElement("h4",{className:"case-title"},"How We Can Help You")),r.a.createElement(p,null)),r.a.createElement("div",{className:"footer-info"},r.a.createElement(b["a"],null)))}}]);return a}(l["Component"]);var g=a["default"]=N}},[196]);return{page:e.default}});
+module.exports =
+
+        __NEXT_REGISTER_PAGE('/', function() {
+          var comp = 
+      webpackJsonp([3],{
+
+/***/ "./components/accordion.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/cjs/react.development.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_reveal_Fade__ = __webpack_require__("./node_modules/react-reveal/Fade.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_reveal_Fade___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_reveal_Fade__);
+
+
+var _jsxFileName = '/Users/leonelaguzman/Documents/Clients/Markowitz/marko18/components/accordion.js';
+
+(function () {
+  var enterModule = __webpack_require__("./node_modules/react-hot-loader/index.js").enterModule;
+
+  enterModule && enterModule(module);
+})();
+
+
+
+
+var Accordion = function Accordion() {
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'div',
+    { id: 'accordion', className: 'row', __source: {
+        fileName: _jsxFileName,
+        lineNumber: 6
+      }
+    },
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'div',
+      { className: 'col col-lg-6', __source: {
+          fileName: _jsxFileName,
+          lineNumber: 7
+        }
+      },
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        __WEBPACK_IMPORTED_MODULE_1_react_reveal_Fade___default.a,
+        { bottom: true, __source: {
+            fileName: _jsxFileName,
+            lineNumber: 8
+          }
+        },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: 'card yellow col-lg-12', __source: {
+              fileName: _jsxFileName,
+              lineNumber: 9
+            }
+          },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            { className: 'card-header', id: 'headingOne', __source: {
+                fileName: _jsxFileName,
+                lineNumber: 10
+              }
+            },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'p',
+              { className: 'mb-0 case-action', __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 11
+                }
+              },
+              'Resolve',
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'button',
+                { className: 'btn btn-link', 'data-toggle': 'collapse', 'data-target': '#collapseOne', 'aria-expanded': 'true', 'aria-controls': 'collapseOne', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 12
+                  }
+                },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'h4',
+                  { className: 'case-client', __source: {
+                      fileName: _jsxFileName,
+                      lineNumber: 13
+                    }
+                  },
+                  'Out-of-Towner'
+                )
+              )
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            { id: 'collapseOne', className: 'collapse', 'aria-labelledby': 'headingOne', 'data-parent': '#accordion', __source: {
+                fileName: _jsxFileName,
+                lineNumber: 17
+              }
+            },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'div',
+              { className: 'card-body', __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 18
+                }
+              },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'p',
+                {
+                  __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 19
+                  }
+                },
+                'What do you do when you get a traffic ticket in a city hundreds of miles away from home? Easy\u2014submit your case to Markowitz Law. Our Court Valet service allows us to represent and fight for you in court while you rest easy back home, no flights necessary.'
+              )
+            )
+          )
+        )
+      )
+    ),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'div',
+      { className: 'col col-lg-6', __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27
+        }
+      },
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        __WEBPACK_IMPORTED_MODULE_1_react_reveal_Fade___default.a,
+        { bottom: true, __source: {
+            fileName: _jsxFileName,
+            lineNumber: 28
+          }
+        },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: 'card red col-lg-12', __source: {
+              fileName: _jsxFileName,
+              lineNumber: 29
+            }
+          },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            { className: 'card-header', id: 'headingTwo', __source: {
+                fileName: _jsxFileName,
+                lineNumber: 30
+              }
+            },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'p',
+              { className: 'mb-0 case-action', __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 31
+                }
+              },
+              'Dismiss',
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'button',
+                { className: 'btn btn-link collapsed', 'data-toggle': 'collapse', 'data-target': '#collapseTwo', 'aria-expanded': 'false', 'aria-controls': 'collapseTwo', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 32
+                  }
+                },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'h4',
+                  { className: 'case-client', __source: {
+                      fileName: _jsxFileName,
+                      lineNumber: 33
+                    }
+                  },
+                  'Teen Driver'
+                )
+              )
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            { id: 'collapseTwo', className: 'collapse', 'aria-labelledby': 'headingTwo', 'data-parent': '#accordion', __source: {
+                fileName: _jsxFileName,
+                lineNumber: 37
+              }
+            },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'div',
+              { className: 'card-body', __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 38
+                }
+              },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'p',
+                {
+                  __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 39
+                  }
+                },
+                'Your teen\u2019s first traffic ticket can mean high anxiety and even higher insurance rates for the whole family. We\u2019ve all been new to the rules of the road, and Markowitz Law can help parents and teens understand the law.'
+              )
+            )
+          )
+        )
+      )
+    ),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'div',
+      { className: 'col col-lg-6', __source: {
+          fileName: _jsxFileName,
+          lineNumber: 47
+        }
+      },
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        __WEBPACK_IMPORTED_MODULE_1_react_reveal_Fade___default.a,
+        { bottom: true, __source: {
+            fileName: _jsxFileName,
+            lineNumber: 48
+          }
+        },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: 'card blue col-lg-12', __source: {
+              fileName: _jsxFileName,
+              lineNumber: 49
+            }
+          },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            { className: 'card-header', id: 'headingThree', __source: {
+                fileName: _jsxFileName,
+                lineNumber: 50
+              }
+            },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'p',
+              { className: 'mb-0 case-action', __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 51
+                }
+              },
+              'Reduce',
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'button',
+                { className: 'btn btn-link collapsed', 'data-toggle': 'collapse', 'data-target': '#collapseThree', 'aria-expanded': 'false', 'aria-controls': 'collapseThree', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 52
+                  }
+                },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'h4',
+                  { className: 'case-client', __source: {
+                      fileName: _jsxFileName,
+                      lineNumber: 53
+                    }
+                  },
+                  'Daily Commuter'
+                )
+              )
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            { id: 'collapseThree', className: 'collapse', 'aria-labelledby': 'headingThree', 'data-parent': '#accordion', __source: {
+                fileName: _jsxFileName,
+                lineNumber: 57
+              }
+            },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'div',
+              { className: 'card-body', __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 58
+                }
+              },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'p',
+                {
+                  __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 59
+                  }
+                },
+                'It\'s a race out there, and even the best of us can miss a red light, roll a stop sign, or exceed the posted speed limit. Sound familiar? The law never stops, and that can leave a lot of room for traffic violations.'
+              )
+            )
+          )
+        )
+      )
+    ),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'div',
+      { className: 'col col-lg-6', __source: {
+          fileName: _jsxFileName,
+          lineNumber: 68
+        }
+      },
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        __WEBPACK_IMPORTED_MODULE_1_react_reveal_Fade___default.a,
+        { bottom: true, __source: {
+            fileName: _jsxFileName,
+            lineNumber: 69
+          }
+        },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: 'card orange col-lg-12', __source: {
+              fileName: _jsxFileName,
+              lineNumber: 70
+            }
+          },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            { className: 'card-header', id: 'headingFour', __source: {
+                fileName: _jsxFileName,
+                lineNumber: 71
+              }
+            },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'p',
+              { className: 'mb-0 case-action', __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 72
+                }
+              },
+              'Recover',
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'button',
+                { className: 'btn btn-link collapsed', 'data-toggle': 'collapse', 'data-target': '#collapseFour', 'aria-expanded': 'false', 'aria-controls': 'collapseFour', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 73
+                  }
+                },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'h4',
+                  { className: 'case-client', __source: {
+                      fileName: _jsxFileName,
+                      lineNumber: 74
+                    }
+                  },
+                  'Commercial Trucker'
+                )
+              )
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            { id: 'collapseFour', className: 'collapse', 'aria-labelledby': 'headingFour', 'data-parent': '#accordion', __source: {
+                fileName: _jsxFileName,
+                lineNumber: 78
+              }
+            },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'div',
+              { className: 'card-body', __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 79
+                }
+              },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'p',
+                {
+                  __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 80
+                  }
+                },
+                'You\u2019ve already got valuable cargo to transport. The last thing you need to worry about is a compromised CDL. Markowitz Law is highly experienced in fighting to lessen the severity of your case, so you can get back on the road again, worry-free.'
+              )
+            )
+          )
+        )
+      )
+    )
+  );
+};
+
+var _default = Accordion;
+/* harmony default export */ __webpack_exports__["a"] = (_default);
+;
+
+(function () {
+  var reactHotLoader = __webpack_require__("./node_modules/react-hot-loader/index.js").default;
+
+  var leaveModule = __webpack_require__("./node_modules/react-hot-loader/index.js").leaveModule;
+
+  if (!reactHotLoader) {
+    return;
+  }
+
+  reactHotLoader.register(Accordion, 'Accordion', '/Users/leonelaguzman/Documents/Clients/Markowitz/marko18/components/accordion.js');
+  reactHotLoader.register(_default, 'default', '/Users/leonelaguzman/Documents/Clients/Markowitz/marko18/components/accordion.js');
+  leaveModule(module);
+})();
+
+;
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__("./node_modules/webpack/buildin/harmony-module.js")(module)))
+
+/***/ }),
+
+/***/ "./components/footer.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/cjs/react.development.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_reveal_Fade__ = __webpack_require__("./node_modules/react-reveal/Fade.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_reveal_Fade___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_reveal_Fade__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__styles_index_scss__ = __webpack_require__("./styles/index.scss");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__styles_index_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__styles_index_scss__);
+
+
+var _jsxFileName = '/Users/leonelaguzman/Documents/Clients/Markowitz/marko18/components/footer.js';
+
+(function () {
+  var enterModule = __webpack_require__("./node_modules/react-hot-loader/index.js").enterModule;
+
+  enterModule && enterModule(module);
+})();
+
+
+
+
+
+var Footer = function Footer() {
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'div',
+    { id: 'footer', className: 'container-fluid', __source: {
+        fileName: _jsxFileName,
+        lineNumber: 7
+      }
+    },
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      __WEBPACK_IMPORTED_MODULE_1_react_reveal_Fade___default.a,
+      { bottom: true, delay: 400, __source: {
+          fileName: _jsxFileName,
+          lineNumber: 8
+        }
+      },
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'h5',
+        { className: 'text-muted info', __source: {
+            fileName: _jsxFileName,
+            lineNumber: 9
+          }
+        },
+        'Markowitz Law'
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'h5',
+        { className: 'text-muted info', __source: {
+            fileName: _jsxFileName,
+            lineNumber: 10
+          }
+        },
+        'Proudly headquartered in Houston, TX'
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('hr', { className: 'footer-line', __source: {
+          fileName: _jsxFileName,
+          lineNumber: 11
+        }
+      }),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'ul',
+        { className: 'footer-socials', __source: {
+            fileName: _jsxFileName,
+            lineNumber: 12
+          }
+        },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'li',
+          { className: 'footer-social', __source: {
+              fileName: _jsxFileName,
+              lineNumber: 13
+            }
+          },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'a',
+            { href: 'https://www.facebook.com/HighwayLawyers/', target: '_blank', __source: {
+                fileName: _jsxFileName,
+                lineNumber: 13
+              }
+            },
+            'facebook'
+          )
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'li',
+          { className: 'footer-social', __source: {
+              fileName: _jsxFileName,
+              lineNumber: 14
+            }
+          },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'a',
+            { href: 'https://www.linkedin.com/in/scott-markowitz-7a5a805', target: '_blank', __source: {
+                fileName: _jsxFileName,
+                lineNumber: 14
+              }
+            },
+            'linkedin'
+          )
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'li',
+          { className: 'footer-social', __source: {
+              fileName: _jsxFileName,
+              lineNumber: 15
+            }
+          },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'a',
+            { href: 'https://www.yelp.com/biz/markowitz-law-firm-houston', target: '_blank', __source: {
+                fileName: _jsxFileName,
+                lineNumber: 15
+              }
+            },
+            'yelp'
+          )
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'li',
+          { className: 'footer-social', __source: {
+              fileName: _jsxFileName,
+              lineNumber: 16
+            }
+          },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'a',
+            { href: 'https://www.avvo.com/attorneys/77057-tx-scott-markowitz-204768/write_review.html', target: '_blank', __source: {
+                fileName: _jsxFileName,
+                lineNumber: 16
+              }
+            },
+            'avvo'
+          )
+        )
+      )
+    )
+  );
+};
+
+var _default = Footer;
+/* harmony default export */ __webpack_exports__["a"] = (_default);
+;
+
+(function () {
+  var reactHotLoader = __webpack_require__("./node_modules/react-hot-loader/index.js").default;
+
+  var leaveModule = __webpack_require__("./node_modules/react-hot-loader/index.js").leaveModule;
+
+  if (!reactHotLoader) {
+    return;
+  }
+
+  reactHotLoader.register(Footer, 'Footer', '/Users/leonelaguzman/Documents/Clients/Markowitz/marko18/components/footer.js');
+  reactHotLoader.register(_default, 'default', '/Users/leonelaguzman/Documents/Clients/Markowitz/marko18/components/footer.js');
+  leaveModule(module);
+})();
+
+;
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__("./node_modules/webpack/buildin/harmony-module.js")(module)))
+
+/***/ }),
+
+/***/ "./components/mobileNav.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/cjs/react.development.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles_index_scss__ = __webpack_require__("./styles/index.scss");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles_index_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__styles_index_scss__);
+
+
+var _jsxFileName = '/Users/leonelaguzman/Documents/Clients/Markowitz/marko18/components/mobileNav.js';
+
+(function () {
+  var enterModule = __webpack_require__("./node_modules/react-hot-loader/index.js").enterModule;
+
+  enterModule && enterModule(module);
+})();
+
+
+
+
+
+var MobileNav = function MobileNav() {
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'div',
+    { className: 'mobile-nav', __source: {
+        fileName: _jsxFileName,
+        lineNumber: 7
+      }
+    },
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('style', { dangerouslySetInnerHTML: { __html: __WEBPACK_IMPORTED_MODULE_1__styles_index_scss___default.a }, __source: {
+        fileName: _jsxFileName,
+        lineNumber: 8
+      }
+    }),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'nav',
+      { className: 'navbar fixed-bottom navbar-dark bg-dark', __source: {
+          fileName: _jsxFileName,
+          lineNumber: 9
+        }
+      },
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'a',
+        { className: 'navbar-brand', href: 'mailto:staff@thetrafficticketman.com?subject=Let\'s talk.', __source: {
+            fileName: _jsxFileName,
+            lineNumber: 10
+          }
+        },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'nav-icons', src: '/static/contact-w.png', __source: {
+            fileName: _jsxFileName,
+            lineNumber: 11
+          }
+        })
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'a',
+        { className: 'navbar-brand', href: 'https://app.clio.com/session/new', target: '_blank', __source: {
+            fileName: _jsxFileName,
+            lineNumber: 13
+          }
+        },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'nav-icons', src: '/static/clio-w.png', __source: {
+            fileName: _jsxFileName,
+            lineNumber: 14
+          }
+        })
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'a',
+        { className: 'navbar-brand', href: '/contact', __source: {
+            fileName: _jsxFileName,
+            lineNumber: 16
+          }
+        },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'nav-icons', src: '/static/add-w.png', __source: {
+            fileName: _jsxFileName,
+            lineNumber: 17
+          }
+        })
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'a',
+        { className: 'navbar-brand', href: 'tel:713-521-7568', __source: {
+            fileName: _jsxFileName,
+            lineNumber: 19
+          }
+        },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'nav-icons', src: '/static/call-w.png', __source: {
+            fileName: _jsxFileName,
+            lineNumber: 20
+          }
+        })
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'button',
+        { className: 'navbar-toggler', type: 'button', 'data-toggle': 'collapse', 'data-target': '#navbar', __source: {
+            fileName: _jsxFileName,
+            lineNumber: 22
+          }
+        },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { className: 'navbar-toggler-icon', __source: {
+            fileName: _jsxFileName,
+            lineNumber: 23
+          }
+        })
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'div',
+        { className: 'collapse navbar-collapse justify-content-stretch', id: 'navbar', __source: {
+            fileName: _jsxFileName,
+            lineNumber: 26
+          }
+        },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'ul',
+          { className: 'navbar-nav text-right ml-auto mr-auto mobnav', __source: {
+              fileName: _jsxFileName,
+              lineNumber: 27
+            }
+          },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'li',
+            { className: 'nav-item', __source: {
+                fileName: _jsxFileName,
+                lineNumber: 28
+              }
+            },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'a',
+              { className: 'nav-link', href: '/', __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 29
+                }
+              },
+              'Home'
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'li',
+            { className: 'nav-item', __source: {
+                fileName: _jsxFileName,
+                lineNumber: 31
+              }
+            },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'a',
+              { className: 'nav-link', href: '/services', __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 32
+                }
+              },
+              'Services'
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'li',
+            { className: 'nav-item', __source: {
+                fileName: _jsxFileName,
+                lineNumber: 34
+              }
+            },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'a',
+              { className: 'nav-link', href: '/contact', __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 35
+                }
+              },
+              'Contact'
+            )
+          )
+        )
+      )
+    )
+  );
+};
+
+var _default = MobileNav;
+/* harmony default export */ __webpack_exports__["a"] = (_default);
+;
+
+(function () {
+  var reactHotLoader = __webpack_require__("./node_modules/react-hot-loader/index.js").default;
+
+  var leaveModule = __webpack_require__("./node_modules/react-hot-loader/index.js").leaveModule;
+
+  if (!reactHotLoader) {
+    return;
+  }
+
+  reactHotLoader.register(MobileNav, 'MobileNav', '/Users/leonelaguzman/Documents/Clients/Markowitz/marko18/components/mobileNav.js');
+  reactHotLoader.register(_default, 'default', '/Users/leonelaguzman/Documents/Clients/Markowitz/marko18/components/mobileNav.js');
+  leaveModule(module);
+})();
+
+;
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__("./node_modules/webpack/buildin/harmony-module.js")(module)))
+
+/***/ }),
+
+/***/ "./components/navigation.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/cjs/react.development.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles_index_scss__ = __webpack_require__("./styles/index.scss");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles_index_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__styles_index_scss__);
+
+
+var _jsxFileName = '/Users/leonelaguzman/Documents/Clients/Markowitz/marko18/components/navigation.js';
+
+(function () {
+  var enterModule = __webpack_require__("./node_modules/react-hot-loader/index.js").enterModule;
+
+  enterModule && enterModule(module);
+})();
+
+
+
+
+
+var Nav = function Nav() {
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'div',
+    { className: 'top-nav', __source: {
+        fileName: _jsxFileName,
+        lineNumber: 7
+      }
+    },
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('style', { dangerouslySetInnerHTML: { __html: __WEBPACK_IMPORTED_MODULE_1__styles_index_scss___default.a }, __source: {
+        fileName: _jsxFileName,
+        lineNumber: 8
+      }
+    }),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'nav',
+      { className: 'navbar fixed-top navbar-expand-md navbar-light', __source: {
+          fileName: _jsxFileName,
+          lineNumber: 9
+        }
+      },
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'a',
+        { className: 'navbar-brand', href: '/', __source: {
+            fileName: _jsxFileName,
+            lineNumber: 10
+          }
+        },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/static/mlaw.svg', alt: 'logo', className: 'img-fluid marko-logo', __source: {
+            fileName: _jsxFileName,
+            lineNumber: 11
+          }
+        })
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'button',
+        { className: 'navbar-toggler', type: 'button', 'data-toggle': 'collapse', 'data-target': '#navbar', __source: {
+            fileName: _jsxFileName,
+            lineNumber: 13
+          }
+        },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { className: 'navbar-toggler-icon', __source: {
+            fileName: _jsxFileName,
+            lineNumber: 14
+          }
+        })
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'div',
+        { className: 'collapse navbar-collapse justify-content-stretch', id: 'navbar', __source: {
+            fileName: _jsxFileName,
+            lineNumber: 17
+          }
+        },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'ul',
+          { className: 'navbar-nav ml-auto', __source: {
+              fileName: _jsxFileName,
+              lineNumber: 18
+            }
+          },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'li',
+            { className: 'nav-item', __source: {
+                fileName: _jsxFileName,
+                lineNumber: 19
+              }
+            },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'a',
+              { className: 'nav-link', href: '/services', __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 20
+                }
+              },
+              'Services'
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'li',
+            { className: 'nav-item', __source: {
+                fileName: _jsxFileName,
+                lineNumber: 22
+              }
+            },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'a',
+              { className: 'nav-link', href: '/contact', __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 23
+                }
+              },
+              'Contact'
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'li',
+            { className: 'nav-item', __source: {
+                fileName: _jsxFileName,
+                lineNumber: 25
+              }
+            },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'a',
+              { className: 'nav-link', href: 'https://app.clio.com/session/new', target: '_blank', __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 26
+                }
+              },
+              'Clio Login'
+            )
+          )
+        )
+      )
+    )
+  );
+};
+
+var _default = Nav;
+/* harmony default export */ __webpack_exports__["a"] = (_default);
+;
+
+(function () {
+  var reactHotLoader = __webpack_require__("./node_modules/react-hot-loader/index.js").default;
+
+  var leaveModule = __webpack_require__("./node_modules/react-hot-loader/index.js").leaveModule;
+
+  if (!reactHotLoader) {
+    return;
+  }
+
+  reactHotLoader.register(Nav, 'Nav', '/Users/leonelaguzman/Documents/Clients/Markowitz/marko18/components/navigation.js');
+  reactHotLoader.register(_default, 'default', '/Users/leonelaguzman/Documents/Clients/Markowitz/marko18/components/navigation.js');
+  leaveModule(module);
+})();
+
+;
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__("./node_modules/webpack/buildin/harmony-module.js")(module)))
+
+/***/ }),
+
+/***/ "./node_modules/next/head.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__("./node_modules/next/dist/lib/head.js")
+
+
+/***/ }),
+
+/***/ "./node_modules/react-reveal/Fade.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+function _interopRequireDefault(o){return o&&o.__esModule?o:{default:o}}function _objectWithoutProperties(o,e){var r={};for(var t in o)e.indexOf(t)>=0||Object.prototype.hasOwnProperty.call(o,t)&&(r[t]=o[t]);return r}function make(o,e){var r=e.distance,t=e.left,p=e.right,a=e.up,l=e.down,i=e.top,u=e.bottom,n=e.big,s=e.mirror,d=e.opposite,_=(r?r.toString():0)+((t?1:0)|(p?2:0)|(i||l?4:0)|(u||a?8:0)|(s?16:0)|(d?32:0)|(o?64:0)|(n?128:0));if(lookup.hasOwnProperty(_))return lookup[_];var f=t||p||a||l||i||u,y=void 0,b=void 0;if(f){if(!s!=!(o&&d)){var v=[p,t,u,i,l,a];t=v[0],p=v[1],i=v[2],u=v[3],a=v[4],l=v[5]}var c=r||(n?"2000px":"100%");y=t?"-"+c:p?c:"0",b=l||i?"-"+c:a||u?c:"0"}return lookup[_]=(0,_globals.animation)((o?"to":"from")+" {opacity: 0;"+(f?" transform: translate3d("+y+", "+b+", 0);":"")+"}\n     "+(o?"from":"to")+" {opacity: 1;transform: none;} "),lookup[_]}function Fade(){var o=arguments.length>0&&void 0!==arguments[0]?arguments[0]:_globals.defaults,e=arguments.length>1&&void 0!==arguments[1]&&arguments[1],r=o.children,t=(o.out,o.forever),p=o.timeout,a=o.duration,l=void 0===a?_globals.defaults.duration:a,i=o.delay,u=void 0===i?_globals.defaults.delay:i,n=o.count,s=void 0===n?_globals.defaults.count:n,d=_objectWithoutProperties(o,["children","out","forever","timeout","duration","delay","count"]),_={make:make,duration:void 0===p?l:p,delay:u,forever:t,count:s,style:{animationFillMode:"both"},reverse:d.left};return e?(0,_wrap2.default)(d,_,_,r):_}Object.defineProperty(exports,"__esModule",{value:!0});var _propTypes=__webpack_require__("./node_modules/prop-types/index.js"),_globals=__webpack_require__("./node_modules/react-reveal/globals.js"),_wrap=__webpack_require__("./node_modules/react-reveal/wrap.js"),_wrap2=_interopRequireDefault(_wrap),propTypes={out:_propTypes.bool,left:_propTypes.bool,right:_propTypes.bool,top:_propTypes.bool,bottom:_propTypes.bool,big:_propTypes.bool,mirror:_propTypes.bool,opposite:_propTypes.bool,duration:_propTypes.number,timeout:_propTypes.number,distance:_propTypes.string,delay:_propTypes.number,count:_propTypes.number,forever:_propTypes.bool},lookup={};Fade.propTypes=propTypes,exports.default=Fade,module.exports=exports.default;
+
+/***/ }),
+
+/***/ "./node_modules/react-reveal/RevealBase.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+function _interopRequireDefault(e){return e&&e.__esModule?e:{default:e}}function _defineProperty(e,t,i){return t in e?Object.defineProperty(e,t,{value:i,enumerable:!0,configurable:!0,writable:!0}):e[t]=i,e}function _classCallCheck(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}function _possibleConstructorReturn(e,t){if(!e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return!t||"object"!=typeof t&&"function"!=typeof t?e:t}function _inherits(e,t){if("function"!=typeof t&&null!==t)throw new TypeError("Super expression must either be null or a function, not "+typeof t);e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,enumerable:!1,writable:!0,configurable:!0}}),t&&(Object.setPrototypeOf?Object.setPrototypeOf(e,t):e.__proto__=t)}Object.defineProperty(exports,"__esModule",{value:!0});var _typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},_slicedToArray=function(){function e(e,t){var i=[],s=!0,o=!1,n=void 0;try{for(var r,a=e[Symbol.iterator]();!(s=(r=a.next()).done)&&(i.push(r.value),!t||i.length!==t);s=!0);}catch(e){o=!0,n=e}finally{try{!s&&a.return&&a.return()}finally{if(o)throw n}}return i}return function(t,i){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return e(t,i);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_extends=Object.assign||function(e){for(var t=1;t<arguments.length;t++){var i=arguments[t];for(var s in i)Object.prototype.hasOwnProperty.call(i,s)&&(e[s]=i[s])}return e},_createClass=function(){function e(e,t){for(var i=0;i<t.length;i++){var s=t[i];s.enumerable=s.enumerable||!1,s.configurable=!0,"value"in s&&(s.writable=!0),Object.defineProperty(e,s.key,s)}}return function(t,i,s){return i&&e(t.prototype,i),s&&e(t,s),t}}(),_react=__webpack_require__("./node_modules/react/cjs/react.development.js"),_react2=_interopRequireDefault(_react),_propTypes=__webpack_require__("./node_modules/prop-types/index.js"),_globals=__webpack_require__("./node_modules/react-reveal/globals.js"),inOut=(0,_propTypes.shape)({make:_propTypes.func,duration:_propTypes.number.isRequired,delay:_propTypes.number.isRequired,forever:_propTypes.bool,count:_propTypes.number.isRequired,style:_propTypes.object.isRequired,reverse:_propTypes.bool}),propTypes={collapse:_propTypes.bool,collapseEl:_propTypes.element,cascade:_propTypes.bool,wait:_propTypes.number,force:_propTypes.bool,disabled:_propTypes.bool,appear:_propTypes.bool,enter:_propTypes.bool,exit:_propTypes.bool,fraction:_propTypes.number,refProp:_propTypes.string,innerRef:_propTypes.func,onReveal:_propTypes.func,unmountOnExit:_propTypes.bool,mountOnEnter:_propTypes.bool,inEffect:inOut.isRequired,outEffect:(0,_propTypes.oneOfType)([inOut,(0,_propTypes.oneOf)([!1])]).isRequired,ssrReveal:_propTypes.bool,collapseOnly:_propTypes.bool,ssrFadeout:_propTypes.bool},defaultProps={fraction:.2,refProp:"ref"},contextTypes={transitionGroup:_propTypes.object},RevealBase=function(e){function t(e,i){_classCallCheck(this,t);var s=_possibleConstructorReturn(this,(t.__proto__||Object.getPrototypeOf(t)).call(this,e,i));return s.isOn=void 0===e.when||!!e.when,s.state={collapse:e.collapse?t.getInitialCollapseStyle(e):void 0,style:{opacity:s.isOn&&!e.ssrReveal||!e.outEffect?void 0:0}},s.savedChild=!1,s.isShown=!1,_globals.observerMode?s.handleObserve=s.handleObserve.bind(s):(s.revealHandler=s.makeHandler(s.reveal),s.resizeHandler=s.makeHandler(s.resize)),s.saveRef=s.saveRef.bind(s),s}return _inherits(t,e),_createClass(t,[{key:"saveRef",value:function(e){this.childRef&&this.childRef(e),this.props.innerRef&&this.props.innerRef(e),this.el!==e&&(this.el=e&&"offsetHeight"in e?e:void 0,this.observe(this.props,!0))}},{key:"invisible",value:function(){this&&this.el&&(this.savedChild=!1,this.isShown||(this.setState({hasExited:!0,collapse:this.props.collapse?_extends({},this.state.collapse,{visibility:"hidden"}):null,style:{opacity:0}}),!_globals.observerMode&&this.props.collapse&&window.document.dispatchEvent(_globals.collapseend)))}},{key:"animationEnd",value:function(e,t,i){var s=this,o=i.forever,n=i.count,r=i.delay,a=i.duration;if(!o){var l=function(){s&&s.el&&(s.animationEndTimeout=void 0,e.call(s))};this.animationEndTimeout=window.setTimeout(l,r+(a+(t?a:0)*n))}}},{key:"getDimensionValue",value:function(){return this.el.offsetHeight+parseInt(window.getComputedStyle(this.el,null).getPropertyValue("margin-top"),10)+parseInt(window.getComputedStyle(this.el,null).getPropertyValue("margin-bottom"),10)}},{key:"collapse",value:function(e,t,i){var s=i.duration+(t.cascade?i.duration:0),o=this.isOn?this.getDimensionValue():0,n=void 0,r=void 0;if(t.collapseOnly)n=i.duration/3,r=i.delay;else{var a=s>>2,l=a>>1;n=a,r=i.delay+(this.isOn?0:s-a-l),e.style.animationDuration=s-a+(this.isOn?l:-l)+"ms",e.style.animationDelay=i.delay+(this.isOn?a-l:0)+"ms"}return e.collapse={height:o,transition:"height "+n+"ms ease "+r+"ms",overflow:t.collapseOnly?"hidden":void 0},e}},{key:"animate",value:function(e){if(this&&this.el&&(this.unlisten(),this.isShown!==this.isOn)){this.isShown=this.isOn;var t=!this.isOn&&e.outEffect,i=e[t?"outEffect":"inEffect"],s="style"in i&&i.style.animationName||void 0,o=void 0;e.collapseOnly?o={hasAppeared:!0,hasExited:!1,style:{opacity:1}}:((e.outEffect||this.isOn)&&i.make&&(s=i.make),o={hasAppeared:!0,hasExited:!1,collapse:void 0,style:_extends({},i.style,{animationDuration:i.duration+"ms",animationDelay:i.delay+"ms",animationIterationCount:i.forever?"infinite":i.count,opacity:1,animationName:s}),className:i.className}),this.setState(e.collapse?this.collapse(o,e,i):o),t?(this.savedChild=_react2.default.cloneElement(this.getChild()),this.animationEnd(this.invisible,e.cascade,i)):this.savedChild=!1,this.onReveal(e)}}},{key:"onReveal",value:function(e){e.onReveal&&this.isOn&&(this.onRevealTimeout&&(this.onRevealTimeout=window.clearTimeout(this.onRevealTimeout)),e.wait?this.onRevealTimeout=window.setTimeout(e.onReveal,e.wait):e.onReveal())}},{key:"componentWillUnmount",value:function(){this.unlisten(),_globals.ssr&&(0,_globals.disableSsr)()}},{key:"handleObserve",value:function(e,t){_slicedToArray(e,1)[0].intersectionRatio>0&&(t.disconnect(),this.observer=null,this.reveal(this.props,!0))}},{key:"observe",value:function(e){var t=arguments.length>1&&void 0!==arguments[1]&&arguments[1];if(this.el&&_globals.observerMode){if(this.observer){if(!t)return;this.observer.disconnect()}else if(t)return;this.observer=new IntersectionObserver(this.handleObserve,{threshold:e.fraction}),this.observer.observe(this.el)}}},{key:"reveal",value:function(e){var t=this,i=arguments.length>1&&void 0!==arguments[1]&&arguments[1];_globals.globalHide||(0,_globals.hideAll)(),this&&this.el&&(e||(e=this.props),_globals.ssr&&(0,_globals.disableSsr)(),this.isOn&&this.isShown&&void 0!==e.spy?(this.isShown=!1,this.setState({style:{}}),window.setTimeout(function(){return t.reveal(e)},200)):i||this.inViewport(e)||e.force?this.animate(e):_globals.observerMode?this.observe(e):this.listen())}},{key:"componentDidMount",value:function(){var e=this;if(this.el&&!this.props.disabled){this.props.collapseOnly||("make"in this.props.inEffect&&this.props.inEffect.make(!1,this.props),void 0!==this.props.when&&this.props.outEffect&&"make"in this.props.outEffect&&this.props.outEffect.make(!0,this.props));var i=this.context.transitionGroup,s=i&&!i.isMounting?!("enter"in this.props&&!1===this.props.enter):this.props.appear;return this.isOn&&((void 0!==this.props.when||void 0!==this.props.spy)&&!s||_globals.ssr&&!_globals.fadeOutEnabled&&!this.props.ssrFadeout&&this.props.outEffect&&!this.props.ssrReveal&&t.getTop(this.el)<window.pageYOffset+window.innerHeight)?(this.isShown=!0,this.setState({hasAppeared:!0,collapse:this.props.collapse?{height:this.getDimensionValue()}:this.state.collapse,style:{opacity:1}}),void this.onReveal(this.props)):_globals.ssr&&(_globals.fadeOutEnabled||this.props.ssrFadeout)&&this.props.outEffect&&t.getTop(this.el)<window.pageYOffset+window.innerHeight?(this.setState({style:{opacity:0,transition:"opacity 1000ms 1000ms"}}),void window.setTimeout(function(){return e.reveal(e.props,!0)},2e3)):void(this.isOn&&(this.props.force?this.animate(this.props):this.reveal(this.props)))}}},{key:"cascade",value:function(e){var t=this,i=void 0;i="string"==typeof e?e.split("").map(function(e,t){return _react2.default.createElement("span",{key:t,style:{display:"inline-block",whiteSpace:"pre"}},e)}):_react2.default.Children.toArray(e);var s=this.props[this.isOn||!this.props.outEffect?"inEffect":"outEffect"],o=s.duration,n=s.reverse,r=i.length,a=2*o;this.props.collapse&&(a=parseInt(this.state.style.animationDuration,10),o=a/2);var l=n?r:0;return i=i.map(function(e){return"object"===(void 0===e?"undefined":_typeof(e))&&e?_react2.default.cloneElement(e,{style:_extends({},e.props.style,t.state.style,{animationDuration:Math.round((0,_globals.cascade)(n?l--:l++,0,r,o,a))+"ms"})}):e})}},{key:"componentWillReceiveProps",value:function(e){if(void 0!==e.when&&(this.isOn=!!e.when),e.fraction!==this.props.fraction&&this.observe(e,!0),!this.isOn&&e.onExited&&"exit"in e&&!1===e.exit)return void e.onExited();e.disabled||(e.collapse&&!this.props.collapse&&(this.setState({style:{},collapse:t.getInitialCollapseStyle(e)}),this.isShown=!1),e.when===this.props.when&&e.spy===this.props.spy||this.reveal(e),this.onRevealTimeout&&!this.isOn&&(this.onRevealTimeout=window.clearTimeout(this.onRevealTimeout)))}},{key:"getChild",value:function(){if(this.savedChild&&!this.props.disabled)return this.savedChild;if("object"===_typeof(this.props.children)){var e=_react2.default.Children.only(this.props.children);return"type"in e&&"string"==typeof e.type||"ref"!==this.props.refProp?e:_react2.default.createElement("div",null,e)}return _react2.default.createElement("div",null,this.props.children)}},{key:"render",value:function(){var e=void 0;e=this.state.hasAppeared?!this.props.unmountOnExit||!this.state.hasExited||this.isOn:!this.props.mountOnEnter||this.isOn;var t=this.getChild();"function"==typeof t.ref&&(this.childRef=t.ref);var i=!1,s=t.props,o=s.style,n=s.className,r=s.children,a=this.props.disabled?n:(this.props.outEffect?_globals.namespace:"")+(this.state.className?" "+this.state.className:"")+(n?" "+n:"")||void 0,l=void 0;"function"==typeof this.state.style.animationName&&(this.state.style.animationName=this.state.style.animationName(!this.isOn,this.props)),this.props.cascade&&!this.props.disabled&&r&&this.state.style.animationName?(i=this.cascade(r),l=_extends({},o,{opacity:1})):l=this.props.disabled?o:_extends({},o,this.state.style);var p=_extends({},this.props.props,_defineProperty({className:a,style:l},this.props.refProp,this.saveRef)),h=_react2.default.cloneElement(t,p,e?i||r:void 0);return void 0!==this.props.collapse?this.props.collapseEl?_react2.default.cloneElement(this.props.collapseEl,{style:_extends({},this.props.collapseEl.style,this.props.disabled?void 0:this.state.collapse),children:h}):_react2.default.createElement("div",{style:this.props.disabled?void 0:this.state.collapse,children:h}):h}},{key:"makeHandler",value:function(e){var t=this,i=function(){e.call(t,t.props),t.ticking=!1};return function(){t.ticking||((0,_globals.raf)(i),t.ticking=!0)}}},{key:"inViewport",value:function(e){if(!this.el||window.document.hidden)return!1;var i=this.el.offsetHeight,s=window.pageYOffset-t.getTop(this.el),o=Math.min(i,window.innerHeight)*(_globals.globalHide?e.fraction:0);return s>o-window.innerHeight&&s<i-o}},{key:"resize",value:function(e){this&&this.el&&this.isOn&&this.inViewport(e)&&(this.unlisten(),this.isShown=this.isOn,this.setState({hasExited:!this.isOn,hasAppeared:!0,collapse:void 0,style:{opacity:this.isOn||!e.outEffect?1:0}}),this.onReveal(e))}},{key:"listen",value:function(){_globals.observerMode||this.isListener||(this.isListener=!0,window.addEventListener("scroll",this.revealHandler,{passive:!0}),window.addEventListener("orientationchange",this.revealHandler,{passive:!0}),window.document.addEventListener("visibilitychange",this.revealHandler,{passive:!0}),window.document.addEventListener("collapseend",this.revealHandler,{passive:!0}),window.addEventListener("resize",this.resizeHandler,{passive:!0}))}},{key:"unlisten",value:function(){!_globals.observerMode&&this.isListener&&(window.removeEventListener("scroll",this.revealHandler,{passive:!0}),window.removeEventListener("orientationchange",this.revealHandler,{passive:!0}),window.document.removeEventListener("visibilitychange",this.revealHandler,{passive:!0}),window.document.removeEventListener("collapseend",this.revealHandler,{passive:!0}),window.removeEventListener("resize",this.resizeHandler,{passive:!0}),this.isListener=!1),this.onRevealTimeout&&(this.onRevealTimeout=window.clearTimeout(this.onRevealTimeout)),this.animationEndTimeout&&(this.animationEndTimeout=window.clearTimeout(this.animationEndTimeout))}}],[{key:"getInitialCollapseStyle",value:function(e){return{height:0,visibility:e.when?void 0:"hidden"}}},{key:"getTop",value:function(e){for(;void 0===e.offsetTop;)e=e.parentNode;for(var t=e.offsetTop;e.offsetParent;t+=e.offsetTop)e=e.offsetParent;return t}}]),t}(_react2.default.Component);RevealBase.propTypes=propTypes,RevealBase.defaultProps=defaultProps,RevealBase.contextTypes=contextTypes,RevealBase.displayName="RevealBase",exports.default=RevealBase,module.exports=exports.default;
+
+/***/ }),
+
+/***/ "./node_modules/react-reveal/globals.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+function insertRule(e){try{return sheet.insertRule(e,sheet.cssRules.length)}catch(e){console.warn("react-reveal - animation failed")}}function cascade(e,n,t,o,r){var s=Math.log(o),i=Math.log(r),a=(i-s)/(t-n);return Math.exp(s+a*(e-n))}function animation(e){if(!sheet)return"";var n="@keyframes "+(name+counter)+"{"+e+"}",t=effectMap[e];return t?""+name+t:(sheet.insertRule(n,sheet.cssRules.length),effectMap[e]=counter,""+name+counter++)}function hideAll(){globalHide||(exports.globalHide=globalHide=!0,window.removeEventListener("scroll",hideAll,!0),insertRule("."+namespace+" { opacity: 0; }"),window.removeEventListener("orientationchange",hideAll,!0),window.document.removeEventListener("visibilitychange",hideAll))}function config(e){var n=e.ssrFadeout;exports.fadeOutEnabled=fadeOutEnabled=n}Object.defineProperty(exports,"__esModule",{value:!0}),exports.insertRule=insertRule,exports.cascade=cascade,exports.animation=animation,exports.hideAll=hideAll,exports.default=config;var namespace=exports.namespace="react-reveal",defaults=exports.defaults={duration:1e3,delay:0,count:1},ssr=exports.ssr=!0,observerMode=exports.observerMode=!1,raf=exports.raf=function(e){return window.setTimeout(e,66)},disableSsr=exports.disableSsr=function(){return exports.ssr=ssr=!1},fadeOutEnabled=exports.fadeOutEnabled=!1,ssrFadeout=exports.ssrFadeout=function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];return exports.fadeOutEnabled=fadeOutEnabled=e},globalHide=exports.globalHide=!1,ie10=exports.ie10=!1,collapseend=exports.collapseend=void 0,counter=1,effectMap={},sheet=!1,name=namespace+"-"+Math.floor(1e15*Math.random())+"-";if("undefined"!=typeof window&&"nodejs"!==window.name&&window.document&&"undefined"!=typeof navigator){exports.observerMode=observerMode="IntersectionObserver"in window&&"IntersectionObserverEntry"in window&&"intersectionRatio"in window.IntersectionObserverEntry.prototype&&/\{\s*\[native code\]\s*\}/.test(""+IntersectionObserver),exports.raf=raf=window.requestAnimationFrame||window.webkitRequestAnimationFrame||window.mozRequestAnimationFrame||raf,exports.ssr=ssr=window.document.querySelectorAll("div[data-reactroot]").length>0,-1!==navigator.appVersion.indexOf("MSIE 10")&&(exports.ie10=ie10=!0),ssr&&"performance"in window&&"timing"in window.performance&&"domContentLoadedEventEnd"in window.performance.timing&&window.performance.timing.domLoading&&Date.now()-window.performance.timing.domLoading<300&&(exports.ssr=ssr=!1),ssr&&window.setTimeout(disableSsr,1500),observerMode||(exports.collapseend=collapseend=document.createEvent("Event"),collapseend.initEvent("collapseend",!0,!0));var element=document.createElement("style");document.head.appendChild(element),element.sheet&&element.sheet.cssRules&&element.sheet.insertRule&&(sheet=element.sheet,window.addEventListener("scroll",hideAll,!0),window.addEventListener("orientationchange",hideAll,!0),window.document.addEventListener("visibilitychange",hideAll))}
+
+/***/ }),
+
+/***/ "./node_modules/react-reveal/wrap.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+function _interopRequireDefault(e){return e&&e.__esModule?e:{default:e}}function wrap(e,t,a,r){return"in"in e&&(e.when=e.in),_react2.default.Children.count(r)<2?_react2.default.createElement(_RevealBase2.default,_extends({},e,{inEffect:t,outEffect:a,children:r})):(r=_react2.default.Children.map(r,function(r){return _react2.default.createElement(_RevealBase2.default,_extends({},e,{inEffect:t,outEffect:a,children:r}))}),"Fragment"in _react2.default?_react2.default.createElement(_react2.default.Fragment,null,r):_react2.default.createElement("span",null,r))}Object.defineProperty(exports,"__esModule",{value:!0});var _extends=Object.assign||function(e){for(var t=1;t<arguments.length;t++){var a=arguments[t];for(var r in a)Object.prototype.hasOwnProperty.call(a,r)&&(e[r]=a[r])}return e};exports.default=wrap;var _react=__webpack_require__("./node_modules/react/cjs/react.development.js"),_react2=_interopRequireDefault(_react),_RevealBase=__webpack_require__("./node_modules/react-reveal/RevealBase.js"),_RevealBase2=_interopRequireDefault(_RevealBase);module.exports=exports.default;
+
+/***/ }),
+
+/***/ "./node_modules/webpack/buildin/harmony-module.js":
+/***/ (function(module, exports) {
+
+module.exports = function(originalModule) {
+	if(!originalModule.webpackPolyfill) {
+		var module = Object.create(originalModule);
+		// module.parent = undefined by default
+		if(!module.children) module.children = [];
+		Object.defineProperty(module, "loaded", {
+			enumerable: true,
+			get: function() {
+				return module.l;
+			}
+		});
+		Object.defineProperty(module, "id", {
+			enumerable: true,
+			get: function() {
+				return module.i;
+			}
+		});
+		Object.defineProperty(module, "exports", {
+			enumerable: true,
+		});
+		module.webpackPolyfill = 1;
+	}
+	return module;
+};
+
+
+/***/ }),
+
+/***/ "./pages/index.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/cjs/react.development.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_reveal_Fade__ = __webpack_require__("./node_modules/react-reveal/Fade.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_reveal_Fade___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_reveal_Fade__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_head__ = __webpack_require__("./node_modules/next/head.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_next_head__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__styles_index_scss__ = __webpack_require__("./styles/index.scss");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__styles_index_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__styles_index_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_mobileNav__ = __webpack_require__("./components/mobileNav.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_navigation__ = __webpack_require__("./components/navigation.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_accordion__ = __webpack_require__("./components/accordion.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_footer__ = __webpack_require__("./components/footer.js");
+
+
+var _jsxFileName = '/Users/leonelaguzman/Documents/Clients/Markowitz/marko18/pages/index.js';
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+(function () {
+  var enterModule = __webpack_require__("./node_modules/react-hot-loader/index.js").enterModule;
+
+  enterModule && enterModule(module);
+})();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+
+
+
+
+
+
+
+
+var Home = function (_Component) {
+  _inherits(Home, _Component);
+
+  function Home() {
+    _classCallCheck(this, Home);
+
+    return _possibleConstructorReturn(this, (Home.__proto__ || Object.getPrototypeOf(Home)).apply(this, arguments));
+  }
+
+  _createClass(Home, [{
+    key: 'render',
+    value: function render() {
+      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'div',
+        { className: 'container-fluid', __source: {
+            fileName: _jsxFileName,
+            lineNumber: 15
+          }
+        },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          __WEBPACK_IMPORTED_MODULE_2_next_head___default.a,
+          {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 16
+            }
+          },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'title',
+            {
+              __source: {
+                fileName: _jsxFileName,
+                lineNumber: 17
+              }
+            },
+            'Markowitz Law'
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('meta', { name: 'description', content: 'TBD', __source: {
+              fileName: _jsxFileName,
+              lineNumber: 18
+            }
+          }),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('meta', { name: 'keywords', content: 'TBD', __source: {
+              fileName: _jsxFileName,
+              lineNumber: 19
+            }
+          }),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('meta', { name: 'author', content: 'Markowitz Law', __source: {
+              fileName: _jsxFileName,
+              lineNumber: 20
+            }
+          }),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('style', { dangerouslySetInnerHTML: { __html: __WEBPACK_IMPORTED_MODULE_3__styles_index_scss___default.a }, __source: {
+              fileName: _jsxFileName,
+              lineNumber: 21
+            }
+          })
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__components_mobileNav__["a" /* default */], {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 24
+          }
+        }),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__components_navigation__["a" /* default */], {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 25
+          }
+        }),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          __WEBPACK_IMPORTED_MODULE_1_react_reveal_Fade___default.a,
+          { bottom: true, delay: 500, __source: {
+              fileName: _jsxFileName,
+              lineNumber: 27
+            }
+          },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            { className: 'home-header', __source: {
+                fileName: _jsxFileName,
+                lineNumber: 28
+              }
+            },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/static/mlaw.svg', alt: 'logo', className: 'img-fluid marko-logo', __source: {
+                fileName: _jsxFileName,
+                lineNumber: 29
+              }
+            })
+          )
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: 'jumbotron jumbotron-fluid', id: 'main', __source: {
+              fileName: _jsxFileName,
+              lineNumber: 33
+            }
+          },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            { className: 'container home1', __source: {
+                fileName: _jsxFileName,
+                lineNumber: 34
+              }
+            },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              __WEBPACK_IMPORTED_MODULE_1_react_reveal_Fade___default.a,
+              { bottom: true, delay: 500, __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 35
+                }
+              },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'h1',
+                { className: 'display-4 head1', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 36
+                  }
+                },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'b',
+                  {
+                    __source: {
+                      fileName: _jsxFileName,
+                      lineNumber: 36
+                    }
+                  },
+                  'Traffic court sucks, ',
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'span',
+                    { className: 'period', __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 36
+                      }
+                    },
+                    'Period.'
+                  )
+                )
+              )
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              __WEBPACK_IMPORTED_MODULE_1_react_reveal_Fade___default.a,
+              { bottom: true, delay: 510, __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 38
+                }
+              },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'p',
+                { className: 'lead', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 39
+                  }
+                },
+                'Everyone has a story.',
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', {
+                  __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 39
+                  }
+                }),
+                'Tell us yours.'
+              )
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              __WEBPACK_IMPORTED_MODULE_1_react_reveal_Fade___default.a,
+              { bottom: true, delay: 520, __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 41
+                }
+              },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'p',
+                { className: 'action', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 42
+                  }
+                },
+                'Scroll'
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('hr', {
+                __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 43
+                }
+              }),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'a',
+                { className: 'cta-services', href: '/contact', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 44
+                  }
+                },
+                'Let\'s Get To Work \xA0\xA0',
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'span',
+                  { className: 'at-cta', __source: {
+                      fileName: _jsxFileName,
+                      lineNumber: 44
+                    }
+                  },
+                  '@'
+                )
+              )
+            )
+          )
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: 'row section options home2', __source: {
+              fileName: _jsxFileName,
+              lineNumber: 49
+            }
+          },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            __WEBPACK_IMPORTED_MODULE_1_react_reveal_Fade___default.a,
+            { bottom: true, delay: 500, __source: {
+                fileName: _jsxFileName,
+                lineNumber: 50
+              }
+            },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'h1',
+              { className: 'display-5 head2', __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 51
+                }
+              },
+              'You have options.',
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', {
+                __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 51
+                }
+              }),
+              'Choose wisely.'
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            __WEBPACK_IMPORTED_MODULE_1_react_reveal_Fade___default.a,
+            { bottom: true, delay: 500, __source: {
+                fileName: _jsxFileName,
+                lineNumber: 53
+              }
+            },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'div',
+              { className: 'r-blob', __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 54
+                }
+              },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/static/elements/r-blob.gif', alt: '', __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 55
+                }
+              })
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'div',
+              { className: 'y-blob', __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 57
+                }
+              },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/static/elements/y-blob.gif', alt: '', __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 58
+                }
+              })
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'div',
+              { className: 'g-blob', __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 60
+                }
+              },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/static/elements/g-blob.gif', alt: '', __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 61
+                }
+              })
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            __WEBPACK_IMPORTED_MODULE_1_react_reveal_Fade___default.a,
+            { bottom: true, delay: 500, __source: {
+                fileName: _jsxFileName,
+                lineNumber: 64
+              }
+            },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'p',
+              {
+                __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 65
+                }
+              },
+              'Sitting in court for hours just to pay hefty fees and get ordered into defensive driving is no longer your only option when fighting a traffic ticket.'
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'p',
+              {
+                __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 66
+                }
+              },
+              'At Markowitz Law, you can choose convenience over convention. Whether you choose to fight the ticket in court with a Markowitz trial attorney or opt for a more refined "court valet" service, we go to court to help you through the process.'
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'p',
+              {
+                __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 68
+                }
+              },
+              'See which route may be best for you below.'
+            )
+          )
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: 'row section', __source: {
+              fileName: _jsxFileName,
+              lineNumber: 72
+            }
+          },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            __WEBPACK_IMPORTED_MODULE_1_react_reveal_Fade___default.a,
+            { bottom: true, delay: 500, __source: {
+                fileName: _jsxFileName,
+                lineNumber: 73
+              }
+            },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'div',
+              { className: 'video-wrapper embed-responsive embed-responsive-16by9', __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 74
+                }
+              },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('iframe', { className: 'embed-responsive-item', src: 'https://player.vimeo.com/video/281501443?title=0&byline=0&portrait=0',
+                allow: 'autoplay; encrypted-media', webkitAllowFullScreen: true, mozAllowFullScreen: true, allowFullScreen: true, __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 75
+                }
+              })
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            { className: 'home3', __source: {
+                fileName: _jsxFileName,
+                lineNumber: 80
+              }
+            },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              __WEBPACK_IMPORTED_MODULE_1_react_reveal_Fade___default.a,
+              { bottom: true, delay: 500, __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 81
+                }
+              },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { className: 'num-line', __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 82
+                }
+              }),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { className: 'num-label', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 83
+                  }
+                },
+                'NO.'
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { className: 'num-value', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 84
+                  }
+                },
+                '01'
+              )
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              __WEBPACK_IMPORTED_MODULE_1_react_reveal_Fade___default.a,
+              { bottom: true, delay: 500, __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 86
+                }
+              },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'h1',
+                { className: 'display-5', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 87
+                  }
+                },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'b',
+                  {
+                    __source: {
+                      fileName: _jsxFileName,
+                      lineNumber: 87
+                    }
+                  },
+                  'Court Valet'
+                )
+              )
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              __WEBPACK_IMPORTED_MODULE_1_react_reveal_Fade___default.a,
+              { bottom: true, delay: 500, __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 89
+                }
+              },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { className: 'deco1', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 90
+                  }
+                },
+                'SAVE',
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', {
+                  __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 91
+                  }
+                }),
+                'YOUR',
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', {
+                  __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 91
+                  }
+                }),
+                'TIME'
+              )
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              __WEBPACK_IMPORTED_MODULE_1_react_reveal_Fade___default.a,
+              { bottom: true, delay: 500, __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 94
+                }
+              },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'p',
+                { className: 'lead', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 95
+                  }
+                },
+                'If your schedule is hectic and sacrificing uncertain hours in traffic court is out of the question, consider our Court Valet service. Court Valet may be the turnkey solution to your ticket problem.'
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'a',
+                { className: 'home-link', href: '/services', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 97
+                  }
+                },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'h5',
+                  { className: 'text-muted home-explore', __source: {
+                      fileName: _jsxFileName,
+                      lineNumber: 98
+                    }
+                  },
+                  'EXPLORE YOUR OPTIONS '
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'arrow', src: '/static/arrow-right.svg', alt: '', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 99
+                  }
+                })
+              )
+            )
+          )
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: 'row section', __source: {
+              fileName: _jsxFileName,
+              lineNumber: 105
+            }
+          },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            __WEBPACK_IMPORTED_MODULE_1_react_reveal_Fade___default.a,
+            { bottom: true, delay: 500, __source: {
+                fileName: _jsxFileName,
+                lineNumber: 106
+              }
+            },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'div',
+              { className: 'video-wrapper embed-responsive embed-responsive-16by9', __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 107
+                }
+              },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('iframe', { className: 'embed-responsive-item', src: 'https://player.vimeo.com/video/281502442?title=0&byline=0&portrait=0',
+                allow: 'autoplay; encrypted-media', webkitAllowFullScreen: true, mozAllowFullScreen: true, allowFullScreen: true, __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 108
+                }
+              })
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            { className: 'home4', __source: {
+                fileName: _jsxFileName,
+                lineNumber: 112
+              }
+            },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              __WEBPACK_IMPORTED_MODULE_1_react_reveal_Fade___default.a,
+              { bottom: true, delay: 500, __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 113
+                }
+              },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { className: 'num-line', __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 114
+                }
+              }),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { className: 'num-label', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 115
+                  }
+                },
+                'NO.'
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { className: 'num-value', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 116
+                  }
+                },
+                '02'
+              )
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              __WEBPACK_IMPORTED_MODULE_1_react_reveal_Fade___default.a,
+              { bottom: true, delay: 500, __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 118
+                }
+              },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'h1',
+                { className: 'display-5', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 119
+                  }
+                },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'b',
+                  {
+                    __source: {
+                      fileName: _jsxFileName,
+                      lineNumber: 119
+                    }
+                  },
+                  'Ticket Defense'
+                )
+              )
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              __WEBPACK_IMPORTED_MODULE_1_react_reveal_Fade___default.a,
+              { bottom: true, delay: 500, __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 121
+                }
+              },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { className: 'deco2', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 122
+                  }
+                },
+                'SAVE',
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', {
+                  __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 123
+                  }
+                }),
+                'YOUR',
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', {
+                  __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 123
+                  }
+                }),
+                'ENERGY'
+              )
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              __WEBPACK_IMPORTED_MODULE_1_react_reveal_Fade___default.a,
+              { bottom: true, delay: 500, __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 126
+                }
+              },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'p',
+                { className: 'lead', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 127
+                  }
+                },
+                'If your schedule is flexible and you prefer to attend court, contact us. Ticket Defense may be the best option for you.'
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'a',
+                { className: 'home-link', href: '/services', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 128
+                  }
+                },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'h5',
+                  { className: 'text-muted home-explore', __source: {
+                      fileName: _jsxFileName,
+                      lineNumber: 129
+                    }
+                  },
+                  'EXPLORE YOUR OPTIONS '
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'arrow', src: '/static/arrow-right.svg', alt: '', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 130
+                  }
+                })
+              )
+            )
+          )
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          __WEBPACK_IMPORTED_MODULE_1_react_reveal_Fade___default.a,
+          { bottom: true, delay: 500, __source: {
+              fileName: _jsxFileName,
+              lineNumber: 136
+            }
+          },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            { className: 'cta', __source: {
+                fileName: _jsxFileName,
+                lineNumber: 137
+              }
+            },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'h3',
+              { className: 'display-4', __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 138
+                }
+              },
+              'Save ',
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'span',
+                { className: 'orange', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 138
+                  }
+                },
+                'time'
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', {
+                __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 138
+                }
+              }),
+              'Save ',
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'span',
+                { className: 'yellow', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 138
+                  }
+                },
+                'energy'
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', {
+                __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 138
+                }
+              }),
+              'Submit your case today'
+            )
+          )
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: 'section legacy home5', __source: {
+              fileName: _jsxFileName,
+              lineNumber: 142
+            }
+          },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            { className: 'num-container', __source: {
+                fileName: _jsxFileName,
+                lineNumber: 143
+              }
+            },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              __WEBPACK_IMPORTED_MODULE_1_react_reveal_Fade___default.a,
+              { bottom: true, delay: 500, __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 144
+                }
+              },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'img-responsive', src: '/static/25.svg', alt: '', __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 145
+                }
+              })
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              __WEBPACK_IMPORTED_MODULE_1_react_reveal_Fade___default.a,
+              { bottom: true, delay: 500, __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 147
+                }
+              },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { className: 'num-overlay', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 148
+                  }
+                },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'h3',
+                  { className: 'display-4 head3', __source: {
+                      fileName: _jsxFileName,
+                      lineNumber: 149
+                    }
+                  },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'b',
+                    {
+                      __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 149
+                      }
+                    },
+                    'Our Legacy'
+                  )
+                )
+              )
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            __WEBPACK_IMPORTED_MODULE_1_react_reveal_Fade___default.a,
+            { bottom: true, delay: 500, __source: {
+                fileName: _jsxFileName,
+                lineNumber: 153
+              }
+            },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'h5',
+              { className: 'text-muted', __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 154
+                }
+              },
+              ' \xA0\xA0\xA0\xA0\xA0 Est. 1993'
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            __WEBPACK_IMPORTED_MODULE_1_react_reveal_Fade___default.a,
+            { bottom: true, delay: 500, __source: {
+                fileName: _jsxFileName,
+                lineNumber: 156
+              }
+            },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'p',
+              { className: 'legacy-text', __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 157
+                }
+              },
+              'For more than 25 years, Markowitz Law has consistently strived to deliver legal solutions to Texas residents and its visitors. We\'ve earned our reputation with our clients for a results-driven practice model.'
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            __WEBPACK_IMPORTED_MODULE_1_react_reveal_Fade___default.a,
+            { bottom: true, delay: 500, __source: {
+                fileName: _jsxFileName,
+                lineNumber: 161
+              }
+            },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'h4',
+              { className: 'case-title', __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 162
+                }
+              },
+              'How We Can Help You'
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__components_accordion__["a" /* default */], {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 164
+            }
+          })
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: 'footer-info', __source: {
+              fileName: _jsxFileName,
+              lineNumber: 167
+            }
+          },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__components_footer__["a" /* default */], {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 168
+            }
+          })
+        )
+      );
+    }
+  }, {
+    key: '__reactstandin__regenerateByEval',
+    value: function __reactstandin__regenerateByEval(key, code) {
+      this[key] = eval(code);
+    }
+  }]);
+
+  return Home;
+}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
+
+var _default = Home;
+
+
+/* harmony default export */ __webpack_exports__["default"] = (_default);
+;
+
+(function () {
+  var reactHotLoader = __webpack_require__("./node_modules/react-hot-loader/index.js").default;
+
+  var leaveModule = __webpack_require__("./node_modules/react-hot-loader/index.js").leaveModule;
+
+  if (!reactHotLoader) {
+    return;
+  }
+
+  reactHotLoader.register(Home, 'Home', '/Users/leonelaguzman/Documents/Clients/Markowitz/marko18/pages/index.js');
+  reactHotLoader.register(_default, 'default', '/Users/leonelaguzman/Documents/Clients/Markowitz/marko18/pages/index.js');
+  leaveModule(module);
+})();
+
+;
+    (function (Component, route) {
+      if(!Component) return
+      if (false) return
+      module.hot.accept()
+      Component.__route = route
+
+      if (module.hot.status() === 'idle') return
+
+      var components = next.router.components
+      for (var r in components) {
+        if (!components.hasOwnProperty(r)) continue
+
+        if (components[r].Component.__route === route) {
+          next.router.update(r, Component)
+        }
+      }
+    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/")
+  
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__("./node_modules/webpack/buildin/harmony-module.js")(module)))
+
+/***/ }),
+
+/***/ "./styles/index.scss":
+/***/ (function(module, exports) {
+
+;
+
+(function () {
+  "use strict";
+
+  module.exports = "@charset \"UTF-8\";\n/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */\n/* Document\n   ========================================================================== */\n/**\n * 1. Correct the line height in all browsers.\n * 2. Prevent adjustments of font size after orientation changes in\n *    IE on Windows Phone and in iOS.\n */\nhtml {\n  line-height: 1.15; /* 1 */\n  -ms-text-size-adjust: 100%; /* 2 */\n  -webkit-text-size-adjust: 100%; /* 2 */\n}\n/* Sections\n   ========================================================================== */\n/**\n * Remove the margin in all browsers (opinionated).\n */\nbody {\n  margin: 0;\n}\n/**\n * Add the correct display in IE 9-.\n */\narticle,\naside,\nfooter,\nheader,\nnav,\nsection {\n  display: block;\n}\n/**\n * Correct the font size and margin on `h1` elements within `section` and\n * `article` contexts in Chrome, Firefox, and Safari.\n */\nh1 {\n  font-size: 2em;\n  margin: 0.67em 0;\n}\n/* Grouping content\n   ========================================================================== */\n/**\n * Add the correct display in IE 9-.\n * 1. Add the correct display in IE.\n */\nfigcaption,\nfigure,\nmain { /* 1 */\n  display: block;\n}\n/**\n * Add the correct margin in IE 8.\n */\nfigure {\n  margin: 1em 40px;\n}\n/**\n * 1. Add the correct box sizing in Firefox.\n * 2. Show the overflow in Edge and IE.\n */\nhr {\n  -webkit-box-sizing: content-box;\n          box-sizing: content-box; /* 1 */\n  height: 0; /* 1 */\n  overflow: visible; /* 2 */\n}\n/**\n * 1. Correct the inheritance and scaling of font size in all browsers.\n * 2. Correct the odd `em` font sizing in all browsers.\n */\npre {\n  font-family: monospace, monospace; /* 1 */\n  font-size: 1em; /* 2 */\n}\n/* Text-level semantics\n   ========================================================================== */\n/**\n * 1. Remove the gray background on active links in IE 10.\n * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.\n */\na {\n  background-color: transparent; /* 1 */\n  -webkit-text-decoration-skip: objects; /* 2 */\n}\n/**\n * 1. Remove the bottom border in Chrome 57- and Firefox 39-.\n * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.\n */\nabbr[title] {\n  border-bottom: none; /* 1 */\n  text-decoration: underline; /* 2 */\n  -webkit-text-decoration: underline dotted;\n          text-decoration: underline dotted; /* 2 */\n}\n/**\n * Prevent the duplicate application of `bolder` by the next rule in Safari 6.\n */\nb,\nstrong {\n  font-weight: inherit;\n}\n/**\n * Add the correct font weight in Chrome, Edge, and Safari.\n */\nb,\nstrong {\n  font-weight: bolder;\n}\n/**\n * 1. Correct the inheritance and scaling of font size in all browsers.\n * 2. Correct the odd `em` font sizing in all browsers.\n */\ncode,\nkbd,\nsamp {\n  font-family: monospace, monospace; /* 1 */\n  font-size: 1em; /* 2 */\n}\n/**\n * Add the correct font style in Android 4.3-.\n */\ndfn {\n  font-style: italic;\n}\n/**\n * Add the correct background and color in IE 9-.\n */\nmark {\n  background-color: #ff0;\n  color: #000;\n}\n/**\n * Add the correct font size in all browsers.\n */\nsmall {\n  font-size: 80%;\n}\n/**\n * Prevent `sub` and `sup` elements from affecting the line height in\n * all browsers.\n */\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\nsub {\n  bottom: -0.25em;\n}\nsup {\n  top: -0.5em;\n}\n/* Embedded content\n   ========================================================================== */\n/**\n * Add the correct display in IE 9-.\n */\naudio,\nvideo {\n  display: inline-block;\n}\n/**\n * Add the correct display in iOS 4-7.\n */\naudio:not([controls]) {\n  display: none;\n  height: 0;\n}\n/**\n * Remove the border on images inside links in IE 10-.\n */\nimg {\n  border-style: none;\n}\n/**\n * Hide the overflow in IE.\n */\nsvg:not(:root) {\n  overflow: hidden;\n}\n/* Forms\n   ========================================================================== */\n/**\n * 1. Change the font styles in all browsers (opinionated).\n * 2. Remove the margin in Firefox and Safari.\n */\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font-family: sans-serif; /* 1 */\n  font-size: 100%; /* 1 */\n  line-height: 1.15; /* 1 */\n  margin: 0; /* 2 */\n}\n/**\n * Show the overflow in IE.\n * 1. Show the overflow in Edge.\n */\nbutton,\ninput { /* 1 */\n  overflow: visible;\n}\n/**\n * Remove the inheritance of text transform in Edge, Firefox, and IE.\n * 1. Remove the inheritance of text transform in Firefox.\n */\nbutton,\nselect { /* 1 */\n  text-transform: none;\n}\n/**\n * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`\n *    controls in Android 4.\n * 2. Correct the inability to style clickable types in iOS and Safari.\n */\nbutton,\nhtml [type=\"button\"], /* 1 */\n[type=\"reset\"],\n[type=\"submit\"] {\n  -webkit-appearance: button; /* 2 */\n}\n/**\n * Remove the inner border and padding in Firefox.\n */\nbutton::-moz-focus-inner,\n[type=\"button\"]::-moz-focus-inner,\n[type=\"reset\"]::-moz-focus-inner,\n[type=\"submit\"]::-moz-focus-inner {\n  border-style: none;\n  padding: 0;\n}\n/**\n * Restore the focus styles unset by the previous rule.\n */\nbutton:-moz-focusring,\n[type=\"button\"]:-moz-focusring,\n[type=\"reset\"]:-moz-focusring,\n[type=\"submit\"]:-moz-focusring {\n  outline: 1px dotted ButtonText;\n}\n/**\n * Correct the padding in Firefox.\n */\nfieldset {\n  padding: 0.35em 0.75em 0.625em;\n}\n/**\n * 1. Correct the text wrapping in Edge and IE.\n * 2. Correct the color inheritance from `fieldset` elements in IE.\n * 3. Remove the padding so developers are not caught out when they zero out\n *    `fieldset` elements in all browsers.\n */\nlegend {\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box; /* 1 */\n  color: inherit; /* 2 */\n  display: table; /* 1 */\n  max-width: 100%; /* 1 */\n  padding: 0; /* 3 */\n  white-space: normal; /* 1 */\n}\n/**\n * 1. Add the correct display in IE 9-.\n * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.\n */\nprogress {\n  display: inline-block; /* 1 */\n  vertical-align: baseline; /* 2 */\n}\n/**\n * Remove the default vertical scrollbar in IE.\n */\ntextarea {\n  overflow: auto;\n}\n/**\n * 1. Add the correct box sizing in IE 10-.\n * 2. Remove the padding in IE 10-.\n */\n[type=\"checkbox\"],\n[type=\"radio\"] {\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box; /* 1 */\n  padding: 0; /* 2 */\n}\n/**\n * Correct the cursor style of increment and decrement buttons in Chrome.\n */\n[type=\"number\"]::-webkit-inner-spin-button,\n[type=\"number\"]::-webkit-outer-spin-button {\n  height: auto;\n}\n/**\n * 1. Correct the odd appearance in Chrome and Safari.\n * 2. Correct the outline style in Safari.\n */\n[type=\"search\"] {\n  -webkit-appearance: textfield; /* 1 */\n  outline-offset: -2px; /* 2 */\n}\n/**\n * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.\n */\n[type=\"search\"]::-webkit-search-cancel-button,\n[type=\"search\"]::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n/**\n * 1. Correct the inability to style clickable types in iOS and Safari.\n * 2. Change font properties to `inherit` in Safari.\n */\n::-webkit-file-upload-button {\n  -webkit-appearance: button; /* 1 */\n  font: inherit; /* 2 */\n}\n/* Interactive\n   ========================================================================== */\n/*\n * Add the correct display in IE 9-.\n * 1. Add the correct display in Edge, IE, and Firefox.\n */\ndetails, /* 1 */\nmenu {\n  display: block;\n}\n/*\n * Add the correct display in all browsers.\n */\nsummary {\n  display: list-item;\n}\n/* Scripting\n   ========================================================================== */\n/**\n * Add the correct display in IE 9-.\n */\ncanvas {\n  display: inline-block;\n}\n/**\n * Add the correct display in IE.\n */\ntemplate {\n  display: none;\n}\n/* Hidden\n   ========================================================================== */\n/**\n * Add the correct display in IE 10-.\n */\n[hidden] {\n  display: none;\n}\n@font-face {\n  font-family: 'Bebas Neue';\n  src: url(/static/fonts/BebasNeue-Regular.otf) format(\"opentype\"); }\n@font-face {\n  font-family: 'Inter UI';\n  src: url(/static/fonts/Inter-UI-Regular.ttf) format(\"truetype\"); }\nbody {\n  font-family: 'Bebas Neue', Helvetica, sans-serif !important; }\nh1 {\n  letter-spacing: 2.5px !important;\n  margin-bottom: 0;\n  padding-bottom: 12px; }\np {\n  font-size: medium;\n  color: #111517;\n  font-family: 'Inter UI', Arial, sans-serif !important;\n  font-weight: 400 !important;\n  font-size: 16px !important; }\n.period {\n  color: #ff1400; }\n.display-4 {\n  line-height: 56px; }\n.head1 {\n  padding-top: .25em; }\n.action {\n  padding-top: 40%;\n  font-size: 13px !important;\n  margin-bottom: 6px; }\nhr {\n  background-color: #eb1c21;\n  height: 2px;\n  width: 13%;\n  float: left;\n  padding: 0;\n  margin: 0; }\n.top-nav {\n  display: none; }\n.bg-dark {\n  background-color: #eb1c21 !important; }\n.jumbotron {\n  padding-top: 12px;\n  border: none; }\n.container-fluid {\n  padding-left: 0;\n  padding-right: 0;\n  border: none; }\n.container-fluid .row {\n    margin-right: 0;\n    margin-left: 0;\n    color: #111517; }\n.container-fluid .marko-logo {\n    width: 100px;\n    display: block;\n    margin: auto; }\n.container-fluid .section h1, .container-fluid .section h2, .container-fluid .section h3, .container-fluid .section h4, .container-fluid .section h5, .container-fluid .section p {\n    padding-left: 15px;\n    padding-right: 15px; }\n.container-fluid .section .video-wrapper {\n    margin: 0 auto;\n    width: 90%; }\n.container-fluid .home-header {\n    margin: 0 auto;\n    width: 100%;\n    padding-top: 12px;\n    z-index: 1030;\n    height: 10px; }\n.container-fluid .home1 {\n    padding-left: 20px; }\n.container-fluid .home1 p {\n      margin-bottom: .5em; }\n.container-fluid .home1 .cta-services {\n      display: none; }\n.container-fluid .home2, .container-fluid .home3, .container-fluid .home4, .container-fluid .home5 {\n    padding-left: 20px;\n    padding-right: 20px; }\n.container-fluid .head2, .container-fluid .head3 {\n    line-height: 44px;\n    font-size: 44px; }\n.container-fluid .options {\n    padding-bottom: 4em;\n    padding-top: 4em; }\n.container-fluid .options .r-blob {\n      display: block;\n      position: absolute;\n      z-index: -2;\n      left: 160px;\n      margin-top: 10em; }\n.container-fluid .options .r-blob img {\n        width: 200px;\n        opacity: .9; }\n.container-fluid .options .y-blob {\n      display: block;\n      position: absolute;\n      z-index: -2;\n      left: -50px;\n      margin-top: 18em; }\n.container-fluid .options .y-blob img {\n        width: 162px;\n        opacity: .9; }\n.container-fluid .options .g-blob {\n      display: none; }\n.container-fluid .home3, .container-fluid .home4 {\n    margin-bottom: 5em; }\n.container-fluid .home3 .deco1, .container-fluid .home3 .deco2, .container-fluid .home4 .deco1, .container-fluid .home4 .deco2 {\n      display: none; }\n.container-fluid .home3 h1, .container-fluid .home4 h1 {\n      margin-top: 1.5em;\n      line-height: 44px;\n      font-size: 44px; }\n.container-fluid .home3 .num-line, .container-fluid .home4 .num-line {\n      margin-bottom: 1em;\n      margin-top: 3em;\n      height: 2px;\n      max-width: 2em;\n      background-color: #111; }\n.container-fluid .home3 .num-label, .container-fluid .home4 .num-label {\n      line-height: 1;\n      letter-spacing: .1em;\n      color: #111517;\n      font-size: 13px; }\n.container-fluid .home3 .num-value, .container-fluid .home4 .num-value {\n      font-size: 1.2em;\n      line-height: 1.5;\n      font-weight: 400px;\n      letter-spacing: .03em;\n      color: #111517; }\n.container-fluid .home3 .arrow, .container-fluid .home4 .arrow {\n      display: inline-block;\n      width: 21px;\n      margin-top: -2px; }\n.container-fluid .home3 img, .container-fluid .home4 img {\n      max-width: 100%;\n      vertical-align: middle;\n      display: inline-block;\n      border: 0; }\n.container-fluid .home3 .home-link, .container-fluid .home4 .home-link {\n      position: relative;\n      -webkit-box-pack: center;\n          -ms-flex-pack: center;\n              justify-content: center;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center;\n      display: inline-block;\n      margin-top: 2.5em;\n      padding-left: 3em;\n      text-decoration: none;\n      background-color: transparent;\n      -webkit-transition: color 0.4s ease-out 0s;\n      transition: color 0.4s ease-out 0s; }\n.container-fluid .home3 .home-explore, .container-fluid .home4 .home-explore {\n      display: inline-block;\n      margin-right: .2rem;\n      letter-spacing: .05em; }\n.container-fluid .legacy {\n    margin-bottom: 10em;\n    margin-top: 6em;\n    width: 100%; }\n.container-fluid .legacy .text-muted {\n      margin-left: 6em;\n      margin-top: 1em; }\n.container-fluid .legacy .text-muted::before {\n        content: \"———— \"; }\n.container-fluid .legacy .legacy-text {\n      margin-top: 4em;\n      margin-bottom: 6em; }\n.container-fluid .legacy .case-title {\n      margin-bottom: 1em; }\n.container-fluid .cta {\n    text-align: left;\n    background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.45))), url(\"/static/cta.jpg\") no-repeat center center fixed;\n    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.45)), url(\"/static/cta.jpg\") no-repeat center center fixed;\n    background-size: cover;\n    background-attachment: scroll;\n    color: white;\n    height: 622px;\n    padding-top: 23em;\n    padding-left: 15px;\n    text-shadow: 0px .25px .25px #111517; }\n.container-fluid .cta .yellow {\n      color: #ffd100; }\n.container-fluid .cta .orange {\n      color: #de561c; }\n.container-fluid .btn .btn-primary:focus {\n    outline: 0; }\n.container-fluid .img-fluid.banner {\n    height: 412px; }\n#accordion {\n  margin: auto; }\n#accordion .case-action {\n    color: white;\n    letter-spacing: .07em;\n    line-height: 3;\n    padding-left: 1.85em;\n    font-size: 13px !important; }\n#accordion .case-client {\n    color: white;\n    font-family: 'Bebas Neue';\n    font-size: 1.75em;\n    letter-spacing: .07em;\n    line-height: 1;\n    text-align: left;\n    padding: 0; }\n#accordion .card {\n    width: 100%;\n    padding: 0; }\n#accordion .red {\n    background-color: #ff1400;\n    margin-bottom: 1em; }\n#accordion .yellow {\n    background-color: #ffc300;\n    margin-bottom: 1em; }\n#accordion .blue {\n    background-color: #1b126c;\n    margin-bottom: 1em; }\n#accordion .orange {\n    background-color: #de561c; }\n#accordion .btn, #accordion .btn-link, #accordion .btn-link:focus, #accordion .btn-link:hover, #accordion .btn-link:active {\n    text-decoration: none !important;\n    color: #353535 !important;\n    width: 100%;\n    padding-left: 0;\n    padding-top: 10em; }\n#accordion .card-header {\n    border-bottom: none;\n    padding-left: 0; }\n#accordion .card-body p {\n    color: white; }\n.mobile-nav .navbar .mobnav > li {\n  font-size: 5em;\n  padding-right: .3em;\n  line-height: 1;\n  letter-spacing: .045em; }\n.mobile-nav .navbar-toggler {\n  outline: none; }\n.mobile-nav .navbar-dark .navbar-nav .nav-link {\n  color: white; }\n.mobile-nav .nav-icons {\n  height: 20px; }\n.mobile-nav .navbar-brand {\n  margin: 0;\n  padding-left: 15px; }\n#main {\n  background-image: url(\"/static/half-bill.jpg\");\n  background-size: cover;\n  background-attachment: scroll;\n  min-height: 500px;\n  margin-bottom: 0;\n  margin-top: 12%; }\n#main h1, #main p {\n    width: 184px; }\n.num-container {\n  position: relative; }\n.num-container img {\n    width: 80%;\n    display: block;\n    margin: auto; }\n.num-overlay {\n  position: absolute;\n  bottom: 38px; }\n.footer-info {\n  height: auto;\n  padding-bottom: 2.5em; }\n.footer-info #footer {\n    padding-left: 20px;\n    padding-right: 20px;\n    padding-bottom: 1em;\n    -ms-flex-pack: distribute;\n        justify-content: space-around;\n    letter-spacing: .07em; }\n.footer-info #footer h5, .footer-info #footer ul {\n      font-size: 13px; }\n.footer-info #footer ul {\n      margin-top: 2em;\n      padding: 0; }\n.footer-info #footer .footer-socials {\n      list-style-type: none; }\n.footer-info #footer .footer-socials .footer-social {\n        display: inline-block;\n        margin-right: 2em;\n        line-height: 1.6; }\n.footer-info #footer .footer-socials a {\n        text-decoration: none;\n        color: inherit; }\n.footer-info #footer .footer-copyright {\n      text-decoration: none;\n      color: white !important; }\n.footer-info #footer .footer-line {\n      background-color: #eb1c21;\n      height: 2px;\n      width: 75%;\n      float: left;\n      padding: 0;\n      margin: 0; }\n/* services */\n#services-page h1, #services-page p {\n  margin-left: 8px;\n  margin-right: 8px; }\n#services-page #services {\n  background-color: white;\n  height: 70px;\n  padding-top: 12px; }\n#services-page .services-banner {\n  margin-top: 8em;\n  margin-bottom: 10em;\n  position: relative;\n  margin-left: 2em;\n  margin-right: 2em; }\n#services-page .services-banner .cta-services {\n    display: none; }\n#services-page .services-banner img {\n    display: block;\n    margin: 0 auto;\n    height: auto;\n    max-width: 100%; }\n#services-page .services-banner .banner-line {\n    width: 25%;\n    display: inline-block;\n    height: 1px;\n    min-width: 5rem;\n    margin-right: 1em;\n    margin-bottom: .375em;\n    margin-left: 1em;\n    background-color: rgba(27, 27, 28, 0.13); }\n#services-page .services-banner .banner-overlay {\n    position: absolute;\n    bottom: 388px; }\n#services-page .services-banner .banner-overlay h1 {\n      font-size: 24px;\n      line-height: 26px;\n      letter-spacing: .035em; }\n#services-page .services-banner .banner-subtitle {\n    position: absolute;\n    left: 25%;\n    bottom: 37%; }\n#services-page .services-banner .action {\n    padding-top: 50%;\n    font-size: 13px !important;\n    text-align: center;\n    margin-bottom: 6px; }\n#services-page .services-banner hr {\n    margin: 0 auto;\n    padding: auto;\n    float: inherit; }\n#services-page .services-detail {\n  margin-bottom: 3em; }\n#services-page .services-detail a {\n    text-decoration: none;\n    color: #252b7e; }\n#services-page .services-detail .deco1 {\n    display: none; }\n#services-page .services-detail .txt-deco {\n    position: relative;\n    display: block; }\n#services-page .services-detail .txt-deco .deco-line {\n      position: absolute;\n      left: 2em;\n      top: .28em;\n      display: block;\n      width: 3em;\n      height: 2px;\n      background-color: #111517; }\n#services-page .services-detail .txt-deco .deco-label {\n      padding-left: 6em;\n      margin-bottom: 2em;\n      line-height: 1; }\n#services-page .services-detail p {\n    line-height: 1.6;\n    margin-bottom: 1.75em; }\n#services-page .services-detail .o-blob {\n    display: block;\n    position: absolute;\n    z-index: -2;\n    left: 160px;\n    margin-top: 16em; }\n#services-page .services-detail .o-blob img {\n      width: 210px;\n      opacity: .9; }\n#services-page .services-detail .y-blob {\n    display: block;\n    position: absolute;\n    z-index: -2;\n    left: -80px;\n    margin-top: -6em; }\n#services-page .services-detail .y-blob img {\n      width: 200px;\n      opacity: .85; }\n#services-page .services-detail h4 {\n    font-size: 28px;\n    line-height: 36px; }\n#services-page .services-detail ul, #services-page .services-detail li {\n    list-style: none;\n    font-size: 14px;\n    line-height: 22px;\n    font-family: 'Inter UI'; }\n#services-page .questions-grid {\n  margin-bottom: 3em; }\n#services-page .questions-grid a {\n    text-decoration: none;\n    color: #252b7e; }\n#services-page .questions-grid #faq ul, #services-page .questions-grid #faq li {\n    list-style: none;\n    padding-left: .25em;\n    letter-spacing: .03em; }\n#services-page .questions-grid #faq h6 {\n    margin-top: 2.5em;\n    font-size: 12px;\n    letter-spacing: .03em; }\n#services-page .questions-grid #faq .card, #services-page .questions-grid #faq .card-header {\n    background-color: transparent !important;\n    padding: 3em; }\n#services-page .questions-grid #faq .card-body p {\n    font-size: 14px !important;\n    line-height: 22px; }\n#services-page .questions-grid #faq .btn, #services-page .questions-grid #faq .btn-link {\n    color: #111517;\n    text-decoration: none;\n    padding: 0;\n    max-width: 16rem;\n    text-align: left;\n    white-space: normal; }\n#services-page .questions-grid #faq .btn:hover, #services-page .questions-grid #faq .btn:active, #services-page .questions-grid #faq .btn:visited, #services-page .questions-grid #faq .btn-link:hover, #services-page .questions-grid #faq .btn-link:active, #services-page .questions-grid #faq .btn-link:visited {\n      text-decoration: none; }\n#services-page .questions-grid #faq .faq {\n    margin: 0 0 5%;\n    padding: 0;\n    border: 2px solid #f6f6f6; }\n#services-page .questions-grid #faq .faq .case-action {\n      margin-bottom: 2em;\n      line-height: 1.6;\n      font-size: 12px;\n      font-family: 'Inter UI'; }\n#services-page .questions-grid #faq .faq .case-client {\n      max-width: 16rem;\n      margin-bottom: 0;\n      letter-spacing: .045rem;\n      font-family: 'Bebas Neue'; }\n#services-page .questions-grid #faq .faq-line {\n    width: 2em;\n    height: 1px;\n    margin-top: 1em;\n    margin-bottom: 1em;\n    background-color: #f6f6f6;\n    color: #f6f6f6; }\n#services-page .resources-detail {\n  margin-top: 0;\n  padding-top: 0;\n  margin-bottom: 8em; }\n#services-page .resources-detail a {\n    text-decoration: none;\n    color: #252b7e; }\n#services-page .resources-detail .g-blob, #services-page .resources-detail .b-blob {\n    display: none; }\n#services-page .resources-detail .res-info {\n    margin-top: 2em;\n    margin-bottom: 3em;\n    margin-left: 40px;\n    margin-right: 40px; }\n#services-page .resources-detail .res-info .num-line {\n      margin-bottom: 1em;\n      margin-top: 0;\n      height: 2px;\n      max-width: 1em;\n      background-color: #111; }\n#services-page .resources-detail .res-info .num-label {\n      line-height: 1;\n      letter-spacing: .1em;\n      color: #111517;\n      font-size: 13px; }\n#services-page .resources-detail .txt-deco {\n    position: relative;\n    display: block;\n    margin-top: 1em; }\n#services-page .resources-detail .txt-deco .deco-line {\n      position: absolute;\n      left: 3em;\n      top: .28em;\n      display: block;\n      width: 3em;\n      height: 2px;\n      background-color: #111517; }\n#services-page .resources-detail .txt-deco .deco-label {\n      padding-left: 7em;\n      margin-bottom: 6em;\n      line-height: 1; }\n#services-page .resources-detail h3 {\n    padding-left: 40px;\n    padding-right: 40px; }\n#services-page #resources {\n  margin: auto;\n  width: 100%; }\n#services-page #resources .res-action {\n    color: white;\n    letter-spacing: .07em;\n    line-height: 3;\n    padding-left: 1.85em;\n    font-size: 13px !important; }\n#services-page #resources .res-header {\n    color: white;\n    font-family: 'Bebas Neue';\n    font-size: 1.75em;\n    letter-spacing: .07em;\n    line-height: 1;\n    text-align: left;\n    padding: 0; }\n#services-page #resources .card {\n    width: 100%;\n    padding: 0; }\n#services-page #resources .red {\n    background-color: #ff1400;\n    margin-bottom: 1em; }\n#services-page #resources .yellow {\n    background-color: #ffc300;\n    margin-bottom: 1em; }\n#services-page #resources .blue {\n    background-color: #1b126c;\n    margin-bottom: 1em; }\n#services-page #resources .btn, #services-page #resources .btn-link, #services-page #resources .btn-link:focus, #services-page #resources .btn-link:hover, #services-page #resources .btn-link:active {\n    text-decoration: none !important;\n    color: #353535 !important;\n    width: 100%;\n    padding-left: 0;\n    padding-top: 10em; }\n#services-page #resources .card-header {\n    border-bottom: none;\n    padding-left: 0; }\n#services-page #resources .card-body p, #services-page #resources a {\n    color: white;\n    line-height: .75; }\n#contact-page {\n  overflow: hidden; }\n#contact-page h1, #contact-page p {\n    margin-left: 8px;\n    margin-right: 8px; }\n#contact-page #contact {\n    background-color: white;\n    height: 70px;\n    padding-top: 12px; }\n#contact-page .contact-banner {\n    margin-top: 4em;\n    margin-bottom: 1.5em;\n    position: relative;\n    margin-left: 2em;\n    margin-right: 2em; }\n#contact-page .contact-banner img {\n      display: block;\n      margin: 0 auto;\n      height: auto;\n      max-width: 100%; }\n#contact-page .contact-banner .banner-overlay {\n      display: none; }\n#contact-page .contact-main a {\n    text-decoration: none;\n    color: #252b7e; }\n#contact-page .contact-main .contact-clio-desktop {\n    display: none; }\n#contact-page .contact-main .contact-form {\n    padding: 0 2em;\n    margin: 0 auto;\n    line-height: 2; }\n#contact-page .contact-main .contact-form form textarea, #contact-page .contact-main .contact-form form select, #contact-page .contact-main .contact-form form input, #contact-page .contact-main .contact-form form button {\n      outline: none; }\n#contact-page .contact-main .contact-form form label {\n      display: block;\n      margin-bottom: 30px;\n      padding: 0; }\n#contact-page .contact-main .contact-form form input, #contact-page .contact-main .contact-form form textarea {\n      font-family: 'Inter UI';\n      width: 100%;\n      border: 0;\n      border-bottom: 2px solid #111517;\n      padding: 5.5px;\n      font-size: 14px;\n      line-height: 18px;\n      letter-spacing: .01em; }\n#contact-page .contact-main .contact-form form textarea {\n      border: 2px solid #111517;\n      margin-top: 5px; }\n#contact-page .contact-main .contact-form form input[type=radio] {\n      width: initial; }\n#contact-page .contact-main .contact-form form .r-label {\n      display: inline-block;\n      vertical-align: middle;\n      margin: 0;\n      font-size: 16px;\n      letter-spacing: .03em; }\n#contact-page .contact-main .contact-form form .r-divide {\n      display: inline-block;\n      margin-right: 4em; }\n#contact-page .contact-main .contact-form form .f-select {\n      margin-bottom: 1em;\n      text-align: center; }\n#contact-page .contact-main .contact-form form .f-label {\n      font-size: 14px;\n      letter-spacing: .03em;\n      vertical-align: baseline;\n      margin-bottom: 5px; }\n#contact-page .contact-main .contact-form form .f-date {\n      font-size: 14px;\n      padding-left: 22px;\n      text-align: center; }\n#contact-page .contact-main .contact-form form .f-support {\n      font-family: 'Inter UI';\n      font-size: 11px;\n      color: #a7a7a7; }\n#contact-page .contact-main .contact-form form .f-send {\n      font-family: 'Bebas Neue';\n      background-color: #ff7000;\n      font-size: 20px;\n      display: inline-block;\n      padding: 24px 60px;\n      border: 0 solid transparent;\n      border-radius: 0;\n      line-height: 14px;\n      color: white;\n      letter-spacing: .06em; }\n#contact-page .contact-main .contact-form form p {\n      font-size: 14px !important;\n      line-height: 20px;\n      padding: 0;\n      margin: 0;\n      margin-bottom: 30px; }\n#contact-page .contact-main .contact-info {\n    margin-top: 0;\n    margin-bottom: 4em;\n    font-family: 'Inter UI';\n    font-size: 13px;\n    line-height: 20px;\n    margin-left: 2em; }\n#contact-page .contact-main .contact-info ul, #contact-page .contact-main .contact-info li {\n      list-style: none;\n      padding: 0; }\n#contact-page .contact-clio {\n    margin-top: 5em;\n    margin-bottom: 5em; }\n#contact-page .contact-clio .clio-signin {\n      border: 2px solid #f6f6f6;\n      padding: 2em;\n      margin: 0 auto;\n      width: 84%; }\n#contact-page .contact-clio .clio-signin .clio-case {\n        margin-bottom: 1.5em;\n        line-height: 1.6;\n        font-size: 14px;\n        font-family: 'Inter UI'; }\n#contact-page .contact-clio .clio-signin h4 {\n        margin-top: 0;\n        padding: 0;\n        max-width: 16rem;\n        margin-bottom: 0;\n        line-height: 1.1;\n        letter-spacing: .04em; }\n#contact-page .contact-clio .clio-signin a {\n        text-decoration: none;\n        outline: none;\n        color: #252b7e; }\n#contact-page .contact-clio .y-blob {\n      display: block;\n      position: absolute;\n      z-index: -2;\n      left: -120px;\n      margin-top: -12em; }\n#contact-page .contact-clio .y-blob img {\n        width: 370px;\n        opacity: .9; }\n#contact-page .contact-clio .b-blob {\n      display: block;\n      position: absolute;\n      z-index: -2;\n      left: 234px;\n      margin-top: 1.5em; }\n#contact-page .contact-clio .b-blob img {\n        width: 140px;\n        opacity: .9; }\n@media (min-width: 576px) {\n  p {\n    line-height: 34px; }\n  .mobile-nav .navbar {\n    padding-left: 0;\n    padding-right: 0; }\n  #main {\n    margin-top: 6%;\n    background: white; }\n    #main h1, #main p {\n      width: 500px; }\n  .head1 {\n    font-size: 52px;\n    line-height: 52px; }\n  .action {\n    display: none; }\n  .video-wrapper {\n    margin: 0 auto;\n    width: 90%; }\n  .container-fluid .home1 {\n    padding: 0;\n    max-width: 600px; }\n  .container-fluid .cta {\n    height: 700px;\n    padding-top: 30em;\n    padding-left: 40px; }\n  .container-fluid .marko-logo {\n    width: 132px; }\n  .container-fluid .home2, .container-fluid .home3, .container-fluid .home4, .container-fluid .home5 {\n    padding-left: 40px;\n    padding-right: 40px; }\n  .container-fluid .options {\n    padding-bottom: 4em;\n    padding-top: 1em; }\n    .container-fluid .options .r-blob {\n      left: 358px;\n      margin-top: 15.5em; }\n  .container-fluid .head2, .container-fluid .head3 {\n    font-size: 56px;\n    line-height: 56px; }\n  .container-fluid .home3 .deco1, .container-fluid .home3 .deco2, .container-fluid .home4 .deco1, .container-fluid .home4 .deco2 {\n    display: block;\n    font-size: 25vw;\n    color: #f6f6f6;\n    position: absolute;\n    left: 60px;\n    z-index: -1;\n    line-height: .8; }\n  .container-fluid .home3 .deco1, .container-fluid .home4 .deco1 {\n    top: 9.95em; }\n  .container-fluid .home3 .deco2, .container-fluid .home4 .deco2 {\n    top: 15.35em; }\n  .container-fluid .home3 h1, .container-fluid .home4 h1 {\n    font-size: 52px;\n    line-height: 52px; }\n  .container-fluid .home3 .home-link, .container-fluid .home4 .home-link {\n    padding-left: 18em; }\n  .container-fluid .home3 .home-explore, .container-fluid .home4 .home-explore {\n    font-size: 22px; }\n  .container-fluid .legacy .text-muted {\n    margin-left: 14em;\n    font-size: 22px; }\n  .container-fluid .legacy .case-title {\n    font-size: 34px;\n    line-height: 34px; }\n  .container-fluid .legacy .num-container img {\n    width: 75%; }\n  .container-fluid .legacy .num-overlay {\n    bottom: 74px; }\n  .container-fluid #accordion .case-action {\n    font-size: 16px !important;\n    line-height: 28px; }\n  .footer-info {\n    padding-bottom: 6em; }\n    .footer-info #footer {\n      padding-left: 40px;\n      padding-right: 40px; }\n      .footer-info #footer h5, .footer-info #footer ul {\n        font-size: 16px;\n        letter-spacing: .09em; }\n      .footer-info #footer .footer-line {\n        width: 50%; }\n  .questions-grid {\n    margin-bottom: 3em; }\n    .questions-grid #faq .btn, .questions-grid #faq .btn-link {\n      max-width: 16rem;\n      text-align: left;\n      white-space: normal; }\n      .questions-grid #faq .btn:hover, .questions-grid #faq .btn:active, .questions-grid #faq .btn:visited, .questions-grid #faq .btn-link:hover, .questions-grid #faq .btn-link:active, .questions-grid #faq .btn-link:visited {\n        text-decoration: none; }\n    .questions-grid #faq .faq {\n      margin: 0 0 5%;\n      padding: 0;\n      border: 2px solid #f6f6f6; }\n      .questions-grid #faq .faq .case-action {\n        margin-bottom: 2em;\n        line-height: 1.6;\n        font-size: 12px; }\n      .questions-grid #faq .faq .case-client {\n        max-width: 16rem;\n        margin-bottom: 0;\n        letter-spacing: .045rem;\n        font-family: 'Bebas Neue'; }\n    .questions-grid #faq .faq-line {\n      width: 2em;\n      height: 1px;\n      margin-top: 1em;\n      margin-bottom: 1em;\n      background-color: #f6f6f6;\n      color: #f6f6f6; }\n    .questions-grid .banner-line {\n      width: 25%;\n      display: inline-block;\n      height: 1px;\n      min-width: 3rem;\n      margin-right: 1em;\n      margin-bottom: .375em;\n      margin-left: 1em;\n      background-color: #eb1c21; }\n    .questions-grid .faq-contact {\n      margin-top: 5em;\n      margin-left: 2em; }\n  /* services */\n  #services-page .services-detail h1, #services-page .services-detail p {\n    margin-left: 12px;\n    margin-right: 12px; }\n  #services-page .services-banner {\n    margin-top: 4em;\n    margin-bottom: 4em; }\n    #services-page .services-banner img {\n      max-width: 30%; }\n    #services-page .services-banner .banner-overlay {\n      bottom: 90px; }\n    #services-page .services-banner .banner-subtitle {\n      bottom: -38%;\n      left: 60%; }\n    #services-page .services-banner .action, #services-page .services-banner hr {\n      display: none; }\n  #services-page .services-detail .o-blob {\n    left: 400px; }\n  #contact-page h1, #contact-page p {\n    margin-left: 12px;\n    margin-right: 12px; }\n  #contact-page .contact-banner img {\n    max-width: 70%; }\n  #contact-page .contact-clio .b-blob {\n    left: 408px;\n    margin-top: -1em; } }\n@media (min-width: 768px) {\n  .mobile-nav {\n    display: none; }\n  .top-nav {\n    display: block; }\n  .navbar .navbar-brand {\n    color: #eb1c21; }\n  .navbar .navbar-nav > li {\n    padding-left: 20px;\n    padding-right: 20px;\n    font-size: 14px;\n    letter-spacing: .09em; }\n  .navbar-light .navbar-nav .nav-link {\n    color: #111517; }\n  .jumbotron {\n    padding-top: 94px; }\n  .home-header, .services-header {\n    display: none; }\n  #main {\n    background-image: url(\"/static/billboard.jpg\");\n    min-height: 820px;\n    background-size: cover;\n    background-attachment: scroll;\n    margin-bottom: 0;\n    margin-top: 8%; }\n    #main h1, #main p {\n      max-width: 200px; }\n  .action {\n    display: none; }\n  .container-fluid .home1 {\n    max-width: 660px; }\n  .container-fluid .head1 {\n    font-size: 82px;\n    line-height: 82px;\n    margin-top: 0; }\n  .container-fluid .head2, .container-fluid .head3 {\n    font-size: 56px;\n    line-height: 56px; }\n  .container-fluid .options {\n    padding-top: 6em;\n    padding-bottom: 8em; }\n    .container-fluid .options .r-blob {\n      display: block;\n      position: absolute;\n      z-index: -2;\n      left: 480px;\n      margin-top: 9em; }\n      .container-fluid .options .r-blob img {\n        width: 286px; }\n    .container-fluid .options .y-blob {\n      display: block;\n      position: absolute;\n      z-index: -2;\n      left: -20px;\n      margin-top: 18em; }\n      .container-fluid .options .y-blob img {\n        width: 286px; }\n  .container-fluid .home3, .container-fluid .home4 {\n    margin-bottom: 10em; }\n    .container-fluid .home3 h1, .container-fluid .home4 h1 {\n      font-size: 52px;\n      line-height: 52px; }\n    .container-fluid .home3 .deco1, .container-fluid .home4 .deco1 {\n      top: 11.2em; }\n    .container-fluid .home3 .deco2, .container-fluid .home4 .deco2 {\n      top: 16.5em; }\n    .container-fluid .home3 .home-link, .container-fluid .home4 .home-link {\n      padding-left: 24em; }\n  .container-fluid .video-wrapper {\n    margin: 0 auto;\n    width: 90%; }\n  .container-fluid .legacy .num-container img {\n    width: 55%; }\n  .footer-info {\n    padding-bottom: 0em; }\n    .footer-info #footer h5, .footer-info #footer ul {\n      font-size: 11px;\n      line-height: 11px; }\n    .footer-info #footer .footer-line {\n      width: 100%; }\n  /* services */\n  #services-page .services-banner {\n    margin-top: 15em;\n    margin-bottom: 22em; }\n    #services-page .services-banner img {\n      max-width: 72%; }\n    #services-page .services-banner .banner-overlay {\n      left: 16%;\n      bottom: 322px; }\n      #services-page .services-banner .banner-overlay h1 {\n        font-size: 22px;\n        line-height: 1.1;\n        letter-spacing: 0; }\n    #services-page .services-banner .banner-subtitle {\n      bottom: -25%;\n      left: 50%; }\n  #services-page .services-detail .head2 {\n    font-size: 48px;\n    line-height: 48px;\n    letter-spacing: 0;\n    margin-left: 14%;\n    margin-top: 1.9em; }\n  #services-page .services-detail .txt-deco {\n    margin-left: 18%;\n    margin-top: 1em; }\n  #services-page .services-detail h4 {\n    margin-top: .75em; }\n  #services-page .services-detail .detail {\n    font-size: 14px !important;\n    line-height: 28px;\n    margin-left: 20%; }\n  #services-page .services-detail ul, #services-page .services-detail li {\n    padding-left: 0;\n    font-size: 12px; }\n  #services-page .services-detail .deco1 {\n    display: block;\n    font-size: 25vw;\n    color: #f6f6f6;\n    position: absolute;\n    left: 60px;\n    z-index: -1;\n    line-height: .8;\n    top: -53%; }\n  #services-page .services-detail .o-blob {\n    margin-top: 8em;\n    left: 350px; }\n    #services-page .services-detail .o-blob img {\n      width: 340px; }\n  #services-page .services-detail .y-blob {\n    left: 600px;\n    margin-top: -18em; }\n    #services-page .services-detail .y-blob img {\n      width: 120px; }\n  #services-page .questions-grid {\n    margin-top: 4em; }\n    #services-page .questions-grid #faq .card-header {\n      padding: 2em; }\n    #services-page .questions-grid #faq .faq .case-action {\n      font-size: 11px; }\n    #services-page .questions-grid #faq .faq .case-client {\n      max-width: 30rem;\n      font-size: 18px;\n      letter-spacing: .02em; }\n    #services-page .questions-grid #faq .card-body p {\n      font-size: 12px !important;\n      line-height: 18px; }\n  #services-page .resources-detail {\n    margin-top: 7em; }\n    #services-page .resources-detail h3 {\n      font-size: 42px;\n      line-height: 42px;\n      margin-left: 4.3em; }\n    #services-page .resources-detail .res-info {\n      margin-left: 14em; }\n    #services-page .resources-detail .txt-deco .deco-line {\n      left: 16em; }\n    #services-page .resources-detail .txt-deco .deco-label {\n      padding-left: 20em; }\n    #services-page .resources-detail .g-blob {\n      display: block;\n      position: absolute;\n      z-index: -2;\n      left: 30px;\n      margin-top: 6em; }\n      #services-page .resources-detail .g-blob img {\n        width: 160px;\n        opacity: .9; }\n    #services-page .resources-detail .b-blob {\n      display: block;\n      position: absolute;\n      z-index: -3;\n      left: 52px;\n      margin-top: -.5em; }\n      #services-page .resources-detail .b-blob img {\n        width: 200px;\n        opacity: .9; }\n    #services-page .resources-detail #resources {\n      margin-top: 4em; }\n  /* contact */\n  #contact-page h1, #contact-page p {\n    margin-left: 12px;\n    margin-right: 12px; }\n  #contact-page #contact {\n    display: none; }\n  #contact-page .contact-banner {\n    margin-top: 12.5em;\n    margin-bottom: 0; }\n    #contact-page .contact-banner img {\n      min-width: 560px; }\n    #contact-page .contact-banner .banner-overlay {\n      display: block;\n      font-family: 'Inter UI';\n      font-size: 11px;\n      line-height: 11px;\n      margin-bottom: 6em;\n      margin-left: 14em; }\n      #contact-page .contact-banner .banner-overlay .nearby {\n        font-family: 'Bebas Neue';\n        font-size: 20px;\n        line-height: 20px; }\n  #contact-page .contact-main .contact-info {\n    margin-top: 1em;\n    margin-left: 16em;\n    font-size: 11px;\n    line-height: 17px; }\n  #contact-page .contact-main .contact-form {\n    margin-top: 4em; }\n    #contact-page .contact-main .contact-form form .f-select {\n      border: 1px solid #f6f6f6;\n      padding: 2em; }\n      #contact-page .contact-main .contact-form form .f-select .r-label {\n        font-family: 'Inter UI'; }\n    #contact-page .contact-main .contact-form form .split {\n      display: inline-block; }\n  #contact-page .contact-clio {\n    margin-top: 8em;\n    margin-bottom: 8em; }\n    #contact-page .contact-clio .b-blob {\n      left: 522px;\n      margin-top: -1em; }\n      #contact-page .contact-clio .b-blob img {\n        width: 168px; } }\n@media (min-width: 992px) {\n  p {\n    line-height: 32px; }\n  .navbar {\n    padding-left: 2rem;\n    margin-top: 14px; }\n    .navbar .navbar-nav > li {\n      font-size: 15px;\n      line-height: 15px; }\n  .navbar-nav > li {\n    padding-left: 30px;\n    padding-right: 30px; }\n  #main {\n    background-image: url(\"/static/full-bill.jpg\");\n    margin-top: 4%;\n    background-attachment: fixed;\n    max-height: 768px;\n    background-size: contain;\n    background-repeat: no-repeat; }\n    #main h1, #main p {\n      width: 360px; }\n  .container-fluid .home1 {\n    max-width: 960px; }\n    .container-fluid .home1 p {\n      margin-bottom: 1em; }\n    .container-fluid .home1 .cta-services {\n      display: block;\n      position: absolute;\n      font-family: 'Inter UI';\n      font-size: 11px;\n      line-height: 11px;\n      text-decoration: none;\n      color: #252b7e;\n      right: 2.5%;\n      bottom: 6%;\n      z-index: 3;\n      line-height: 1;\n      text-align: right; }\n    .container-fluid .home1 .at-cta {\n      font-family: 'Bebas Neue';\n      font-size: 14px;\n      line-height: 14px; }\n  .container-fluid .home2 h1, .container-fluid .home2 p {\n    width: 600px;\n    padding-left: 100px; }\n  .container-fluid .head1 {\n    font-size: 86px;\n    line-height: 86px; }\n  .container-fluid .head2, .container-fluid .head3 {\n    font-size: 56px;\n    line-height: 56px; }\n  .container-fluid .options {\n    padding-top: 8em; }\n    .container-fluid .options .r-blob {\n      left: 600px;\n      margin-top: 2em; }\n      .container-fluid .options .r-blob img {\n        width: 376px; }\n    .container-fluid .options .y-blob {\n      left: 0px;\n      margin-top: 16em; }\n      .container-fluid .options .y-blob img {\n        width: 296px; }\n    .container-fluid .options .g-blob {\n      display: block;\n      position: absolute;\n      z-index: -3;\n      left: 760px;\n      margin-top: 18em; }\n      .container-fluid .options .g-blob img {\n        width: 200px; }\n  .container-fluid .video-wrapper {\n    margin: 0 auto;\n    width: 90%; }\n  .container-fluid .home3, .container-fluid .home4 {\n    padding-left: 268px; }\n    .container-fluid .home3 h1, .container-fluid .home3 p, .container-fluid .home4 h1, .container-fluid .home4 p {\n      width: 600px; }\n    .container-fluid .home3 h1, .container-fluid .home4 h1 {\n      font-size: 56px;\n      line-height: 56px; }\n    .container-fluid .home3 .deco1, .container-fluid .home4 .deco1 {\n      padding-left: 20px;\n      font-size: 21vw;\n      top: 9.35em; }\n    .container-fluid .home3 .deco2, .container-fluid .home4 .deco2 {\n      padding-left: 20px;\n      font-size: 21vw;\n      top: 15em; }\n  .container-fluid .cta {\n    background-attachment: fixed;\n    height: 600px;\n    padding-top: 21em; }\n    .container-fluid .cta h3 {\n      font-size: 72px;\n      line-height: 72px; }\n  .container-fluid .legacy {\n    margin-top: 8em; }\n    .container-fluid .legacy .text-muted {\n      margin-left: 24em; }\n    .container-fluid .legacy .num-container img {\n      width: 50%; }\n    .container-fluid .legacy .num-overlay {\n      bottom: 64px;\n      left: 100px; }\n    .container-fluid .legacy p {\n      width: 600px;\n      display: block;\n      margin: auto; }\n  .container-fluid #accordion {\n    padding-left: 0em; }\n    .container-fluid #accordion .yellow {\n      margin-right: 1em; }\n      .container-fluid #accordion .yellow:hover {\n        opacity: .9; }\n    .container-fluid #accordion .blue {\n      margin-right: 1em; }\n      .container-fluid #accordion .blue:hover {\n        opacity: .9; }\n    .container-fluid #accordion .red:hover {\n      opacity: .9; }\n    .container-fluid #accordion .orange:hover {\n      opacity: .9; }\n    .container-fluid #accordion .card {\n      padding: 0; }\n    .container-fluid #accordion .card-body p {\n      width: auto; }\n    .container-fluid #accordion .case-action {\n      width: auto; }\n  .footer-info {\n    padding-bottom: 0; }\n    .footer-info #footer {\n      padding-left: 30px;\n      padding-right: 30px; }\n      .footer-info #footer .info {\n        line-height: 1;\n        margin-top: .5em;\n        font-size: 14px; }\n      .footer-info #footer .footer-socials {\n        display: -webkit-box;\n        display: -ms-flexbox;\n        display: flex;\n        -webkit-box-align: stretch;\n            -ms-flex-align: stretch;\n                align-items: stretch;\n        -webkit-box-pack: end;\n            -ms-flex-pack: end;\n                justify-content: flex-end;\n        -webkit-box-flex: 50%;\n            -ms-flex: 50%;\n                flex: 50%;\n        text-align: right;\n        line-height: 1;\n        margin: 0;\n        font-size: 14px; }\n      .footer-info #footer .footer-line {\n        display: none; }\n  /* services */\n  #services-page .services-banner {\n    margin-top: 10em;\n    margin-bottom: 16em; }\n    #services-page .services-banner img {\n      max-width: 56%; }\n    #services-page .services-banner .banner-overlay {\n      bottom: 320px;\n      left: 28%; }\n    #services-page .services-banner .banner-subtitle {\n      left: 45%; }\n    #services-page .services-banner .cta-services {\n      display: block;\n      position: absolute;\n      font-family: 'Inter UI';\n      font-size: 11px;\n      line-height: 11px;\n      text-decoration: none;\n      color: #252b7e;\n      right: 2.5%;\n      bottom: -45%;\n      z-index: 3;\n      line-height: 1;\n      text-align: right; }\n    #services-page .services-banner .at-cta {\n      font-family: 'Bebas Neue';\n      font-size: 14px;\n      line-height: 14px; }\n  #services-page .services-detail .head2 {\n    font-size: 56px;\n    line-height: 56px;\n    letter-spacing: 0;\n    margin-left: 14%;\n    margin-top: 1.9em; }\n  #services-page .services-detail .deco1 {\n    font-size: 14vw;\n    top: -68%; }\n  #services-page .services-detail .detail {\n    font-size: 16px;\n    line-height: 32px; }\n  #services-page .services-detail .o-blob {\n    left: 500px;\n    margin-top: 9em; }\n    #services-page .services-detail .o-blob img {\n      width: 280px; }\n  #services-page .services-detail .y-blob {\n    left: 680px;\n    margin-top: -20em; }\n  #services-page .resources-detail h3 {\n    margin-left: 6em; }\n  #services-page .resources-detail .res-info {\n    margin-left: 18.5em; }\n  #services-page .resources-detail .txt-deco {\n    margin-top: 2em; }\n    #services-page .resources-detail .txt-deco .deco-line {\n      left: 18.25em; }\n    #services-page .resources-detail .txt-deco .deco-label {\n      padding-left: 22.25em; }\n  #services-page .resources-detail .b-blob {\n    margin-top: -3em;\n    left: 80px; }\n    #services-page .resources-detail .b-blob img {\n      width: 260px; }\n  #services-page .questions-grid #faq .faq .case-client {\n    font-size: 16px;\n    line-height: 32px;\n    letter-spacing: .03em; }\n  /* contact */\n  #contact-page .contact-banner {\n    margin-top: 11em;\n    margin-bottom: 1em; }\n    #contact-page .contact-banner img {\n      min-width: 800px; }\n    #contact-page .contact-banner .banner-overlay {\n      font-size: 13px;\n      line-height: 13px; }\n      #contact-page .contact-banner .banner-overlay .nearby {\n        font-size: 24px;\n        line-height: 24px; }\n  #contact-page .contact-main {\n    margin-bottom: 8em; }\n    #contact-page .contact-main .contact-info {\n      margin-left: 0;\n      font-size: 13px;\n      line-height: 19px; }\n      #contact-page .contact-main .contact-info ul {\n        margin-left: 14em; }\n    #contact-page .contact-main .contact-form {\n      margin-top: 0; }\n      #contact-page .contact-main .contact-form form .f-select .r-label {\n        font-size: 14px; }\n    #contact-page .contact-main .contact-clio-desktop {\n      display: block;\n      margin-right: 3em; }\n      #contact-page .contact-main .contact-clio-desktop .clio-signin {\n        border: 2px solid #f6f6f6;\n        padding: 1em;\n        margin: 0 auto;\n        margin-top: 3em;\n        width: 84%; }\n        #contact-page .contact-main .contact-clio-desktop .clio-signin .clio-case {\n          margin-bottom: 1.5em;\n          line-height: 1.6;\n          font-size: 14px;\n          font-family: 'Inter UI'; }\n        #contact-page .contact-main .contact-clio-desktop .clio-signin h4 {\n          margin-top: 0;\n          padding: 0;\n          max-width: 16rem;\n          margin-bottom: 0;\n          line-height: 1.1;\n          letter-spacing: .04em; }\n        #contact-page .contact-main .contact-clio-desktop .clio-signin a {\n          text-decoration: none;\n          outline: none;\n          color: #252b7e; }\n      #contact-page .contact-main .contact-clio-desktop .g-blob {\n        display: block;\n        position: absolute;\n        z-index: -2;\n        left: 140px;\n        margin-top: -18em; }\n        #contact-page .contact-main .contact-clio-desktop .g-blob img {\n          width: 370px;\n          opacity: .9; }\n      #contact-page .contact-main .contact-clio-desktop .y-blob {\n        left: 522px;\n        margin-top: 2em; }\n        #contact-page .contact-main .contact-clio-desktop .y-blob img {\n          width: 280px; }\n      #contact-page .contact-main .contact-clio-desktop .r-blob {\n        display: block;\n        position: absolute;\n        z-index: -2;\n        left: 180px;\n        margin-top: 14em; }\n        #contact-page .contact-main .contact-clio-desktop .r-blob img {\n          width: 128px;\n          opacity: .9; }\n  #contact-page .contact-clio {\n    display: none; } }\n@media (min-width: 1200px) {\n  #main {\n    margin-top: 3em;\n    width: 100%;\n    height: auto;\n    background-size: contain;\n    background-repeat: no-repeat; }\n    #main .head1 {\n      font-size: 104px;\n      line-height: 104px; }\n    #main h1, #main p {\n      width: 400px; }\n  .container-fluid .home1 {\n    max-width: 1000px; }\n  .container-fluid .cta {\n    padding-left: 80px;\n    height: 600px; }\n  .container-fluid .marko-logo {\n    width: 150px; }\n  .container-fluid .home2 h1, .container-fluid .home2 p {\n    padding-left: 220px;\n    min-width: 1000px; }\n  .container-fluid .options {\n    padding-bottom: 10em;\n    padding-top: 8em; }\n    .container-fluid .options .r-blob {\n      left: 780px; }\n      .container-fluid .options .r-blob img {\n        width: 420px; }\n    .container-fluid .options .y-blob {\n      left: 40px; }\n      .container-fluid .options .y-blob img {\n        width: 320px; }\n    .container-fluid .options .g-blob {\n      left: 960px; }\n      .container-fluid .options .g-blob img {\n        width: 220px; }\n  .container-fluid .home3, .container-fluid .home4 {\n    padding-left: 400px;\n    padding-bottom: 6em;\n    padding-top: 5em; }\n    .container-fluid .home3 .deco1, .container-fluid .home4 .deco1 {\n      top: 9.5em;\n      font-size: 18vw; }\n    .container-fluid .home3 .deco2, .container-fluid .home4 .deco2 {\n      font-size: 18vw;\n      top: 15.8em; }\n  .container-fluid .video-wrapper {\n    margin: 0 auto;\n    width: 90%; }\n  .container-fluid .legacy {\n    padding-top: 4em; }\n    .container-fluid .legacy .num-container img {\n      width: 48%; }\n    .container-fluid .legacy .text-muted {\n      margin-left: 28em; }\n    .container-fluid .legacy p {\n      padding-bottom: 6em; }\n  .container-fluid #accordion .btn, .container-fluid #accordion .btn-link, .container-fluid #accordion .btn-link:focus, .container-fluid #accordion .btn-link:hover, .container-fluid #accordion .btn-link:active {\n    margin-bottom: 0;\n    overflow: hidden; }\n  .container-fluid #accordion .case-action {\n    padding-bottom: 0; }\n  .container-fluid #accordion .card-body p {\n    padding-bottom: 0em; }\n  /* services */\n  #services-page .services-banner img {\n    max-width: 42%; }\n  #services-page .services-detail .deco1 {\n    top: -75%; }\n  #services-page .services-detail .o-blob {\n    left: 700px;\n    margin-top: 8em; }\n  #services-page .services-detail .y-blob {\n    left: 900px; }\n  #services-page .resources-detail h3 {\n    margin-left: 7.5em;\n    font-size: 56px;\n    line-height: 56px; }\n  #services-page .resources-detail .res-info {\n    margin-left: 26em;\n    font-size: 18px;\n    line-height: 18px; }\n  #services-page .resources-detail .txt-deco .deco-line {\n    left: 29em; }\n  #services-page .resources-detail .txt-deco .deco-label {\n    padding-left: 33em; }\n  #services-page .resources-detail .b-blob {\n    left: 200px; }\n  #services-page .resources-detail .g-blob {\n    left: 120px; }\n  /* contact */\n  #contact-page .contact-banner img {\n    min-width: 1080px; }\n  #contact-page .contact-main .contact-clio-desktop .g-blob {\n    left: 200px; }\n  #contact-page .contact-main .contact-clio-desktop .y-blob {\n    margin-top: 6em; }\n  #contact-page .contact-main .contact-clio-desktop .r-blob {\n    margin-top: 8em;\n    left: 222px; } }\n@media (min-width: 1300px) {\n  .action {\n    padding-top: 40vh; }\n  .container-fluid .home1 {\n    max-width: 1200px; }\n  .container-fluid .home2 h1, .container-fluid .home2 p {\n    padding-left: 300px;\n    min-width: 1000px; }\n  .container-fluid .options .y-blob {\n    left: 80px; }\n  .container-fluid .options .r-blob {\n    left: 780px; }\n  .container-fluid .options .g-blob {\n    left: 960px; }\n  .container-fluid .video-wrapper {\n    margin: 0 auto;\n    width: 90%; }\n  .container-fluid .home3, .container-fluid .home4 {\n    padding-left: 420px; }\n    .container-fluid .home3 .deco1, .container-fluid .home4 .deco1 {\n      top: 8.9em; }\n    .container-fluid .home3 .deco2, .container-fluid .home4 .deco2 {\n      top: 14.7em; }\n  .container-fluid .cta {\n    padding-top: 20em;\n    width: 100%; }\n    .container-fluid .cta h3 {\n      font-size: 72px;\n      line-height: 72px; }\n  .container-fluid .legacy .num-overlay {\n    left: 200px;\n    bottom: 76px; }\n  /* services */\n  #services-page .services-banner {\n    margin-top: 12em; }\n    #services-page .services-banner img {\n      max-width: 45%; }\n    #services-page .services-banner .banner-overlay {\n      bottom: 22em; }\n    #services-page .services-banner .cta-services {\n      bottom: -40%; } }\n@media (min-width: 1500px) {\n  .container-fluid .home1 {\n    max-width: 1400px; }\n  .container-fluid #main {\n    min-height: 860px; }\n  .container-fluid .options .y-blob {\n    left: 80px; }\n  .container-fluid .options .r-blob {\n    left: 1080px; }\n  .container-fluid .options .g-blob {\n    left: 1280px; }\n  .container-fluid .video-wrapper {\n    margin: 0 auto;\n    width: 90%; }\n  .container-fluid .home3, .container-fluid .home4 {\n    padding-left: 500px; }\n    .container-fluid .home3 .deco1, .container-fluid .home4 .deco1 {\n      top: 7.75em; }\n    .container-fluid .home3 .deco2, .container-fluid .home4 .deco2 {\n      top: 12.65em; }\n  .container-fluid .cta {\n    height: 640px;\n    padding-top: 21em; }\n    .container-fluid .cta h3 {\n      font-size: 82px;\n      line-height: 82px; }\n  .container-fluid .legacy .num-overlay {\n    left: 200px;\n    bottom: 76px; }\n  .container-fluid .legacy .num-container img {\n    width: 42%; } }\n";
+})();
+
+/***/ }),
+
+/***/ 2:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__("./pages/index.js");
+
+
+/***/ })
+
+},[2])
+          return { page: comp.default }
+        })
+      ;
+//# sourceMappingURL=index.js.map
