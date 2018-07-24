@@ -72,7 +72,7 @@ class Home extends Component {
       <div className="row section">
         <Fade bottom delay={500}>
           <div className="video-wrapper embed-responsive embed-responsive-16by9">
-            <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/qon4iL69Hh0?rel=0&amp;showinfo=0"
+            <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/jp_ZhBNMcBw?rel=0&amp;showinfo=0"
               allow="autoplay; encrypted-media" allowFullScreen></iframe>
           </div>
         </Fade>
@@ -105,7 +105,7 @@ class Home extends Component {
         <div className="row section">
           <Fade bottom delay={500}>
             <div className="video-wrapper embed-responsive embed-responsive-16by9">
-              <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/JoFWEzQxIa0?rel=0&amp;showinfo=0"
+              <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/Satb2dspntI?rel=0&amp;showinfo=0"
                 allow="autoplay; encrypted-media" allowFullScreen></iframe>
             </div>
           </Fade>

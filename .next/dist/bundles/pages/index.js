@@ -754,7 +754,7 @@ var pages_Home = function (_Component) {
             external__react__default.a.createElement(
               'div',
               { className: 'video-wrapper embed-responsive embed-responsive-16by9' },
-              external__react__default.a.createElement('iframe', { className: 'embed-responsive-item', src: 'https://www.youtube.com/embed/qon4iL69Hh0?rel=0&showinfo=0',
+              external__react__default.a.createElement('iframe', { className: 'embed-responsive-item', src: 'https://www.youtube.com/embed/jp_ZhBNMcBw?rel=0&showinfo=0',
                 allow: 'autoplay; encrypted-media', allowFullScreen: true })
             )
           ),
@@ -832,7 +832,7 @@ var pages_Home = function (_Component) {
             external__react__default.a.createElement(
               'div',
               { className: 'video-wrapper embed-responsive embed-responsive-16by9' },
-              external__react__default.a.createElement('iframe', { className: 'embed-responsive-item', src: 'https://www.youtube.com/embed/JoFWEzQxIa0?rel=0&showinfo=0',
+              external__react__default.a.createElement('iframe', { className: 'embed-responsive-item', src: 'https://www.youtube.com/embed/Satb2dspntI?rel=0&showinfo=0',
                 allow: 'autoplay; encrypted-media', allowFullScreen: true })
             )
           ),
