@@ -83,12 +83,12 @@ var Home = function (_Component) {
             },
             'Markowitz Law'
           ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('meta', { name: 'description', content: 'TBD', __source: {
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('meta', { name: 'description', content: 'Everyone has a story. Tell us yours.', __source: {
               fileName: _jsxFileName,
               lineNumber: 18
             }
           }),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('meta', { name: 'keywords', content: 'TBD', __source: {
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('meta', { name: 'keywords', content: 'houston traffic ticket court speeding dwi attorney dui lawyer highway texas', __source: {
               fileName: _jsxFileName,
               lineNumber: 19
             }
@@ -392,7 +392,7 @@ var Home = function (_Component) {
                 }
               },
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('iframe', { className: 'embed-responsive-item', src: 'https://player.vimeo.com/video/281501443?title=0&byline=0&portrait=0',
-                allow: 'autoplay; encrypted-media', webkitAllowFullScreen: true, mozAllowFullScreen: true, allowFullScreen: true, __source: {
+                allow: 'autoplay; encrypted-media', allowFullScreen: true, __source: {
                   fileName: _jsxFileName,
                   lineNumber: 75
                 }
@@ -947,4 +947,4 @@ var _default = Home;
 /***/ })
 
 })
-//# sourceMappingURL=3.7fba3720eedb8605a889.hot-update.js.map
+//# sourceMappingURL=3.c29d6f0f216f799c22fd.hot-update.js.map

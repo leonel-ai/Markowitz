@@ -15,8 +15,8 @@ class Home extends Component {
     <div className="container-fluid">
       <Head>
         <title>Markowitz Law</title>
-        <meta name="description" content="TBD"/>
-        <meta name="keywords" content="TBD"/>
+        <meta name="description" content="Everyone has a story. Tell us yours."/>
+        <meta name="keywords" content="houston traffic ticket court speeding dwi attorney dui lawyer highway texas"/>
         <meta name="author" content="Markowitz Law"/>
         <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
       </Head>
@@ -73,7 +73,7 @@ class Home extends Component {
         <Fade bottom delay={500}>
           <div className="video-wrapper embed-responsive embed-responsive-16by9">
             <iframe className="embed-responsive-item" src="https://player.vimeo.com/video/281501443?title=0&byline=0&portrait=0"
-              allow="autoplay; encrypted-media" webkitAllowFullScreen mozAllowFullScreen allowFullScreen></iframe>
+              allow="autoplay; encrypted-media" allowFullScreen></iframe>
           </div>
         </Fade>
 
@@ -106,7 +106,7 @@ class Home extends Component {
           <Fade bottom delay={500}>
             <div className="video-wrapper embed-responsive embed-responsive-16by9">
               <iframe className="embed-responsive-item" src="https://player.vimeo.com/video/281502442?title=0&byline=0&portrait=0"
-                allow="autoplay; encrypted-media" webkitAllowFullScreen mozAllowFullScreen allowFullScreen></iframe>
+                allow="autoplay; encrypted-media" allowFullScreen></iframe>
             </div>
           </Fade>
           <div className="home4">
