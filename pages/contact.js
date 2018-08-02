@@ -50,6 +50,7 @@ const Contact = () => {
             <li>5610 SW Freeway, Suite 104</li>
             <li>Houston, TX 77057</li>
           </a>
+            <li>M-F 8:00 - 5:30</li>
             <br/>
             <li>Tel<a href="tel:713-521-7568"> 713-521-7568</a></li>
           </ul>

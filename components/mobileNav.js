@@ -7,7 +7,7 @@ const MobileNav = () => {
     <div className="mobile-nav">
       <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
       <nav className="navbar fixed-bottom navbar-dark bg-dark">
-        <a className="navbar-brand" href="mailto:staff@thetrafficticketman.com?subject=Let's talk.">
+        <a className="navbar-brand" href="mailto:help@tellusyours.com?subject=Let's talk.">
           <img className="nav-icons" src="/static/contact-w.png"/>
         </a>
         <a className="navbar-brand" href="https://app.clio.com/session/new" target="_blank">
